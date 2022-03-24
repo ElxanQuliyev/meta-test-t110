@@ -1,0 +1,111 @@
+@use '../../scss/main.scss'as *;
+
+.register-button{
+  margin-top: 4rem;
+  margin-bottom: 60px;
+  .all {
+    position: relative;
+    
+  
+
+    #reg-over {
+      width: 100%;
+      border-top-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+      height: 140px;
+      border: none;
+      // backdrop-filter: blur(30px);
+      // box-shadow: 0px 2px 43px #ccc2c370;
+      background-color: #ed333c;
+  
+      @include responsive(768px) {
+        height: 100px;
+      }
+  
+      .txt {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        h1 {
+          color: $content-color;
+          font-weight: $content-weight;
+          position: relative;
+          animation: flash 2s;
+          animation-delay: 4s;
+          animation-iteration-count: 10;
+          z-index: 1;
+          @include responsive(992px) {
+            font-size: 22px;
+          }
+          @include responsive(768px) {
+            font-size: 17px;
+          }
+  
+          @include responsive(576px) {
+            font-size: 14px !important;
+          }
+  
+          &::before {
+            content: '';
+            position: absolute;
+            background-color: $body-bg;
+            border-top-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            width: 22%;
+            height: 100%;
+            left: -3px;
+            top: 0;
+            z-index: -1;
+          }
+        }
+      }
+  
+      .sign-up {
+        background-color: $body-bg;
+        padding: 18px 70px;
+        border-radius: 2mm;
+        font-weight: 600;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        z-index: 1;
+        font-size: 20px;
+        display: inline-block;
+        animation: heartBeat 2s;
+        animation-delay: 5s;
+        animation-iteration-count: 4;
+        @include responsive(992px) {
+          font-size: 15px;
+          padding: 15px 35px;
+        }
+        @include responsive(768px) {
+          font-size: 15px;
+          padding: 10px 30px;
+        }
+  
+        &::before {
+          width: 0%;
+          height: 100%;
+          content: '';
+          transition: .5s ease;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          right: 50%;
+          background-color: $before-bg;
+          border-radius: 2mm;
+          z-index: -1;
+        }
+  
+        &:hover {
+          animation: ani 2s infinite;
+  
+          &::before {
+            width: 100%;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}

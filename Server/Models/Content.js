@@ -1,0 +1,20 @@
+class Content{
+    constructor(id,data,lang){
+        this.id=id
+        this.name=data.language.find(x=>x.lang_code==lang).name
+        this.description=data.language.find(x=>x.lang_code==lang).description
+        this.trailers=data.trailers
+        this.claim=data.claims
+        this.main_picture=data.main_picture
+        this.slider_image=data.slider_image
+        this.imdb=data.imdb
+        this.age=data.age
+        this.type=data.type
+        this.time=data.time
+        this.hit=data.hit
+        this.price=data.price
+        this.auidos=data.audios
+        this.subtitles=data.subtitles
+    }
+}
+module.exports=Content

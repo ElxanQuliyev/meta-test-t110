@@ -1,0 +1,59 @@
+@use '../../../scss/main.scss'as *;
+
+.setting-profile{
+    .setting-card{
+        border: 3px solid #031939;
+        padding: 20px;
+        margin-bottom: 10px;
+     .setting-head{
+         margin-top: 30px;
+         margin-bottom: 30px;
+        h1{
+            color: $content-color;
+            font-size: 22px;
+        }
+     }
+     .setting-content{
+         .left{
+             
+             .profil-name-form{
+                 label{
+                     color: $content-color;
+                     margin-bottom: 5px;
+                     margin-top: 15px;
+                 }
+                 .inp-txt{
+                     height: 40px;
+                     width: 100%;
+                     border: none;
+                     outline: none;
+                     padding-left: 10px;
+                     color: $content-color;
+                     background-color: #031939;
+                     border-radius: 8px;
+                     &::placeholder{
+                         color: rgb(187, 184, 184);
+                     }
+                 }
+                 .submit-btn{
+                     margin-top: 30px;
+                     height: 40px;
+                     border: none;
+                     outline: none;
+                     border-radius: 8px;
+                     color: $content-color;
+                     font-size: 18px;
+                     font-weight: 500;
+                     width: 100%;
+                     background-color: darkgreen;
+                     transition: .3s ease;
+                     &:hover{
+                         background-color: $content-color;
+                         color: darkgreen;
+                     }
+                 }
+             }
+         }
+     }
+    }
+}

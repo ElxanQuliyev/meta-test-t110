@@ -1,0 +1,72 @@
+@use '../../scss/main.scss'as *;
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: $overlay-bg;
+    opacity: 0;
+    visibility: hidden;
+    &.active{
+        opacity: 1;
+        visibility: visible;
+
+    }
+    .close-ico{
+        color: $content-color;
+        font-size: 2.5rem;
+        position: absolute;
+        top: 5%;
+        right: 50px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover{
+            color: $btn-bg;
+            transform: rotate(360deg);
+        }
+    }
+    .modal__content{
+        width: 50%;
+        @include responsive(768px){
+            width: 90%;
+            margin-top: 30px;
+            
+        }
+    }
+    &_content{
+        padding: 2rem;
+        background-color: linear-gradient(to bottom, transparent 0%, #000F26 100%);
+        opacity: 0;
+        transform: translateY(-250px);
+        transition: transform .5s ease, opacity .5s ease;
+        position: relative;
+        @include responsive(768px){
+            width: 80%;
+        }
+       
+        
+        &_close{
+            position: absolute;
+            right: 0px;
+           top: 0;
+            font-size: 2rem;
+            cursor: pointer;
+            color: $content-color;
+            transition: .3s ease;
+            &:hover{
+                color: $btn-bg;
+            }
+        }
+    }
+    &.active &_content{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

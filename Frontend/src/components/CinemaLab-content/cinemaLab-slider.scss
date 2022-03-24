@@ -1,0 +1,126 @@
+@use '../../scss/main.scss'as *;
+
+
+
+.CinemaLabSlider {
+    width: 100%;
+    height: 200px;
+   
+   
+  }
+  
+  .cinemaLab-slide-content {
+    text-align: center;
+    font-size: 18px;
+    height: 600px;
+    background: #fff;
+
+    @include responsive(768px){
+        height: 200px;
+    }
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    .cinemaLab-overlay{
+        background-color: $overlay-bg;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        .Cinema-lab-text{
+           margin-top: 200px;
+           h1{
+            animation: tada 3s infinite;
+            margin-bottom: 20px;
+           }
+           p{
+             color: $content-color;
+             
+           }
+           .play-ico{
+               color: $content-color;
+               font-size: 46px;
+               margin-bottom: 30px;
+               cursor: pointer;
+               transition: .5s ease;
+               &:hover{
+                 color: $btn-bg;
+                 transform: rotate(360deg);
+               }
+           }
+           @include responsive(768px){
+            margin-top: 80px;
+            .play-ico{
+                font-size: 26px;
+            }
+            a{
+                font-size: 15px;
+            }
+            p{
+              display: none;
+            }
+        }
+        }
+    }
+  }
+  
+  .cinemaLab-slide-content img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    @include responsive(768px){
+        height: 200px;
+    }
+  }
+
+  
+  .CinemaLabSlider {
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    @include responsive(768px){
+        height: 100px;
+    }
+
+  }
+  
+  .cinemaLab-slide-content {
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+
+  .CinemaLabSlider .cinemaLab-slide-content {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  
+  .CinemaLabSlider .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  
+  .cinemaLab-slide-content img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+

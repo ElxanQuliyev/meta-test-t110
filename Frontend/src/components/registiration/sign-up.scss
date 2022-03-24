@@ -1,0 +1,65 @@
+@use '../../scss/main.scss'as *;
+
+
+
+.signUp-section {
+  
+    .sign-up-content{
+        backdrop-filter: blur(30px);
+        padding: 20px;
+        h2{
+            color: $btn-bg;
+        }
+        .reg-lab{
+            margin-bottom: 4px;
+            margin-top: 20px;
+            display: block;
+            color: #fff;
+        }
+        .reg-inp{
+            width: 100%;
+            display: block;
+            padding: 12px 10px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            background-color: #031939;
+            color: $content-color;
+            &::placeholder{
+                color: $content-color;
+            }
+        }
+        p{
+            margin-top: 40px;
+            color: $content-color;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 5px;
+            .privacy-link{
+                color: $btn-bg;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        .reg-inp-submit{
+            padding: 15px 30px;
+            width: 100%;
+            margin-top: 50px;
+            border-radius: 10px;
+            background-color: darkgreen;
+            color: $content-color;
+            outline: none;
+            border: none;
+            transition: .3s ease;
+            font-size: 18px;
+            font-weight: 600;
+            &:hover{
+                background-color: $content-color;
+                color: $body-bg;
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@use '../../scss/main.scss'as *;
+
+.filter {
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    form {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+
+        @include responsive(992px) {
+            display: block;
+        }
+
+        select {
+            width: 200px;
+            margin-right: 10px;
+            height: 40px;
+            border: none;
+            outline: none;
+
+            @include responsive(992px) {
+                width: 100%;
+                margin-bottom: 20px;
+
+            }
+        }
+
+        .search {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .search-inp {
+                &:focus{
+                    border: 2px solid $btn-bg;
+                    &::placeholder{
+                        color: $btn-bg;
+                    }
+                    
+                }
+                border: none;
+                outline: none;
+                padding-left: 15px;
+                width: 660px;
+                height: 60px;
+                border-radius: 6mm;
+                color: $content-color;
+                background-color: rgba(66, 65, 65, 0.199);
+                &::placeholder{
+                    color: $content-color;
+                }
+                @include responsive(992px) {
+                    width: 100%;
+                }
+            }
+
+            .search-ico {
+                position: absolute;
+                top: 50%;
+                right: 3%;
+                color: $content-color;
+                cursor: pointer;
+                font-size: 18px;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+}

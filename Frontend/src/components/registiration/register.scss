@@ -1,0 +1,62 @@
+@use '../../scss/main.scss'as *;
+
+
+.sign-active{
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+   
+ }
+ .sign-none{
+   
+     opacity: 0;
+     visibility: hidden;
+    
+     transition: .5s ease;
+ }
+.registration{
+    margin-top: 100px;
+     width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+  
+    .overlay-bg {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $overlay-bg;
+    }
+    .head-reg-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      
+        button{
+            padding: 10px 40px;
+            background-color: $btn-bg;
+            color: $content-color;
+            font-size: 22px;
+            border: none;
+            outline: none;
+            margin-right: 15px;
+            border-radius: 8px;
+            &.active-reg-btn{
+                background-color: $content-color;
+                color: $btn-bg;
+            }
+            @include responsive(768px){
+                
+                    padding: 10px 20px;
+                    font-size: 15px;
+             
+            }
+        }
+    }
+}

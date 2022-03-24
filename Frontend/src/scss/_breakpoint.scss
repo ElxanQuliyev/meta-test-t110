@@ -1,0 +1,31 @@
+
+
+@mixin responsive($width){
+    @media screen and ( max-width:$width){
+        @content;
+    }
+}
+@mixin responsive-minWidth($width){
+  @media screen and ( min-width:$width){
+      @content;
+  }
+}
+
+@mixin before($width){
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: $btn-bg;
+        width: $width;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        top: 0;
+        z-index: -1;
+
+        @include responsive(768px) {
+          width: 25%;
+        }
+      }
+}

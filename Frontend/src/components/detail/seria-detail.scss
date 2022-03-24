@@ -1,0 +1,96 @@
+@use '../../scss/main.scss'as *;
+
+
+.season-content-detail{
+    margin-top: 20px;
+    .seria-detail-trailer{
+        
+     .btn-trailer{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin: auto;
+        button{
+            width: 200px;
+            text-align: center;
+            height: 40px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+            font-weight: 500;
+            border-radius: 8px;
+            background-color: $btn-bg;
+            color: $content-color;
+            @include responsive(768px){
+                font-size: 12px;
+                font-weight: 400;
+            }
+            &.active-button{
+                background-color: $content-color;
+                color: $btn-bg;
+            }
+        }
+      
+     }
+     .trailers{
+        .trailer-video{
+            margin-right: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 350px;
+            display: none;
+           
+            @include responsive(768px){
+                width: 100%;
+            }
+        }
+        .active-trailer{
+            display: block;
+        }
+    }
+    }
+    .seria-detail-text{
+        h1{
+            color: $btn-bg;
+            font-weight: 600;
+            span{
+                color: $content-color;
+                font-weight: 400;
+            }
+        }
+        .seria-ul{
+            display: flex;
+            list-style: none;
+            .seria-li{
+                margin-right: 20px;
+                color: $content-color;
+                font-size: 18px;
+                @include responsive(768px){
+                    font-size: 14px;
+                }
+                .seria-ico{
+                    margin-right: 2px;
+                    color: $btn-bg;
+                }
+            }
+        }
+        p{
+            color: $content-color;
+            font-size: 16px;
+        }
+        .favorite{
+            .favorite-ico{
+                color: $content-color;
+                font-size: 28px;
+                margin-right: 10px;
+                cursor: pointer;
+                transition: .5s ease;
+                &:hover{
+                    color: $btn-bg;
+                }
+            }
+        }
+    }
+}

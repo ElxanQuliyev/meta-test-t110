@@ -1,0 +1,214 @@
+@use '../../scss/main.scss'as *;
+
+
+.footer{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .footer-head{
+        padding: 20px;
+        .d-fl{
+            display: flex;
+
+            @include responsive(768px){
+                display: block;
+                text-align: center;
+                margin: auto;
+            }
+        }
+        .logo{
+            margin-top: 10px;
+            img{
+                width: 150px;
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            @include responsive(768px){
+                display: block;
+                margin: auto;
+            }
+            .pages{
+                @include responsive(768px){
+                   margin-top:20px;
+                   margin-bottom: 20px;
+                  }
+                ul{
+                    li{
+                        transition: .5s ease;
+                        padding: 5px 15px;
+                        @include responsive(768px){
+                            padding: 5px 6px;
+                            margin: auto;
+                          }
+                        &:hover{
+                            border-left: 3px solid $btn-bg;
+                            background-color: rgba(197, 197, 197, 0.596);
+                            transform: translateX(6px);
+                        }
+                        a{
+                            font-size: 17px;
+                            font-weight: 500;
+                            @include responsive(768px){
+                              font-weight: 400;
+                              text-align: center;
+                              font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .lang{
+                margin-left: 10px;
+                padding: 5px 20px;
+                border: 1px solid #fff;
+                .lang-ico{
+                    color: #fff;
+                }
+                select{
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
+                    color: #fff;
+                    option{
+                        color: $content-color;
+                       background-color: $body-bg;
+                    }
+                }
+            }
+        }
+        .technical{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            @include responsive(768px){
+                display: block;
+                text-align: center;
+                margin: auto;
+                margin-top: 20px;
+            }
+            ul{
+                li{
+                    margin-right: 10px;
+                    transition: .5s ease;
+                    padding: 5px 30px;
+                    &:hover{
+                        border-left: 3px solid $btn-bg;
+                        background-color: rgba(197, 197, 197, 0.596);
+                        transform: translateX(6px);
+                    }
+                    a{
+                        @include responsive(768px){
+                            font-weight: 400;
+                            text-align: center;
+                            font-size: 12px;
+                          }
+                    }
+                }
+            }
+            .social-icons{
+                ul{
+                    display: flex;
+                    list-style: none;
+                    @include responsive(768px){
+                        margin: auto;
+                        text-align: center;
+                        justify-content: center;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                    li{
+                        background-color: $btn-bg;
+                        border-radius: 100%;
+                        padding: 12px 12px;
+                        &:hover{
+                            transform: translateX(0);
+                            border: none;
+                            transform: translateY(-5px);
+                        }
+                        .soci-ico{
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        .websuper{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @include responsive(768px){
+                display: block;
+                text-align: center;
+                margin: auto;
+                .left{
+                    margin-bottom: 20px;
+                }
+            }
+            .left{
+                h5{
+                    color: #fff;
+                    a{
+                        color: rgb(184, 17, 17);
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .device-ico{
+                display: flex;
+                align-items: center;
+                @include responsive(768px){
+                   margin-bottom: 20px;
+                   justify-content: center;
+                }
+               img{
+                width: 170px;
+                margin-left: 10px;
+                object-fit: cover;
+                @include responsive(340px){
+                     width: 120px;
+                }
+               }
+            }
+        }
+        .pay-method{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+            @include responsive(768px){
+                display: block;
+                text-align: center;
+                margin: auto;
+            }
+            .left-content{
+                p{
+                    color: $content-color;
+                }
+                @include responsive(768px){
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+            .pay{
+                img{
+                    width: 100px;
+                    object-fit: cover;
+                    margin-left: 10px;
+                    &.golden{
+                        width: 70px;
+                        height: 40px;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@use '../../scss/main.scss'as *;
+
+
+.device-section{
+margin-top: 50px;
+.device-text{
+    h1{
+        color: $content-color;
+        font-size: 31px;
+        text-align: center;
+        @include responsive(768px){
+            font-size: 20px;
+        }
+    }
+    .play-img{
+        width: 80%;
+    }
+}
+    .device-img{
+        .base-img{
+            width: 100%;
+        }
+
+    }
+}

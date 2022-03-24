@@ -1,0 +1,413 @@
+@use '../../scss/main.scss'as *;
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    padding: 20px;
+    background: $header-bg;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    transition: .5s ease;
+    @include responsive(992px) {
+        padding: 10px;
+      }
+    @include responsive(768px) {
+        padding: 10px;
+      }
+    
+    &.scroll{
+    backdrop-filter: blur(30px);
+       
+    }
+    .logo {
+        width: 11%;
+        margin: 0;
+        a {
+            margin: 0;
+            position: relative;
+            img{
+                width: 100%;
+                margin: 0;
+            }
+           
+        }
+        @include responsive(992px) {
+            width: 20%;
+        }
+        @include responsive(768px) {
+            width: 30%;
+        }
+    }
+
+    .nav-menu {
+
+        ul {
+            .main-li {
+                margin-left: 40px;
+                transition: .5s ease;
+                text-decoration: $decor;
+                color: $header-color;
+                transition: .5s ease;
+                font-size: 18px;
+                position: relative;
+                font-weight: 400;
+                letter-spacing: 1px;
+                cursor: pointer;
+               
+                text-decoration: $decor;
+                color: $header-color;
+                transition: .5s ease;
+                font-size: 18px;
+                font-weight: 600;
+               
+                a {
+                   
+                    text-decoration: $decor;
+                    color: $header-color;
+                    transition: .5s ease;
+                    font-size: 18px;
+                    font-weight: 600;
+                    &::before {
+                        content: '';
+                        width: 0px;
+                        height: 3px;
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        right: 50%;
+                        background-color: $btn-bg;
+                        transition: .5s ease;
+                    }
+                    &.active{
+                        color: $btn-bg !important;
+                        &::before{
+                            width: 100%;
+                            left: 0;
+                        }
+                    }
+                }
+            
+                &.meta-original{
+                   &::first-letter{
+                        color: $btn-bg;
+                    }
+                  
+                }
+                &:hover {
+                    a {
+                        color: $btn-bg;
+                        &::before {
+                            width: 100%;
+                            left: 0;
+                        }
+                    }
+
+                    color: $btn-bg;
+                }
+
+                &:hover {
+                    .child-ul {
+                        opacity: 1;
+                        visibility: visible;
+                        transform: translateY(0px);
+                    }
+                }
+
+                .child-ul {
+                    position: absolute;
+                    top: 100%;
+                    margin-top: 10px;
+                    z-index: 5;
+                    width: 140px;
+                    background-color: $header-bg;
+                    margin-left: 0px;
+                    padding: 20px 0px;
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transform: translateY(-20px);
+                    transition: visibility, opacity, transform .5s ease;
+
+                    .child-li {
+                        list-style: none;
+                        padding-left: 10px;
+                        transition: .5s ;
+                        .child-a{
+                            color: $header-color;
+                            position: relative;
+                            z-index: 1;
+                            margin-bottom: 20px;
+                            display: inline-block;
+                            &::before{
+                                width: 0;
+                            }
+                        }
+                        &:hover {
+                            border-left: 3px solid $btn-bg;
+                            transform: translateX(6px);
+                            background:rgba(255, 255, 255, 0.185);
+                        }
+                        &.child-active{
+                            border-left: 3px solid $btn-bg;
+                            transform: translateX(6px);
+                            background:rgba(255, 255, 255, 0.185);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        @include responsive(1200px) {
+            display: none;
+        }
+    }
+    .search-filter-ico{
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+ 
+    .register {
+        margin-right: 20px;
+        .sign-in {
+            text-decoration: $decor;
+            color: $header-color;
+            margin-left: 20px;
+            
+            &:hover{
+                .user-content{
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateY(0);
+                }
+            }
+            .user-ico{
+                font-size: 50px;
+                background-color: $btn-bg;
+                padding: 8px 8px;
+                border-radius: 100%;
+                cursor: pointer;
+                margin-right: 10px;
+            //    display: none;
+              @include responsive(768px){
+                  font-size: 35px;
+                  padding: 6px 6px;
+              }
+
+            }
+            .profil-img{
+                width: 55px;
+                height: 55px;
+                border-radius: 100%;
+                object-fit: cover;
+                margin-right: 10px;
+                display: none;
+            }
+            h5{
+                @include responsive(768px){
+                    display: none;
+                }
+            }
+            .user-content{
+                position: absolute;
+                top: 100%;
+                width: 20%;
+                @include responsive(768px){
+                    width: 50%;
+                }
+                right: 20px;
+                transition:  .4s ease ;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(30px);
+                background-color: #000f26a4;
+                backdrop-filter: blur(90px);
+          
+                ul{
+                    list-style: none;
+                    padding-left: 10px;
+                    li{
+                        padding: 10px 0;
+                        transition: .5s;
+                        a{
+                            font-size: 17px;
+                            .person-ico{
+                                font-size: 25px;
+                                margin-right: 5px;
+                            }
+                        }
+                        &:hover{
+                            border-left: 3px solid $btn-bg;
+                            transform: translateX(6px);
+                            background:rgba(255, 255, 255, 0.185);
+                        }
+                    }
+                }
+            }
+        }
+
+       
+    }
+  
+    @keyframes ani {
+        50% {box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.973);}
+    }
+    .sign-up {
+        background-color: $btn-bg;
+        padding: 10px 20px;
+        border-radius: 2mm;
+        font-weight: 600;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+       animation:heartBeat 2s ;
+       animation-delay: 5s;
+       transition: .5s ease;
+       animation-iteration-count:4;       
+       @include responsive(992px) {
+        padding: 6px 15px;
+        font-weight: 400;
+    }
+        &::before {
+            width: 0%;
+            height: 100%;
+            content: '';
+            transition: .5s ease;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            right: 50%;
+            background-color: $before-bg;
+            border-radius: 2mm;
+            z-index: -1;
+        }
+
+        &:hover {
+            animation: ani 2s infinite;
+            color: $btn-bg;
+            &::before {
+                width: 100%;
+                left: 0;
+            }
+        }
+    }
+
+    .nav-btn{
+        display: none;
+        @include responsive(1200px){
+            display: block;
+        }
+        .nav-ico{
+            color: $content-color;
+            font-size: 28px;
+            cursor: pointer;
+        }
+    }
+
+   
+
+}
+
+.responsive-menu{
+    // display: none;
+
+    width: 100%;
+    height: 0vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    z-index: 10000000000;
+    backdrop-filter: blur(30px);
+    &.active{
+        @include responsive-minWidth(1200px){
+            display: none;
+           }
+        @include responsive(1200px){
+            height: 32rem;
+           }
+       
+        @include responsive(576px){
+            height: 30rem;
+           }
+           @include responsive(480px){
+            height: 27rem;
+           }
+      
+        opacity: 1;
+        visibility: visible;
+    }
+    .close{
+        position: absolute;
+        top: 10px;
+        right:20px;
+        .close-ico{
+            color: $content-color;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+
+   .menu{
+       margin-top: 30px;
+    ul{
+      
+        li{
+            text-align: center;
+            padding: 10px 0;
+           
+            a{
+                font-size: 20px;
+                @include responsive(480px){
+                   font-size: 15px;
+                   }
+            }
+            &.platform{
+                color: $content-color;
+                font-size: 18px;
+                @include responsive(480px){
+                    font-size: 15px;
+                }
+                .platform-content{
+                   display: none;
+                    transition: .3s ease;
+                    list-style: none;
+                    &.active{
+                       display: block;
+                    }
+                    .platform-li{
+                        padding: 5px;
+                        .platform-link{
+                            font-size: 18px;
+                            @include responsive(480px){
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .register-s{
+        text-align: center;
+        .sign-up{
+            
+            padding: 10px 20px;
+            background-color: $btn-bg;
+            margin-left: 10px;
+        }
+    }
+   }
+}
+
+

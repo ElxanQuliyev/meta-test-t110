@@ -1,0 +1,179 @@
+@use '../../scss/main.scss'as *;
+
+
+.comment {
+    position: relative;
+   margin-top: 20px;
+    .head-comment {
+        h1 {
+            color: $content-color;
+            text-align: center;
+            @include before(75px);
+            z-index: 1;
+            font-weight: 500;
+            position: relative;
+        }
+    }
+
+    .comment-content {
+        padding: 10px 20px;
+        background-color: rgba(34, 70, 117, 0.24);
+        border-radius: 10px;
+        margin-top: 30px;
+        position: relative;
+
+        .spoiler {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(7px);
+            border-radius: 80px;
+            &.no-active{
+                display: none;
+            }
+            .txt-spoiler {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 40px;
+
+                @include responsive(576px) {
+                    display: block !important;
+
+                    h5 {
+                        font-size: 13px;
+                        text-align: center;
+                        margin-top: 56px;
+                    }
+                }
+
+            }
+
+            h5 {
+                color: $btn-bg;
+
+                button {
+                    background-color: $overlay-bg;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    margin-left: 10px;
+                    padding: 4px 10px;
+                }
+            }
+        }
+
+        @include responsive(768px) {
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+
+        .person-about {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .profil-photo {
+                width: 3%;
+                border-radius: 100%;
+                object-fit: cover;
+                object-position: center;
+                margin-right: 10px;
+
+                @include responsive(768px) {
+                    width: 8%;
+                }
+            }
+
+            .profil-name {
+                color: $content-color;
+                font-weight: 400;
+                font-size: 16px;
+                @include responsive(992px) {
+                    font-size: 16px;
+                }
+                @include responsive(768px) {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .comment-text {
+            margin-left: 70px;
+
+            @include responsive(768px) {
+                margin-left: 25px;
+            }
+
+            p {
+                color: $content-color;
+                font-size: 13px;
+                @include responsive(992px) {
+                    font-size: 10px;
+                }
+                @include responsive(768px) {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+
+    .load-more {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+        p {
+            padding: 5px 35px;
+            // border-radius: 10px;
+            border: 1px solid $content-color;
+            color: $content-color;
+            transition: .3s ease;
+            border-radius: 8px;
+            cursor: pointer;
+            &:hover{
+                color: $btn-bg;
+                border: 1px solid $btn-bg;
+            }
+        }
+    }
+
+    .write-comment {
+        text-align: center;
+        margin-top: 50px;
+        p{
+            color: $content-color;
+        }
+        textarea {
+            background-color: rgba(66, 65, 65, 0.199);
+            color: $content-color;
+            border-radius: 4mm;
+            padding-top: 20px;
+            &::placeholder{
+                color: $content-color;
+            }
+            width: 60%;
+            height: 60px;
+            border: none;
+            outline: none;
+            padding-left: 15px;
+
+        }
+
+        .send-comment {
+            padding: 10px 30px;
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            background-color: $btn-bg;
+            border: none;
+            outline: none;
+            color: $content-color;
+            font-size: 17px;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+    }
+}

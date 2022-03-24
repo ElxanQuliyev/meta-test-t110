@@ -1,0 +1,29 @@
+class CinemaLab{
+    constructor(id,Name,Description,Categories,Age,Actors,Directors,MainPicture,SliderImage,AddDate,IsSlider,IsFeatured,ContentDate,ModifiedOn,Hit,Type,IMDB,ContentType,Url,Trailers,Subtitles,Audios,Comments){
+        this.id=id
+        this.Name=Name
+        this.Description=Description
+        this.Categories=Categories
+        this.Age=Age
+        this.Actors=Actors
+        this.Directors=Directors
+        this.MainPicture=MainPicture
+        this.SliderImage=SliderImage
+        this.AddDate=AddDate
+        this.IsSlider=IsSlider
+        this.IsFeatured=IsFeatured
+        this.ContentDate=ContentDate
+        this.ModifiedOn=ModifiedOn
+        this.Hit=Hit
+        this.Type=Type
+        this.IMDB=IMDB
+        this.ContentType=ContentType
+        this.Url=Url
+        this.Trailers=Trailers
+        this.Subtitles=Subtitles
+        this.Audios=Audios
+        this.Comments=Comments
+    }
+}
+
+module.exports=CinemaLab

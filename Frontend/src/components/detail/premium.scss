@@ -1,0 +1,37 @@
+@use '../../scss/main.scss'as *;
+
+.premium-content{
+    backdrop-filter: blur(60px);
+    background-color: rgba(66, 65, 65, 0.199);
+    width: 100%;
+    height: 300px;
+    @include responsive(768px){
+        height: 200px;
+    }
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    .text{
+        color: #fff;
+        h1{
+            color: $content-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include responsive(768px){
+                font-size: 14px;
+            }
+            a{
+                font-size: 16px;
+                padding: 10px 20px;
+                background-color: $btn-bg;
+                margin-left: 10px;
+                border-radius: 10px;
+                @include responsive(768px){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

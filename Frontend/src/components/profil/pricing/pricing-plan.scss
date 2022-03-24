@@ -1,0 +1,119 @@
+@use '../../../scss/main.scss'as *;
+
+.pricingPlan{
+   
+    .pricing-head{
+        h1{
+            color: $content-color;
+        }
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .pricing-card{
+        border-top: 3px solid $btn-bg;
+        background-color: #0725526c;
+        margin-bottom: 25px;
+        &.active{
+            border: 3px solid darkgreen !important;
+            .card-btn{
+                .card-packet-btn{
+                    background-color: darkgreen !important;
+                    border: none !important;
+                    color: $content-color !important;
+                }
+            }
+            .card-head{
+                p{
+                    color: darkgreen;
+                }
+            }
+        }
+        .card-head{
+            padding: 0px 10px;
+            padding-top: 20px;
+            h2{
+                color: $content-color;
+                @include responsive(1200px){
+                    font-size: 18px;
+                }
+            }
+            p{
+                color: $btn-bg;
+                &.active-p{
+                    color: darkgreen;
+                }
+            }
+            .price-p{
+                font-size: 19px;
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+        .card-content{
+            padding-top: 20px;
+            ul{
+                list-style: none;
+                color: $content-color;
+                margin: 0;
+                padding: 0;
+                padding-left: 5px;
+                li{
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    position: relative;
+                    text-align: center;
+                    .check-ico{
+                        color: darkgreen;
+                        font-size: 22px;
+                    }
+                    .x-ico{
+                        color: darkred;
+                        margin-right: 5px;
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: 0px;
+                        left: 0;
+                        width: 100%;
+                        height: 1px;
+                        background-color: rgba(168, 166, 166, 0.534);
+                    }
+                    &:last-child{
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .card-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .card-packet-btn{
+                padding: 10px 30px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-bottom:2px solid darkred ;
+                color: $btn-bg;
+                transition: .5s ease;
+                &.active-btn{
+                    background-color: darkgreen;
+                    border: none;
+                    color: $content-color;
+                }
+                &:hover{
+                    background-color: darkgreen;
+                    border: none;
+                    color: $content-color;
+                }
+               
+            }
+        }
+    }
+}
+
+

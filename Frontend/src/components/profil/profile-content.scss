@@ -1,0 +1,34 @@
+@use '../../scss/main.scss'as *;
+
+
+  .profile-content-description{
+    .profile-content-card{
+        border: 2px solid $btn-bg;
+        padding: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 15px;
+        // background-color: #1F2229;
+       .txt-profile{
+           background-color: $overlay-bg;
+           padding: 10px 25px;
+        .left{
+            h2{
+                color: $content-color;
+            }
+            p{
+                color: $btn-bg;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        .right{
+            .pricing-packet-ico-money{
+                color: $btn-bg;
+                font-size: 32px;
+            }
+        }
+       }
+    }
+}

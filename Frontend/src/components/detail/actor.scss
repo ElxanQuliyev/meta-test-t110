@@ -1,0 +1,36 @@
+@use '../../scss/main.scss'as *;
+@import "~video-react/styles/scss/video-react"; 
+
+.actor-none{
+  display: none;
+}
+
+.actors{
+
+  .actor-head{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    h1{
+      color: $content-color;
+    }
+  }
+  .actor-card{
+    text-align: center;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    img{
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 100%;
+      transition: .3s ease;
+     
+    }
+    h5{
+      text-align: center;
+      color: #fff;
+    }
+  }
+}

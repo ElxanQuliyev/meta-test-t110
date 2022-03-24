@@ -1,0 +1,43 @@
+@use '../../scss/main.scss'as *;
+
+
+
+.button-light,
+Button {
+    text-decoration: $decor;
+    color: $btn-color;
+
+}
+
+.button-dark {
+    background-color: $btn-bg;
+    padding: 10px 20px;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border: none;
+    z-index: 1;
+    display: inline-block;
+
+    &::before {
+        width: 0px;
+        height: 100%;
+        transition: .5s ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        background-color: $before-bg;
+        content: '';
+        z-index: -1;
+    }
+
+    &:hover {
+        &::before {
+            width: 100%;
+            left: 0%;
+           
+        }
+    }
+}
+

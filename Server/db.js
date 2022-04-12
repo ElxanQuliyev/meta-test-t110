@@ -1,5 +1,5 @@
 const { initializeApp }= require("firebase/app");
-const { getFirestore, initializeFirestore, CACHE_SIZE_UNLIMITED  }=require('firebase/firestore');
+const { initializeFirestore, CACHE_SIZE_UNLIMITED  }=require('firebase/firestore');
 const config=require('./config');
 
 const app = initializeApp(config.firebaseConfig);

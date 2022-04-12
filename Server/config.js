@@ -39,8 +39,8 @@ var transporter = nodemailer.createTransport({
 
 
 
-assert(PORT,"Port is required")
-assert(HOST,"Host is required")
+// assert(PORT,"Port is required")
+// assert(HOST,"Host is required")
 
 module.exports={
     port:PORT,

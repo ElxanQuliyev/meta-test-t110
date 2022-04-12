@@ -432,283 +432,1188 @@
 {"date":"18-3-2022/7:32","level":"error","service":"TvShowController/GetById"}
 {"date":"18-3-2022/7:38","level":"error","service":"TvShowController/GetById"}
 {"date":"18-3-2022/7:41","level":"error","service":"TvShowController/GetById"}
-{"date":"21-3-2022/8:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:49","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:49","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:57","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/8:57","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:11","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:11","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:13","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:13","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:21","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:21","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:27","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:27","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:40","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:40","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:43","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:43","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:48","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:49","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:49","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:49","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:49","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:53","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:53","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:55","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:55","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:56","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:56","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/9:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:1","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:1","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:7","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:7","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:12","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:12","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:13","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:13","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:20","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:21","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:21","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:30","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:30","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:30","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/10:30","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:31","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:31","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:32","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:32","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:33","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:33","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:41","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:41","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:51","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:51","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:52","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:52","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:52","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:52","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:53","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:53","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:53","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:54","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:54","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:55","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:55","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:56","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:56","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:57","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:57","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:57","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:57","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/12:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:1","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:1","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:1","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:1","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:9","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:10","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:10","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:11","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:11","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:13","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:13","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:14","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:25","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:25","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:25","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:25","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:26","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:30","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:30","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:31","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:31","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:32","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:32","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:34","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/13:34","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:19","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:21","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:21","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:22","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:23","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:24","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:34","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:34","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:37","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:37","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:39","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:39","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:50","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:50","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:50","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:50","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/14:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:3","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:3","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:3","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:3","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:8","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:8","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:15","level":"error","message":"Not Found","service":"api404"}
-{"date":"21-3-2022/15:15","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/2:55","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/2:55","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:2","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:5","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:5","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:5","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:5","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:5","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:8","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:8","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:17","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:17","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:28","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:28","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/add"}
-{"date":"22-3-2022/3:39","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:39","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:41","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"22-3-2022/3:54","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:54","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:58","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/3:58","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"22-3-2022/4:4","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"22-3-2022/4:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/4:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/4:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/4:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/4:6","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"22-3-2022/4:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/4:6","level":"error","message":"Not Found","service":"api404"}
-{"date":"22-3-2022/4:6","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"22-3-2022/4:16","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"22-3-2022/4:17","level":"error","message":"[object Object]","service":"FilmController/add"}
-{"date":"23-3-2022/2:11","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:11","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/2:36","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/9:52","level":"error","message":"Not Found","service":"api404"}
-{"date":"23-3-2022/9:52","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:20","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:20","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:20","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:20","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"HistoryController/add"}
+{"date":"23-3-2022/4:32","level":"error","message":"Invalid document reference. Document references must have an even number of segments, but User/4VXg0Ps6nd5ncTDYz7vD/QAhJlOwWsdxuNjgrEIqk has 3.","service":"HistoryController/add"}
+{"date":"23-3-2022/4:39","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field Language in document History/XolPL5fKL4oKQDSyOdOB)","service":"HistoryController/add"}
+{"date":"23-3-2022/4:49","level":"error","message":"Cannot read properties of undefined (reading 'size')","service":"HistoryController/add"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc0RlbGV0ZWQQARoMCghJc1NsaWRlchABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVcG9NSxABGg0KCUlzRGVsZXRlZBABGgwKCElzU2xpZGVyEAEaDgoKTW9kaWZpZWRPbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/4:59","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVcG9NSxABGg0KCUlzRGVsZXRlZBABGgwKCElzU2xpZGVyEAEaDgoKTW9kaWZpZWRPbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/5:16","level":"error","message":"re is not defined","service":"HistoryController/GetByUser"}
+{"date":"23-3-2022/5:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/5:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/5:16","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVcG9NSxABGg0KCUlzRGVsZXRlZBABGgwKCElzU2xpZGVyEAEaDgoKTW9kaWZpZWRPbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:16","level":"error","message":"re is not defined","service":"HistoryController/GetByUser"}
+{"date":"23-3-2022/5:19","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"HistoryController/GetByUser"}
+{"date":"23-3-2022/5:22","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc19zbGlkZXIQARoOCgppc19kZWxldGVkEAEaDwoLbW9kaWZpZWRfb24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:22","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoNCglJc19zbGlkZXIQARoOCgppc19kZWxldGVkEAEaDwoLbW9kaWZpZWRfb24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:22","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnT2kza0pBSxABGg0KCUlzX3NsaWRlchABGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:22","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnT2kza0pBSxABGg0KCUlzX3NsaWRlchABGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:22","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnT2kza0pBSxABGg0KCUlzX3NsaWRlchABGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:22","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnT2kza0pBSxABGg0KCUlzX3NsaWRlchABGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/5:34","level":"error","message":"i is not defined","service":"HistoryController/GetByUser"}
+{"date":"23-3-2022/5:34","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"HistoryController/GetByUser"}
+{"date":"23-3-2022/6:23","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoOCgppc19kZWxldGVkEAEaDQoJaXNfc2xpZGVyEAEaDwoLbW9kaWZpZWRfb24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/6:23","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoOCgppc19kZWxldGVkEAEaDQoJaXNfc2xpZGVyEAEaDwoLbW9kaWZpZWRfb24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/6:27","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoOCgppc19kZWxldGVkEAEaDQoJaXNfc2xpZGVyEAEaDwoLbW9kaWZpZWRfb24QAhoMCghfX25hbWVfXxAC","service":"FilterController/filterslider"}
+{"date":"23-3-2022/6:27","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmpGOW9JShABGg4KCmlzX2RlbGV0ZWQQARoNCglpc19zbGlkZXIQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"FilterController/filterslider"}
+{"date":"23-3-2022/6:31","level":"error","message":"x.data is not a function","service":"HistoryController/GetByUser"}
+{"date":"23-3-2022/6:32","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:32","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Siz qeydiyyatdan kecmemisiz","service":"UserController/login"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Siz qeydiyyatdan kecmemisiz","service":"UserController/login"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/6:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"23-3-2022/7:3","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"25-3-2022/3:23","level":"error","message":"Not Found","service":"api404"}
+{"date":"25-3-2022/3:23","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"FilmController/GetById"}
+{"date":"25-3-2022/3:23","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"25-3-2022/3:27","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"25-3-2022/3:27","level":"error","service":"FilmController/GetById"}
+{"date":"25-3-2022/3:28","level":"error","service":"FilmController/GetById"}
+{"date":"25-3-2022/3:30","level":"error","service":"FilmController/GetById"}
+{"date":"25-3-2022/3:30","level":"error","message":"Not Found","service":"api404"}
+{"date":"25-3-2022/3:30","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"25-3-2022/7:33","level":"error","message":"Sifre yalnisdir","service":"UserController/login"}
+{"date":"25-3-2022/7:33","level":"error","message":"Sifre yalnisdir","service":"UserController/login"}
+{"date":"25-3-2022/7:33","level":"error","message":"Sifre yalnisdir","service":"UserController/login"}
+{"date":"26-3-2022/19:25","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/19:26","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/19:27","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/19:27","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/19:28","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/19:28","level":"error","message":"Not Found","service":"api404"}
+{"date":"26-3-2022/19:28","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/20:43","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"Platformref/add"}
+{"date":"26-3-2022/20:43","level":"error","message":"body is not defined","service":"Platformref/add"}
+{"date":"26-3-2022/20:44","level":"error","message":"Cannot set headers after they are sent to the client","service":"Platformref/add"}
+{"date":"26-3-2022/20:44","level":"error","message":"Order reqem olmalidir","service":"Platformref/add"}
+{"date":"26-3-2022/20:45","level":"error","message":"[object Object]","service":"Platformref/add"}
+{"date":"26-3-2022/20:46","level":"error","service":"Platformref/add"}
+{"date":"26-3-2022/20:46","level":"error","message":{},"service":"Platformref/add"}
+{"date":"26-3-2022/20:46","level":"error","message":{},"service":"Platformref/add"}
+{"date":"26-3-2022/20:47","level":"error","message":{},"service":"Platformref/add"}
+{"date":"26-3-2022/20:50","level":"error","message":{},"service":"Platformref/add"}
+{"date":"26-3-2022/20:51","level":"error","message":{"message":"Order reqem olmalidir","status":406},"service":"Platformref/add"}
+{"date":"26-3-2022/20:51","level":"error","message":"Order reqem olmalidir","service":"Platformref/add"}
+{"date":"26-3-2022/20:52","level":"error","message":"Order reqem olmalidir","service":"Platformref/add"}
+{"date":"26-3-2022/20:54","level":"error","message":"Gonderdiyiniz melumatatlara gore minimum 6 eded kontent olmalidir","service":"Platformref/add"}
+{"date":"26-3-2022/21:5","level":"error","message":"Not Found","service":"api404"}
+{"date":"26-3-2022/21:9","level":"error","message":"Cannot read properties of undefined (reading 'forEach')","service":"Platformref/get"}
+{"date":"26-3-2022/21:10","level":"error","message":"Expected type 'DocumentReference', but it was: a custom Query object","service":"Platformref/get"}
+{"date":"26-3-2022/22:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"26-3-2022/22:18","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"Series/add"}
+{"date":"26-3-2022/22:21","level":"error","message":"Diller yalnis qeyd olunub","service":"Series/add"}
+{"date":"26-3-2022/22:21","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"Series/add"}
+{"date":"26-3-2022/22:22","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"Series/add"}
+{"date":"26-3-2022/22:24","level":"error","message":"Diller yalnis qeyd olunub","service":"Series/add"}
+{"date":"26-3-2022/22:24","level":"error","message":"Diller yalnis qeyd olunub","service":"Series/add"}
+{"date":"26-3-2022/22:24","level":"error","message":"Diller yalnis qeyd olunub","service":"Series/add"}
+{"date":"26-3-2022/22:24","level":"error","message":"Diller yalnis qeyd olunub","service":"Series/add"}
+{"date":"26-3-2022/22:24","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field tvshow_id in document Series/v7kIpTg2Z6oiLgFm6QEE)","service":"Series/add"}
+{"date":"26-3-2022/22:27","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field tvshow_id in document Series/mM6VSdaSObwgk1VXgwZA)","service":"Series/add"}
+{"date":"26-3-2022/22:28","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field tvshow_id in document Series/oIt2su37e6D2NEU9G88f)","service":"Series/add"}
+{"date":"26-3-2022/22:28","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"Series/add"}
+{"date":"26-3-2022/22:29","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field tvshow_id in document Series/svSSeiO4CcfI0R9808b7)","service":"Series/add"}
+{"date":"26-3-2022/22:41","level":"error","message":"Assignment to constant variable.","service":"Series/add"}
+{"date":"26-3-2022/23:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"26-3-2022/23:37","level":"error","message":"Not Found","service":"api404"}
+{"date":"26-3-2022/23:38","level":"error","message":"User yoxdur","service":"HistoryController/add"}
+{"date":"26-3-2022/23:38","level":"error","message":"id is not defined","service":"HistoryController/add"}
+{"date":"26-3-2022/23:40","level":"error","message":"Function where() called with invalid data. Unsupported field value: undefined","service":"HistoryController/add"}
+{"date":"26-3-2022/23:40","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"HistoryController/GetByUser"}
+{"date":"26-3-2022/23:54","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"HistoryController/GetByUser"}
+{"date":"26-3-2022/23:56","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"HistoryController/GetByUser"}
+{"date":"27-3-2022/0:32","level":"error","message":"User yoxdur","service":"FavoryController/add"}
+{"date":"27-3-2022/0:32","level":"error","message":"User is not defined","service":"FavoryController/GetByUser"}
+{"date":"27-3-2022/0:32","level":"error","message":"User is not defined","service":"FavoryController/GetByUser"}
+{"date":"27-3-2022/0:37","level":"error","message":"Cannot read properties of undefined (reading 'indexOf')","service":"FavoryController/GetByUser"}
+{"date":"27-3-2022/8:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/9:0","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/9:18","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoMCghDYXRhbG9ncxgBGg0KCUlzRGVsZXRlZBABGg4KCk1vZGlmaWVkT24QAhoMCghfX25hbWVfXxAC","service":"ActorsController/filter"}
+{"date":"27-3-2022/9:58","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoMCghDYXRhbG9ncxgBGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"ActorsController/filter"}
+{"date":"27-3-2022/9:58","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoMCghDYXRhbG9ncxgBGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:1","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmo3ejRFSxABGgwKCENhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:1","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmo3ejRFSxABGgwKCENhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:1","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmo3ejRFSxABGgwKCENhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:1","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmo3ejRFSxABGgwKCENhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:1","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmo3ejRFSxABGgwKCENhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:10","level":"error","message":"The query requires an index. You can create it here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Ck5wcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL18QARoMCghjYXRhbG9ncxgBGg4KCmlzX2RlbGV0ZWQQARoPCgttb2RpZmllZF9vbhACGgwKCF9fbmFtZV9fEAI","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:10","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVc1pJSxABGgwKCGNhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:10","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVc1pJSxABGgwKCGNhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:10","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVc1pJSxABGgwKCGNhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:10","level":"error","message":"The query requires an index. That index is currently building and cannot be used yet. See its status here: https://console.firebase.google.com/v1/r/project/movieapp-f3368/firestore/indexes?create_composite=Cllwcm9qZWN0cy9tb3ZpZWFwcC1mMzM2OC9kYXRhYmFzZXMvKGRlZmF1bHQpL2NvbGxlY3Rpb25Hcm91cHMvQ29udGVudC9pbmRleGVzL0NJQ0FnSmlVc1pJSxABGgwKCGNhdGFsb2dzGAEaDgoKaXNfZGVsZXRlZBABGg8KC21vZGlmaWVkX29uEAIaDAoIX19uYW1lX18QAg","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:15","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:15","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:15","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:16","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:16","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:18","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:19","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:19","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:19","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:21","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:21","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:21","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:27","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:27","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:28","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:28","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:31","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:31","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:32","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:32","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:34","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:34","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:35","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:35","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:35","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:35","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:35","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:35","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:36","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"ActorsController/filter"}
+{"date":"27-3-2022/10:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:37","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:37","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:37","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:37","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:37","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:39","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:39","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:45","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/10:45","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/10:48","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:49","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/10:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:20","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:20","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:23","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:23","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:26","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:47","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:49","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:51","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:52","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:52","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:54","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:54","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:58","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:58","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/11:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:4","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:4","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:4","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:4","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:5","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:14","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:14","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:47","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/12:47","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/12:48","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/12:48","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:18","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:20","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:20","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:21","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:22","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:22","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:24","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:26","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:29","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:31","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:32","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:33","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:33","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:34","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:35","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:39","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:39","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:39","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/13:41","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:42","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:42","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:42","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:42","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:44","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:44","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:44","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:45","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:45","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:45","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:46","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:47","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:47","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:49","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:49","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:50","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:53","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:54","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:55","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:55","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:56","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:56","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:57","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:57","level":"error","message":"CatalogList.data is not a function","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/13:59","level":"error","message":"path.split is not a function","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:1","level":"error","message":"catalogs.forEach is not a function","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:2","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:3","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:3","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:3","level":"error","message":"Sifre yalnisdir","service":"UserController/login"}
+{"date":"27-3-2022/14:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"27-3-2022/14:3","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:3","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"27-3-2022/14:5","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/getbyidlang"}
+{"date":"28-3-2022/7:10","level":"error","message":"Not Found","service":"api404"}
+{"date":"28-3-2022/7:15","level":"error","message":"Failed to get document because the client is offline.","service":"FilmController/getbyidlang"}
+{"date":"28-3-2022/7:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"28-3-2022/7:21","level":"error","message":"Failed to get document because the client is offline.","service":"FilmController/getbyidlang"}
+{"date":"30-3-2022/23:32","level":"error","message":"Not Found","service":"api404"}
+{"date":"30-3-2022/23:32","level":"error","message":"Not Found","service":"api404"}
+{"date":"30-3-2022/23:46","level":"error","message":"Not Found","service":"api404"}
+{"date":"30-3-2022/23:52","level":"error","message":"Not Found","service":"api404"}
+{"date":"31-3-2022/2:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/1:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/1:1","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"3-4-2022/1:1","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"3-4-2022/1:3","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"3-4-2022/1:3","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"3-4-2022/1:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/1:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/1:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/1:6","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"3-4-2022/2:47","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/2:58","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/2:58","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/11:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/12:23","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/12:25","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"3-4-2022/12:27","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"3-4-2022/12:29","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:32","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:32","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:36","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:39","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:43","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:45","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:45","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:46","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:48","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:48","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:49","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:49","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:49","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/12:50","level":"error","message":"Function updateDoc() called with invalid data. Unsupported field value: undefined (found in field content_type in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"3-4-2022/13:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/13:50","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/14:0","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/14:0","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/14:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/14:19","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"3-4-2022/14:19","level":"error","message":"Not Found","service":"api404"}
+{"date":"3-4-2022/14:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"4-4-2022/23:26","level":"error","message":"Not Found","service":"api404"}
+{"date":"4-4-2022/23:26","level":"error","message":"Not Found","service":"api404"}
+{"date":"4-4-2022/23:33","level":"error","message":"Not Found","service":"api404"}
+{"date":"4-4-2022/23:33","level":"error","message":"Not Found","service":"api404"}
+{"date":"4-4-2022/23:33","level":"error","message":"Not Found","service":"api404"}
+{"date":"4-4-2022/23:33","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/0:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/0:12","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:23","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:39","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:40","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:43","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:44","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:44","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/0:44","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:20","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:22","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:25","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:32","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:33","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:36","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:37","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:37","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:39","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:39","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:39","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:39","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:40","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:41","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:43","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:43","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:47","level":"error","message":"Cannot convert object to primitive value","service":"FilmController/update"}
+{"date":"5-4-2022/1:50","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:50","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:51","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/1:53","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:54","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:55","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:55","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:58","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/1:58","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:1","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/2:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/2:1","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:2","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/2:2","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/2:2","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:3","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:4","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:9","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:10","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:10","level":"error","message":"Cannot convert object to primitive value","service":"FilmController/update"}
+{"date":"5-4-2022/2:56","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:57","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:58","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/2:59","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:3","level":"error","message":"Cannot convert object to primitive value","service":"FilmController/update"}
+{"date":"5-4-2022/3:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:3","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:5","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:7","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:7","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:8","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:8","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:8","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:9","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:10","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:10","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:10","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:11","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"5-4-2022/3:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"5-4-2022/3:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"7-4-2022/3:18","level":"error","message":"Not Found","service":"api404"}
+{"date":"7-4-2022/3:18","level":"error","message":"Cannot convert object to primitive value","service":"FilmController/update"}
+{"date":"7-4-2022/3:19","level":"error","message":"Diller yalnis qeyd olunub","service":"FilmController/update"}
+{"date":"7-4-2022/3:21","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"7-4-2022/4:8","level":"error","message":"Missing or insufficient permissions.","service":"FilmController/update"}
+{"date":"7-4-2022/4:9","level":"error","message":"5 NOT_FOUND: No document to update: projects/socialape-1b18c/databases/(default)/documents/Content/yUkIwyaPxnX7qAZ7f9Za","service":"FilmController/update"}
+{"date":"7-4-2022/4:9","level":"error","message":"[object Object]","service":"FilmController/add"}
+{"date":"7-4-2022/4:9","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field name in document Platform/JuNCrNZ42aLRO6chWtN3)","service":"PlatformController/add"}
+{"date":"7-4-2022/4:19","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field name in document Platform/rS8AjIbYOdE0EfMdNBNr)","service":"PlatformController/add"}
+{"date":"7-4-2022/4:20","level":"error","message":"Function addDoc() called with invalid data. Unsupported field value: undefined (found in field name in document Platform/EccMw2ZWvK92VByApLdV)","service":"PlatformController/add"}
+{"date":"7-4-2022/4:22","level":"error","message":"Bu adda platforma artiq var","service":"PlatformController/add"}
+{"date":"7-4-2022/4:22","level":"error","message":"Bu adda platforma artiq var","service":"PlatformController/add"}
+{"date":"7-4-2022/8:49","level":"error","message":"Missing or insufficient permissions.","service":"FilterController/filterslider"}
+{"date":"7-4-2022/8:49","level":"error","message":"Missing or insufficient permissions.","service":"FilterController/filterslider"}
+{"date":"7-4-2022/9:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"7-4-2022/9:11","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"7-4-2022/9:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"7-4-2022/9:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"7-4-2022/9:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"7-4-2022/9:11","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"7-4-2022/9:11","level":"error","message":"Sorguya gore melumat tapilmadi","service":"FilterController/filterPlatform"}
+{"date":"8-4-2022/2:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"8-4-2022/2:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"8-4-2022/2:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"8-4-2022/2:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"8-4-2022/2:11","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"8-4-2022/2:13","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"8-4-2022/2:13","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"8-4-2022/2:13","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"8-4-2022/2:14","level":"error","message":"Cannot read properties of undefined (reading 'name')","service":"FilmController/GetById"}
+{"date":"8-4-2022/2:15","level":"error","message":"MainCatalogs is not defined","service":"FilmController/GetById"}
+{"date":"9-4-2022/5:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"10-4-2022/6:47","level":"error","message":"getaddrinfo ENOTFOUND api.cloudinary.com","service":"FilmController/uploadImage"}
+{"date":"10-4-2022/6:48","level":"error","message":"Cannot read properties of undefined (reading 'buffer')","service":"FilmController/update"}
+{"date":"10-4-2022/6:48","level":"error","message":"getaddrinfo ENOTFOUND api.cloudinary.com","service":"FilmController/uploadImage"}
+{"date":"10-4-2022/7:7","level":"error","message":"Function updateDoc() called with invalid data. Nested arrays are not supported (found in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"10-4-2022/7:8","level":"error","message":"Function updateDoc() called with invalid data. Nested arrays are not supported (found in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"10-4-2022/7:8","level":"error","message":"Function updateDoc() called with invalid data. Nested arrays are not supported (found in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"10-4-2022/7:11","level":"error","message":"Function updateDoc() called with invalid data. Nested arrays are not supported (found in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"10-4-2022/7:12","level":"error","message":"Function updateDoc() called with invalid data. Nested arrays are not supported (found in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"10-4-2022/7:14","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/7:14","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/7:14","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/7:15","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/7:15","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/7:15","level":"error","message":"Not Found","service":"api404"}
+{"date":"10-4-2022/7:15","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/7:15","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"FilmController/getbyidlang"}
+{"date":"10-4-2022/23:13","level":"error","message":"Failed to get document because the client is offline.","service":"FilmController/getbyidlang"}
+{"date":"11-4-2022/2:43","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/2:43","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/2:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/2:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/2:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/2:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/2:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/3:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/3:38","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"11-4-2022/4:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/4:7","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"11-4-2022/4:10","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"11-4-2022/4:38","level":"error","message":"[object Object]","service":"FilmController/update"}
+{"date":"11-4-2022/5:23","level":"error","message":"Siz qeydiyyatdan kecmemisiz","service":"UserController/login"}
+{"date":"11-4-2022/5:23","level":"error","message":"Siz qeydiyyatdan kecmemisiz","service":"UserController/login"}
+{"date":"11-4-2022/7:8","level":"error","message":"Function updateDoc() called with invalid data. Unsupported field value: a custom Buffer object (found in field main_picture.buffer in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"11-4-2022/7:37","level":"error","message":"Function updateDoc() called with invalid data. Unsupported field value: a custom Buffer object (found in field main_picture.buffer in document Content/yUkIwyaPxnX7qAZ7f9Za)","service":"FilmController/update"}
+{"date":"11-4-2022/8:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/8:6","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/8:9","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/8:10","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/8:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/8:12","level":"error","message":"Cannot read properties of undefined (reading 'is_admin')","service":"FilmController/delete"}
+{"date":"11-4-2022/8:13","level":"error","message":"Cannot read properties of undefined (reading 'is_admin')","service":"FilmController/delete"}
+{"date":"11-4-2022/8:29","level":"error","message":"Giris qadagan edildi","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:32","level":"error","message":"Cannot read properties of undefined (reading 'x-access-token')","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:32","level":"error","message":"next is not a function","service":"FilmController/delete"}
+{"date":"11-4-2022/8:32","level":"error","message":"Cannot read properties of undefined (reading 'x-access-token')","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:32","level":"error","message":"next is not a function","service":"FilmController/delete"}
+{"date":"11-4-2022/8:33","level":"error","message":"Cannot read properties of undefined (reading 'x-access-token')","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:33","level":"error","message":"next is not a function","service":"FilmController/delete"}
+{"date":"11-4-2022/8:33","level":"error","message":"Cannot read properties of undefined (reading 'x-access-token')","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:33","level":"error","message":"next is not a function","service":"FilmController/delete"}
+{"date":"11-4-2022/8:34","level":"error","message":"Cannot read properties of undefined (reading 'x-access-token')","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:34","level":"error","message":"next is not a function","service":"FilmController/delete"}
+{"date":"11-4-2022/8:34","level":"error","message":"Cannot read properties of undefined (reading 'x-access-token')","service":"Catalogservice/create"}
+{"date":"11-4-2022/8:34","level":"error","message":"next is not a function","service":"FilmController/delete"}
+{"date":"11-4-2022/8:37","level":"error","message":"Giris qadagan edildi","service":"Catalogservice/create"}
+{"date":"11-4-2022/10:16","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"CategoryController/add"}
+{"date":"11-4-2022/10:18","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"CategoryController/add"}
+{"date":"11-4-2022/10:20","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"CategoryController/add"}
+{"date":"11-4-2022/10:23","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/add"}
+{"date":"11-4-2022/10:24","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/add"}
+{"date":"11-4-2022/10:24","level":"error","message":"Invalid Query. A non-empty array is required for 'array-contains-any' filters.","service":"CategoryController/add"}
+{"date":"11-4-2022/11:30","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:30","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:30","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:32","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:44","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:44","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:44","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/11:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/12:15","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/13:16","level":"error","message":"Unexpected token u in JSON at position 0","service":"FilmController/add"}
+{"date":"11-4-2022/13:16","level":"error","message":"Unexpected token u in JSON at position 0","service":"FilmController/add"}
+{"date":"11-4-2022/13:19","level":"error","message":"Unexpected token u in JSON at position 0","service":"FilmController/add"}
+{"date":"11-4-2022/13:20","level":"error","message":"Unexpected token u in JSON at position 0","service":"FilmController/add"}
+{"date":"11-4-2022/13:24","level":"error","message":"[object Object]","service":"FilmController/add"}
+{"date":"11-4-2022/13:27","level":"error","message":"[object Object]","service":"FilmController/add"}
+{"date":"11-4-2022/13:30","level":"error","message":"[object Object]","service":"FilmController/add"}
+{"date":"11-4-2022/13:34","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/13:35","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/13:35","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/13:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/13:53","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/13:53","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/14:56","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"CategoryController/GetById"}
+{"date":"11-4-2022/14:56","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"CategoryController/GetById"}
+{"date":"11-4-2022/15:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:4","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:8","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:12","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:15","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:27","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:38","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/15:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:11","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:23","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"CategoryController/GetById"}
+{"date":"11-4-2022/16:24","level":"error","message":"Cannot read properties of undefined (reading 'language')","service":"CategoryController/GetById"}
+{"date":"11-4-2022/16:34","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:45","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:50","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:56","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/16:59","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:0","level":"error","message":"User.data is not a function","service":"UserController/login"}
+{"date":"11-4-2022/17:0","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:1","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:1","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:1","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:2","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:3","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:3","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:4","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:4","level":"error","message":"Diller yalnis qeyd olunub","service":"CategoryController/update"}
+{"date":"11-4-2022/17:5","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"User.data is not a function","service":"UserController/login"}
+{"date":"11-4-2022/17:21","level":"error","message":"User.data is not a function","service":"UserController/login"}
+{"date":"11-4-2022/17:21","level":"error","message":"User.data is not a function","service":"UserController/login"}
+{"date":"11-4-2022/17:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:21","level":"error","message":"5 NOT_FOUND: No document to update: projects/movieapp-f3368/databases/(default)/documents/Category/undefined","service":"CategoryController/update"}
+{"date":"11-4-2022/17:21","level":"error","message":"5 NOT_FOUND: No document to update: projects/movieapp-f3368/databases/(default)/documents/Category/undefined","service":"CategoryController/update"}
+{"date":"11-4-2022/17:21","level":"error","message":"5 NOT_FOUND: No document to update: projects/movieapp-f3368/databases/(default)/documents/Category/undefined","service":"CategoryController/update"}
+{"date":"11-4-2022/17:34","level":"error","message":"5 NOT_FOUND: No document to update: projects/movieapp-f3368/databases/(default)/documents/Category/undefined","service":"CategoryController/update"}
+{"date":"11-4-2022/17:35","level":"error","message":"5 NOT_FOUND: No document to update: projects/movieapp-f3368/databases/(default)/documents/Category/undefined","service":"CategoryController/update"}
+{"date":"11-4-2022/17:36","level":"error","message":"5 NOT_FOUND: No document to update: projects/movieapp-f3368/databases/(default)/documents/Category/undefined","service":"CategoryController/update"}
+{"date":"11-4-2022/17:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/17:36","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/21:54","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/22:24","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/22:24","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/22:24","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/22:24","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/22:24","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/22:24","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/22:24","level":"error","message":"Not Found","service":"api404"}
+{"date":"11-4-2022/22:24","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/22:58","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/23:0","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/23:0","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/23:1","level":"error","message":"Bu adda kateqoriya artiq var","service":"CategoryController/add"}
+{"date":"11-4-2022/23:2","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:9","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:9","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:10","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:10","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:17","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:19","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:55","level":"error","message":"bele bir kontent tapilmadi","service":"FilmController/getbyidlang"}
+{"date":"12-4-2022/0:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/0:55","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/1:23","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/1:23","level":"error","message":"Not Found","service":"api404"}
+{"date":"12-4-2022/2:3","level":"error","message":"Not Found","service":"api404"}

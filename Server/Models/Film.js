@@ -1,12 +1,14 @@
 class Content{
-    constructor(id,data,categories,direstors,actors,ContentType,lang){
+    constructor(id,data,categories,catalogList,direstors,actors,ContentType,lang){
       this.id=id
       this.platform=data.platform
       this.name=data.language.find(x=>x.lang_code==lang).name
       this.description=data.language.find(x=>x.lang_code==lang).description
       this.categories=categories
       this.age=data.age
+      this.time=data.time
       this.actors=actors
+      this.catalogs=catalogList
       this.directors=direstors
       this.main_picture=data.main_picture
       this.slider_image=data.slider_image
@@ -24,6 +26,7 @@ class Content{
       this.subtitles=data.subtitles
       this.audios=data.audios
       this.comments=data.comments
+      this.claims=data.claims
     }
 }
 

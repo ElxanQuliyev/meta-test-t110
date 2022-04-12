@@ -3,22 +3,20 @@ const { addDoc, doc, collection,query, where, getDocs, getDoc, documentId } = re
 const BaseError=require('../errorhandle/baseError');
 const httpstatus = require('http-status');
 const Autherize=require('../middlewares/Auth');
-
+const Content=require('../Models/Content')
 
 
 const add=async(req,res,next)=>{
    try {
-       const id=req.params.id
-       const type=req.params.type
+       const id=req.body.id
        const token=req.headers['x-access-token']
-       let userquery=await Autherize.authen(token)
-       if (userquery==null) {
+       let User=await Autherize.authen(token)
+       if (User==null) {
            throw new Error('User yoxdur')
         }
         await addDoc(collection(db,'Favory'),{
-            userId:userquery.id,
-            contentId:id,
-            type:type
+            user_id:User.id,
+            content_id:id,
         })
         res.send('added')
    } catch (error) {
@@ -29,19 +27,18 @@ const GetByUser=async(req,res,next)=>{
     try {
         const token=req.headers['x-access-token']
         const lang=req.params.lang
-        let userquery=await Autherize.authen(token)
-        if (userquery==null) {
+        let User=await Autherize.authen(token)
+        if (User==null) {
             throw new Error('User yoxdur')
          }
          const favorylist=[]
 
-         const favoryref=query(collection(db,'Favory'),where('userId','==',userquery.id))
+         const favoryref=query(collection(db,'Favory'),where('user_id','==',User.id))
          await getDocs(favoryref).then(response=>{
             response.forEach(x=>{
                 favorylist.push(
                     {
-                       id: x.data().contentId,
-                       type:x.data().type
+                       id: x.data().content_id,
                     }
                 )
             })
@@ -49,12 +46,9 @@ const GetByUser=async(req,res,next)=>{
          var contentlist=[];
 
         await Promise.all(favorylist.map(async (i) => {
-                if (i.type=='Film') {
                 const contents=await getDoc(doc(db,'Content',i.id))
-                    contentlist.push({
-                        name:contents.data().language.find(a=>a.lang_code==lang).name
-                    })
-                }
+                const content=new Content(contents.id,contents.data(),lang)
+                    contentlist.push(content)
         })
         )
          res.send(contentlist)

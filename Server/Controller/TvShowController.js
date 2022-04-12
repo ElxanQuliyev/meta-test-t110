@@ -60,12 +60,12 @@ const GetById=async(req,res,next)=>{
         await Promise.all(Seasons.map(async (i) => {
             const season=new Season(i.id,i.data())
             if (i.data().series.length!=0) {
-                const snapseries = query(collection(db, "Series"),where(documentId(),'in',i.data().series),where('IsDeleted','==',false));
+                const snapseries = query(collection(db, "Series"),where(documentId(),'in',i.data().series),where('is_deleted','==',false));
                 await getDocs(snapseries).then(response=>{
 
                  response.forEach(a=>{
                     const series=new Serie(a.id,a.data(),z.Name,lang)
-                    switch (data.Claims){
+                    switch (data.claims){
                         case "Free":
                             if (user==null) {
                                 status=300

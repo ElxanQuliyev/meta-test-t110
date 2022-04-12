@@ -17,7 +17,7 @@ import {
   orderListReducer,
 } from "./Reducers/OrderReducres";
 import { contentTypeReducer } from "./Reducers/ContentTypeReducers";
-import { categoryListReducer } from "./Reducers/CategoryReducers";
+import { categoryCreateReducer, categoryEditReducer, categoryListReducer, categoryUpdateReducer } from "./Reducers/CategoryReducers";
 import { languageListReducer } from "./Reducers/LanguageReducers";
 import { catalogListReducer } from "./Reducers/CatalogReducers";
 import { platformListReducer } from "./Reducers/PlatformReducers";
@@ -36,14 +36,17 @@ const reducer = combineReducers({
   orderDetails: orderDetailsReducer,
   orderDeliver: orderDeliveredReducer,
   contentType:contentTypeReducer,
-  categoryList:categoryListReducer,
   languageList:languageListReducer,
   filmBackground:filmBackImageReducer,
   filmMainImage:filmImageReducer,
   catalogList:catalogListReducer,
   platformList:platformListReducer,
   actorList:actorListReducer,
-  directorList:directorListReducer
+  directorList:directorListReducer,
+  categoryList:categoryListReducer,
+  categoryCreate:categoryCreateReducer,
+  categoryUpdate:categoryUpdateReducer,
+  categoryEdit:categoryEditReducer
 });
 
 // login

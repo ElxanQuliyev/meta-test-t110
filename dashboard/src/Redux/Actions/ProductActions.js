@@ -36,11 +36,11 @@ export const listProducts = (lang) => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        Authorization: `Bearer ${userInfo.token}`,
+        "x-access-token": `${userInfo.token}`,
       },
     };
 
-    const { data } = await axios.get(`/api/movies/getAll/${lang}`, config);
+    const { data } = await axios.get(`/api/filter/contents/${lang}/XWlWiNgg1SGneIH5bmRi`, config);
 
     dispatch({ type: PRODUCT_LIST_SUCCESS, payload: data });
   } catch (error) {
@@ -69,11 +69,11 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        Authorization: `Bearer ${userInfo.token}`,
+        "x-access-token": `${userInfo.token}`,
       },
     };
 
-    await axios.delete(`/api/products/${id}`, config);
+    await axios.delete(`/api/film/delete/${id}`, config);
 
     dispatch({ type: PRODUCT_DELETE_SUCCESS });
   } catch (error) {
@@ -93,6 +93,7 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
 
 // UPDATE PRODUCT
 export const uploadImage = (file) => async (dispatch, getState) => {
+  console.log(file)
   try {
     dispatch({ type: FILM_IMAGE_REQUEST });
     const {
@@ -101,7 +102,7 @@ export const uploadImage = (file) => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        "Content-Type": "multipart/form-data",
+        headers: { 'Content-Type': 'multipart/form-data' },
         Authorization: `Bearer ${userInfo.token}`,
       },
     };
@@ -167,73 +168,38 @@ export const uploadBackImage = (file) => async (dispatch, getState) => {
 // CREATE PRODUCT
 export const createProduct =
   (
-    price,
-    categories,
-    language,
-    main_picture,
-    slider_image,
-    platform,
-    catalogs,
-    age,
-    claims,
-    is_featured,
-    is_slider,
-    imdb,
-    trailers,
-    actors,
-    directors,
-    url,
-    time
+    product,files
   ) =>
   async (dispatch, getState) => {
     try {
+
+      var today = new Date();
+      var date =
+      today.getFullYear() +
+      "-" +
+      (today.getMonth() + 1) +
+      "-" +
+      today.getDate();
       dispatch({ type: PRODUCT_CREATE_REQUEST });
-      var today = new Date(),
-        date =
-          today.getFullYear() +
-          "-" +
-          (today.getMonth() + 1) +
-          "-" +
-          today.getDate();
-      console.log(date);
-      console.log("main-" + main_picture);
-      console.log("back-" + slider_image);
-      console.log(categories);
-      console.log(platform);
-      console.log(catalogs);
-
-      const {
-        userLogin: { userInfo },
-      } = getState();
-
-      const config = {
-        headers: {
-          Authorization: `Bearer ${userInfo.token}`,
-        },
-      };
+      product.content_date=date;
+        const {
+          userLogin: { userInfo },
+             } = getState();
+        const config = {
+          headers: {
+            "Content-Type": "multipart/form-data",
+            "x-access-token": `${userInfo.token}`,
+          },
+        };
+        let formData = new FormData();
+        formData.append("image", files.mainImg);
+        formData.append("backgroundImg", files.mainBack);
+        formData.append("products",JSON.stringify(product))
 
       const { data } = await axios.post(
         `/api/film/Add`,
-        {
-          price,
-          categories,
-          language,
-          main_picture,
-          slider_image,
-          platform,
-          catalogs,
-          age,
-          claims,
-          is_featured,
-          is_slider,
-          imdb,
-          trailers,
-          actors,
-          directors,
-          url,
-          time,
-          content_date:today
-        },
+        
+          formData,
         config
       );
 
@@ -257,7 +223,7 @@ export const createProduct =
 export const editProduct = (id) => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_EDIT_REQUEST });
-    const { data } = await axios.get(`/api/products/${id}`);
+    const { data } = await axios.get(`/api/film/AZ/getbyidlang/${id}`);
     dispatch({ type: PRODUCT_EDIT_SUCCESS, payload: data });
   } catch (error) {
     const message =
@@ -275,24 +241,35 @@ export const editProduct = (id) => async (dispatch) => {
 };
 
 // UPDATE PRODUCT
-export const updateProduct = (product) => async (dispatch, getState) => {
-  try {
-    dispatch({ type: PRODUCT_UPDATE_REQUEST });
+export const updateProduct = (product,files) => async (dispatch, getState) => {
 
+  var today = new Date();
+  var date =
+  today.getFullYear() +
+  "-" +
+  (today.getMonth() + 1) +
+  "-" +
+  today.getDate();
+  product.content_date=date;
+
+  try {
     const {
       userLogin: { userInfo },
-    } = getState();
-
+         } = getState();
+    dispatch({ type: PRODUCT_UPDATE_REQUEST });
     const config = {
       headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${userInfo.token}`,
+        "Content-Type": "multipart/form-data",
+        "x-access-token": `${userInfo.token}`,
       },
     };
-
+    let formData = new FormData();
+    formData.append("image", files.mainImg);
+    formData.append("backgroundImg", files.mainBack);
+    formData.append("products",JSON.stringify(product))
     const { data } = await axios.put(
-      `/api/products/${product._id}`,
-      product,
+      `/api/film/update/${product.id}`,
+      formData,
       config
     );
 

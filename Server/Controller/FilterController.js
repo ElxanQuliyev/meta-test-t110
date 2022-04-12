@@ -11,7 +11,7 @@ const filterPlatform=async(req,res,next)=>{
       const lang=req.params.lang
       const contentType=req.params.type
       const platform=req.params.platform
-  
+      console.log(catalog)
       const docRef = query(collection(db, 'Content'),where('catalogs','array-contains',catalog),
       where('platform','==',platform)
       ,where('is_deleted','==',false),where('is_featured','==',true),where('content_type','==',contentType)
@@ -47,7 +47,7 @@ const filterPlatform=async(req,res,next)=>{
 
 const pricefilter=async(req,res,next)=>{
     try {
-        const contents=query(collection(db, 'Content'),where('IsPrice','==',true),where('IsDeleted','==',false),orderBy('ModifiedOn',"desc"),limit(20));
+        const contents=query(collection(db, 'Content'),where('is_price','==',true),where('is_deleted','==',false),orderBy('ModifiedOn',"desc"),limit(20));
         const data= await getDocs(contents);
         const lang=req.params.lang
         const sliderList=[]
@@ -68,7 +68,7 @@ const filter=async(req,res,next)=>{
     try {
         const catalog=req.params.catalog
         const lang=req.params.lang
-        const contents=query(collection(db, 'Content'),where('Catalogs',"array-contains",catalog),where('IsDeleted','==',false),orderBy("ModifiedOn",'desc'),limit(20));
+        const contents=query(collection(db, 'Content'),where('catalogs',"array-contains",catalog),where('is_deleted','==',false),orderBy("modified_on",'desc'),limit(20));
         let content= await getDocs(contents);
         contentList=[]
         content.forEach(x=>{
@@ -77,13 +77,13 @@ const filter=async(req,res,next)=>{
         })
         res.send(contentList)
       } catch (error) {
-        next(new BaseError(httpstatus.BAD_REQUEST,error.message,'ActorsController/filter'))
+        next(new BaseError(httpstatus.BAD_REQUEST,error.message,'FilterController/filter'))
       }
 }
 
 const filterslider=async(req,res,next)=>{
     try {
-        const contents=query(collection(db, 'Content'),where('IsSlider','==',true),where('IsDeleted','==',false),orderBy('ModifiedOn','desc'),limit(20));
+        const contents=query(collection(db, 'Content'),where('is_slider','==',true),where('is_deleted','==',false),orderBy('modified_on','desc'),limit(20));
         const data= await getDocs(contents);
         const lang=req.params.lang
         const sliderList=[]

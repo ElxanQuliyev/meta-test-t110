@@ -9,7 +9,7 @@ const add=async(req,res,next)=>{
         const data=req.body;
         const Languageref=collection(db,'Language')
         const Languagelist= await getDocs(Languageref);
-
+        console.log(data)
         const typesref=query(collection(db,'Category'),where('language','array-contains-any',data.language))
         const types=  await getDocs(typesref)
 
@@ -39,6 +39,7 @@ const update=async(req,res,next)=>{
 try {
     const id=req.params.id
     const data=req.body;
+    console.log(data)
     const Languageref=collection(db,'Language')
     const Languagelist= await getDocs(Languageref);
     let answer=helper.catlanguage(data.language,Languagelist);

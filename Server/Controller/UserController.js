@@ -21,46 +21,46 @@ const addUser = async (req, res, next) => {
         const contents=query(collection(firestore, 'User'),where('email','==',data.email));
         const user= await getDocs(contents)
         user.forEach(x=>{
-            if(x.data().Email==data.Email) {
+            if(x.data().email==data.email) {
              throw res.send('Bu emailde istifadeci var')
             }
         })
 
         const lets=new Validator(
         {
-            Email:data.Email,
-            Phonenumber:data.Phonenumber,
-            Password:data.Password,
-            RepeatPassword:data.RepeatPassword,
-            Name:data.Name,
-            Surname:data.Surname,
+            email:data.email,
+            phonenumber:data.phonenumber,
+            password:data.password,
+            repeatPassword:data.repeatPassword,
+            name:data.name,
+            surname:data.surname,
         },
         {
-            Email:'required|email',
-            Phonenumber:'required|string',
-            Password:'required|string',
-            RepeatPassword:'required|string',
-            Name:'required|string',
-            Surname:'required|string'
+            email:'required|email',
+            phonenumber:'required|string',
+            password:'required|string',
+            repeatPassword:'required|string',
+            name:'required|string',
+            surname:'required|string'
         }
         )
         lets.fails(()=>{
             throw res.send(lets.errors)
         })
 
-        if (data.Password==data.RepeatPassword){
+        if (data.password==data.repeatPassword){
             const hash = crypto.createHash('sha256').update(data.password).digest('base64');
 
             var docRef = await addDoc(collection(firestore, "User"),{
-                Email:data.Email,
-                Phonenumber:data.Phonenumber,
-                Password:hash,
-                Name:data.Name,
-                Surname:data.Surname,
-                IsActive:false,
-                RegisterDate: new Date(),
-                Claims:["Free"],
-                ConfirmEmail:false,
+                email:data.email,
+                phonenumber:data.phonenumber,
+                password:hash,
+                name:data.name,
+                surname:data.surname,
+                is_active:false,
+                register_date: new Date(),
+                claims:["Free"],
+                confirm_email:false,
               });
             }else{
                 throw res.send('Password ve repeat password uygun deyil')
@@ -87,7 +87,7 @@ const addUser = async (req, res, next) => {
                 //  .then(response=>{
                 //  console.log(response)
                 //  }),
-                useremail=data.Email
+                useremail=data.email
          res.send({message:'Gmail hesabinizi tesdiq edin',host:host,mail:mail})
     } catch (error) {
         res.status(400).send(error.message)
@@ -151,7 +151,7 @@ const login = async(req, res, next) =>{
           });
         res.status(200).send(
             {token:token,
-                isAdmin:User.data().is_admin,
+                is_admin:User.data().is_admin,
                 name:User.data().name,
                 surname:User.data().sur_name,
                 pictureUrl:User.data().pictureUrl,
@@ -191,7 +191,7 @@ const getAllUser = async (req, res, next) => {
                    email: doc.data().email,
                    name:doc.data().name,
                    pictureUrl:User.data().pictureUrl,
-                   isAdmin:doc.data().is_admin
+                   is_admin:doc.data().is_admin
                 };
                 usersArray.push(user);
             })

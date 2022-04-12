@@ -1,7 +1,8 @@
 const express=require('express')
-const {add}=require('../Controller/HistoryController')
+const {add,GetByUser}=require('../Controller/HistoryController')
 const router=express.Router();
 
 router.post('/add',add)
+router.get('/getbyuser/:lang',GetByUser)
 
 module.exports={routes:router}

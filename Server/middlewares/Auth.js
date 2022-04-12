@@ -23,14 +23,15 @@ try {
 
     const users={
         id:user.id,
-        Email: user.data().Email,
-        Name:user.data().Name,
-        Surname:user.data().Surname,
-        Roles:user.data().Claims,
-        Phonenumber:user.data().Phonenumber,
-        Claims:user.data().Claims
+        email: user.data().email,
+        name:user.data().name,
+        surname:user.data().surname,
+        roles:user.data().claims,
+        phonenumber:user.data().phonenumber,
+        claims:user.data().claims,
+        is_admin:user.data().is_admin
       }
-      if (!users.Claims.includes('Admin')){
+      if (!users.claims.includes('Admin')){
          throw new Error('Giris qadagan edildi')
       }
       next();
@@ -46,13 +47,13 @@ let authen = async function(token){
         const user=await getDoc(docRef);
         const users={
           id:user.id,
-          Email: user.data().Email,
-          Name:user.data().Name,
-          Surname:user.data().Surname,
-          Phonenumber:user.data().Phonenumber,
-          Claims:user.data().Claims,
-          IsBlock:user.data().IsBlock,
-          ConfirmEmail:user.data().ConfirmEmail
+          email: user.data().email,
+          name:user.data().name,
+          surname:user.data().surname,
+          phonenumber:user.data().phonenumber,
+          claims:user.data().claims,
+          is_block:user.data().is_block,
+          confirm_email:user.data().confirm_email
         }
         return users
     } catch (error) {

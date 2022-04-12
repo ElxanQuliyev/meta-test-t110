@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CreateCategory from "./CreateCategory";
 import CategoriesTable from "./CategoriesTable";
+import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { editCategory, listCategories } from "../../Redux/Actions/CategoryActions";
 
-const MainCategories = () => {
+const MainCategories = (props) => {
+  const dispatch = useDispatch();
+  const categoryId=props.categoryId??null;
+  const categoryList = useSelector((state) => state.categoryList);
+  const { loading, error, categories } = categoryList;
+ const categoryEdit = useSelector((state) => state.categoryEdit);
+  const {  category } = categoryEdit;
+  useEffect(() => {
+    if (categoryId !== null) {
+      dispatch(editCategory(categoryId));
+    }
+  }, [categoryId, dispatch]);
+  useEffect(() => {
+    dispatch(listCategories("AZ"));
+  }, [dispatch]);
   return (
     <section className="content-main">
       <div className="content-header">
@@ -13,9 +30,9 @@ const MainCategories = () => {
         <div className="card-body">
           <div className="row">
             {/* Create category */}
-            <CreateCategory />
+            <CreateCategory category={category}/>
             {/* Categories table */}
-            <CategoriesTable />
+            <CategoriesTable categories={categories}/>
           </div>
         </div>
       </div>

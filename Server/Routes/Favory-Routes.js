@@ -3,6 +3,6 @@ const {add, GetByUser}=require('../Controller/FavoryController')
 const router=express.Router()
 
 
-router.post('/add/:type/:id',add)
+router.post('/add',add)
 router.get('/getbyuser/:lang',GetByUser)
 module.exports=router

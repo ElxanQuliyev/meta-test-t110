@@ -4,7 +4,7 @@ import { LANGUAGE_LIST_SUCCESS } from "../Constants/LanguageConstants";
 
 export const listLanguage = () => async (dispatch) => {
     try {
-      const { data } = await axios.get(`api/language/getall`);
+      const { data } = await axios.get(`/api/language/getall`);
       dispatch({ type: LANGUAGE_LIST_SUCCESS, payload: data });
     } catch (error) {
       const message =

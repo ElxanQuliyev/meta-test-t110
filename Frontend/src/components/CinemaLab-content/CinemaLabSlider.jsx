@@ -54,7 +54,7 @@ const CinemaLabSlider = () => {
               <div className="container">
                   <div className="Cinema-lab-text">
                   <div className="col-md-12 col-lg-12 col-xl-12">
-                     <h1><Link to="/Detail">Irishman Lorem ipsum dolor sit amet.</Link></h1>
+                     <h1><Link to="">Irishman Lorem ipsum dolor sit amet.</Link></h1>
                       <Icon.PlayCircle className='play-ico'/>
                        <div className="col-md-6 m-auto col-lg-6 col-xl-6">
                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis nisi voluptatum corporis, unde dolorem cum doloremque culpa officia quaerat suscipit? amet consectetur, adipisicing elit. Sapiente aperiam consequuntur modi eveniet officia nam, temporibus ut cupiditate quod provident!</p>

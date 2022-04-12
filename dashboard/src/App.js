@@ -26,8 +26,8 @@ function App() {
 
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
-      dispatch(listProducts());
-      dispatch(listOrders());
+      dispatch(listProducts("AZ"));
+      // dispatch(listOrders());
     }
   }, [dispatch, userInfo]);
 
@@ -37,7 +37,10 @@ function App() {
         <Switch>
           <PrivateRouter path="/" component={HomeScreen} exact />
           <PrivateRouter path="/products" component={ProductScreen} />
-          <PrivateRouter path="/category" component={CategoriesScreen} />
+          {/* <PrivateRouter path="/category" component={CategoriesScreen} /> */}
+           {["/category", "/category/:id/edit"].map((path, index) => 
+              <PrivateRouter exact path={path} component={CategoriesScreen} key={index} />
+          )}
           <PrivateRouter path="/orders" component={OrderScreen} />
           <PrivateRouter path="/order/:id" component={OrderDetailScreen} />
           <PrivateRouter path="/addMovie" component={AddProduct} />
@@ -46,6 +49,7 @@ function App() {
             path="/product/:id/edit"
             component={ProductEditScreen}
           />
+      
           <Route path="/login" component={Login} />
           <PrivateRouter path="*" component={NotFound} />
         </Switch>

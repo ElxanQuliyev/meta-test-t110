@@ -1,120 +1,73 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useHistory, useParams } from "react-router-dom";
+import {
+  editCategory,
+  listCategories,
+} from "../../Redux/Actions/CategoryActions";
+import Message from "../LoadingError/Error";
+import Loading from "../LoadingError/Loading";
 
-const CategoriesTable = () => {
+const CategoriesTable = ({ categories }) => {
+  // const dispatch = useDispatch();
+  // const [categoryId, setCategoryId] = useState(null);
+
+  // const categoryEdit = useSelector((state) => state.categoryEdit);
+
+  // const { loading, error, category } = categoryEdit;
+  // useEffect(() => {
+  //   if (categoryId !== null) {
+  //     dispatch(editCategory(categoryId));
+  //   }
+  // }, [categoryId, dispatch]);
+  // const handleChangeCategoryId = (e, id) => {
+  //   e.preventDefault();
+  //   setCategoryId(id);
+  // };
+  const history=useHistory();
   return (
     <div className="col-md-12 col-lg-8">
+      {/* {error && <Message variant="alert-danger">{error}</Message>}
+      {loading && <Loading />} */}
       <table className="table">
         <thead>
           <tr>
-            <th>
-              <div className="form-check">
-                <input className="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <th>ID</th>
             <th>Name</th>
-            <th>Description</th>
             <th className="text-end">Action</th>
           </tr>
         </thead>
         {/* Table Data */}
         <tbody>
-          <tr>
-            <td>
-              <div className="form-check">
-                <input className="form-check-input" type="checkbox" value="" />
-              </div>
-            </td>
-            <td>1</td>
-            <td>
-              <b>Men clothes</b>
-            </td>
-            <td>Men clothes</td>
-            <td className="text-end">
-              <div className="dropdown">
-                <Link
-                  to="#"
-                  data-bs-toggle="dropdown"
-                  className="btn btn-light"
-                >
-                  <i className="fas fa-ellipsis-h"></i>
-                </Link>
-                <div className="dropdown-menu">
-                  <Link className="dropdown-item" to="#">
-                    Edit info
-                  </Link>
-                  <Link className="dropdown-item text-danger" to="#">
-                    Delete
-                  </Link>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="form-check">
-                <input className="form-check-input" type="checkbox" value="" />
-              </div>
-            </td>
-            <td>2</td>
-            <td>
-              <b>Women fashion</b>
-            </td>
-            <td>Fashions for Women</td>
+          {categories.map((cate) => (
+            <tr key={cate.id}>
+              <td>
+                <b>{cate.name}</b>
+              </td>
 
-            <td className="text-end">
-              <div className="dropdown">
-                <Link
-                  to="#"
-                  data-bs-toggle="dropdown"
-                  className="btn btn-light"
-                >
-                  <i className="fas fa-ellipsis-h"></i>
-                </Link>
-                <div className="dropdown-menu">
-                  <Link className="dropdown-item" to="#">
-                    Edit info
+              <td className="text-end">
+                <div className="dropdown">
+                  <Link
+                    to="#"
+                    data-bs-toggle="dropdown"
+                    className="btn btn-light"
+                  >
+                    <i className="fas fa-ellipsis-h"></i>
                   </Link>
-                  <Link className="dropdown-item text-danger" to="#">
-                    Delete
-                  </Link>
+                  <div className="dropdown-menu">
+                    <Link
+                      className="dropdown-item"
+                      to={`/category/${cate.id}/edit`}
+                    >
+                      Edit info
+                    </Link>
+                    <Link className="dropdown-item text-danger" to="#">
+                      Delete
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className="form-check">
-                <input className="form-check-input" type="checkbox" value="" />
-              </div>
-            </td>
-            <td>3</td>
-            <td>
-              <b>Kids clothes</b>
-            </td>
-            <td>Clothes for kids</td>
-
-            <td className="text-end">
-              <div className="dropdown">
-                <Link
-                  to="#"
-                  data-bs-toggle="dropdown"
-                  className="btn btn-light"
-                >
-                  <i className="fas fa-ellipsis-h"></i>
-                </Link>
-                <div className="dropdown-menu">
-                  <Link className="dropdown-item" to="#">
-                    Edit info
-                  </Link>
-                  <Link className="dropdown-item text-danger" to="#">
-                    Delete
-                  </Link>
-                </div>
-              </div>
-            </td>
-          </tr>
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

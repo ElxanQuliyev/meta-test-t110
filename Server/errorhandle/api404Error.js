@@ -15,9 +15,7 @@ const resError=async(error,req,res,next)=>{
     res.removeHeader('Content-Security-Policy');
     res.removeHeader('X-Content-Type-Options');
     res.removeHeader('Expect-CT');
-    
-     res.json({status:error.status,message:error.message})
-
+     res.send({status:error.status,message:error.message})
 }
 
 module.exports = {internalerror,resError}

@@ -5,7 +5,7 @@ const router=express.Router();
 
 router.get('/getall/:tvshowid/:seasonid',getallseries)
 router.get('/getbyid/:id',getseriesbyid)
-router.post('/add/:seaid',addseries)
+router.post('/add/:id',addseries)
 router.put('/update/:id',updateseries)
 router.patch('/delete/:id',deleteseries)
 router.patch('/restore/:id',restoreseries)

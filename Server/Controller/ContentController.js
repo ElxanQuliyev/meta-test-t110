@@ -8,7 +8,7 @@ const httpstatus = require('http-status');
 const allContents=async(req,res,next)=>{
     try {
         const lang=req.params.lang
-        const contentsref = query(collection(db, 'Content'),where('IsDeleted','==',false),orderBy("ModifiedOn"));
+        const contentsref = query(collection(db, 'Content'),where('is_Deleted','==',false),orderBy("ModifiedOn"));
         const contents= await getDocs(contentsref)
 
         const contentList=[]

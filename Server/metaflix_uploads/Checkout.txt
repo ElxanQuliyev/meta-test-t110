@@ -1,0 +1,1725 @@
+<body data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
+
+<header id="header" class="py-3 pb-1 pb-lg-3">
+<div class="main-container">
+<div class="row align-items-center">
+<div class="header-inner col-md-12">
+<div class="row justify-content-between">
+<div class="logo col-md-2 col-3">
+<a href="/" class="">
+<img width="120" class="img-fluid" src="/img/delta-light-logo.svg" alt="delta logo">
+</a>
+</div>
+<div class="
+                  nav-mobile-right
+                  align-items-center
+                  col-auto
+                  justify-content-end
+                  text-white
+                  d-flex d-lg-none
+                ">
+<a target="_blank" class="d-flex text-white align-items-center justify-content-between" href="https://wa.me/994558850086">
+<i class="fab fa-whatsapp text-white"></i>
+<span class="ms-2">(+994) 55 885 00 86</span>
+</a>
+</div>
+<div class="col-auto d-lg-flex d-none  text-center">
+<div class="nav-address me-5">
+<p class="text-white mb-0">Suleyman Rəhimov 197</p>
+<a style="font-size:14px;" target="_blank" class="text-white" href="https://goo.gl/maps/wxZksM46rggjmUqt5"><i class="fas fa-map-marker-alt"></i> Xəritə</a>
+</div>
+ <div class="nav-phone me-2">
+<a class="d-flex align-items-center text-white justify-content-between" target="_blank" href="tel:+994124412716">
+<img width="18" src="/img/icons/phone.png">
+<span class="ms-1">(+994) 12 441 27 16</span>
+</a>
+<a target="_blank" class="d-flex text-white align-items-center justify-content-between mt-1" href="https://wa.me/994558850086">
+<i class="fab fa-whatsapp text-white"></i>
+<span class="ms-2">(+994) 55 885 00 86</span>
+</a>
+</div>
+</div>
+<div class="col-auto d-lg-block d-none">
+<nav class="menu text-end ">
+<ul class="d-flex list-unstyled justify-content-end">
+<li class="">
+<a class="" href="/Identity/Account/Register">Qeydiyyat</a>
+</li>
+<li class="">
+<a class="" href="/Identity/Account/Login">Daxil ol</a>
+</li>
+<li>
+<div class="basketFly basketDiv text-white" role="button">
+<a href="/cart" class="ps-0" rel="nofollow">
+<i class="fa fa-shopping-cart"></i>
+<span id="basketQuantityTutar">1</span>
+<span id="basketQuantityNumber">(2099₼)</span>
+</a>
+</div>
+</li>
+</ul>
+<div class="header-social d-flex align-items-center justify-content-end">
+<div>
+<a class="btn btn-outline-light" target="_blank" href="https://www.instagram.com/deltastore.az/">
+<i class="fab fa-instagram"></i>
+</a>
+<a class="btn btn-outline-light" target="_blank" href="https://www.facebook.com/deltastore.az">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a class="btn btn-outline-light" target="_blank" href="https://www.youtube.com/channel/UCcT6foHcpZrDLpYDcanedpw">
+<i class="fab fa-youtube"></i>
+</a>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="header-bottom d-lg-block d-none">
+<div class="d-flex head-inline flex-wrap">
+<div class="header-dropped header-first-dropped">
+<a href="javascript:void(0)">Məhsullar </a>
+<ul class="dropped-menu list-unstyled">
+<li class="sub-menu">
+<a href="/search/noutbuklar-bakida-delta-store-magazasinda">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/73b5e88b-2048-49a2-859b-4dd40301059d.svg" alt="Noutbuklar ">
+<span>
+Noutbuklar
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+ <div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/gaming-3d-design">
+GAMING Noutbuklar
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/asus-tuf-gaming">
+ACER [Predator, Nitro]
+</a>
+</li>
+<li>
+<a href="/search/asus-gaming-delta-store-baki">
+ASUS [ROG, TUF, VivoBook]
+</a>
+</li>
+<li>
+<a href="/search/dell-g3-g5">
+DELL [Alienware, G3, G5]
+</a>
+</li>
+<li>
+<a href="/search/hp-omen-pavilion-gaming">
+HP [Omen, Victus, Pavilion]
+</a>
+</li>
+<li>
+<a href="/search/gaming-honor-noutbuk-baki-azerbaijan">
+LENOVO [Legion, Ideapad]
+</a>
+</li>
+<li>
+<a href="/search/gaming-msi-deltabaku-store">
+MSI Gaming Noutbukları
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/ofis-ve-ev-ucun">
+Ev, Təhsil və İş üçün Noutbuklar
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/acer-aspire-extensa">
+ACER [Aspire, Extensa]
+</a>
+</li>
+<li>
+<a href="/search/asus-vivobook-e-x-series">
+ASUS [VivoBook, D,E,F Series]
+</a>
+</li>
+<li>
+<a href="/search/dell-vostro-latitude">
+DELL [Vostro, Latitude]
+</a>
+</li>
+<li>
+<a href="/search/hp-pavilion-15-g7-g8-seriesgh">
+HP [Pavilion, G, 15 Series]
+ </a>
+</li>
+<li>
+<a href="/search/lenovo-ideapad-v-series">
+LENOVO [Ideapad, V, S Series]
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/premium-modell-r">
+Premium Model Noutbuklar
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/acer-swift-spin">
+ACER [Swift, Spin]
+</a>
+</li>
+<li>
+<a href="/search/asus-zenbook-x-series">
+ASUS [ZenBook, X Series]
+</a>
+</li>
+<li>
+<a href="/search/dell-xps">
+DELL [XPS]
+</a>
+</li>
+<li>
+<a href="/search/hp-spectre-envy">
+HP [Spectre, ENVY]
+</a>
+</li>
+<li>
+<a href="/search/lenovo-thinkpad-thinkbook-pro">
+LENOVO [Think &amp; PRO Series]
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/komputerler">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/9d3fb789-19c6-469f-8a23-07c8e16f1e4b.svg" alt="Masaüstü Kompüterlər ">
+<span>
+Masaüstü Kompüterlər
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/d-st-komp-terl-r">
+Hazır Dəst Kompüterlər
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/delta-gaming-pc">
+Delta GAMING PC
+</a>
+</li>
+ <li>
+<a href="/search/delta-design-pc">
+Delta DESIGN PC
+</a>
+ </li>
+<li>
+<a href="/search/delta-office-pc">
+Delta Office PC
+</a>
+</li>
+<li>
+<a href="/search/dell-alienware-pc">
+Dell ALIENWARE PC
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/mini-pc">
+Mini PC
+</a>
+</h6>
+<ul>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/monobloklar">
+Monobloklar
+</a>
+</h6>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/gaming-oyun">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/f1de51ae-9ba9-4a1c-9423-233b2c3bcacd.svg" alt="Gaming Zone">
+<span>
+Gaming Zone
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/gaming-oturacaqlar">
+Gaming Oturacaqlar
+</a>
+</h6>
+<ul>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/konsol-cihazlar-">
+Konsol Cihazları
+</a>
+</h6>
+<ul>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/oyun-aksesuarlar-">
+Oyun Aksesuarları
+</a>
+</h6>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/etraf-qurgular">
+ <img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/ea2bd4e7-8325-4fe1-97d8-ffcfc4e99c52.svg" alt="Komponentlər">
+<span>
+Komponentlər
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/pc-detallar">
+PC Əsas Detallar
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/ssd">
+CPU • Prosessorlar
+</a>
+</li>
+<li>
+<a href="/search/qida-bloklari-blokpitanya">
+RAM • Operativ Yaddaşlar
+</a>
+</li>
+<li>
+<a href="/search/hdd-ssd-yaddashlar-deltatech-baku">
+SSD • HDD • Yaddaş Qurğuları
+</a>
+</li>
+<li>
+<a href="/search/vga-ekran-kartlar-baki-delta-store">
+VGA • Videokartlar
+</a>
+</li>
+<li>
+<a href="/search/videokartlar">
+Ana Platalar
+</a>
+</li>
+<li>
+<a href="/search/korpuslar-case">
+Case • Korpuslar
+</a>
+</li>
+<li>
+<a href="/search/kulerl-r">
+Kulerlər
+</a>
+</li>
+<li>
+<a href="/search/qida-bloklari-blok-pitaniya-delta-store-baki">
+PSU • Qida Blokları
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/pc-lav-detallar">
+Periferiya Qurğuları
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/klaviaturalar">
+Klaviaturalar
+</a>
+</li>
+<li>
+<a href="/search/mauslar">
+Mauslar
+</a>
+</li>
+<li>
+<a href="/search/maus-klav-d-st">
+Maus-Klav. Dəst
+</a>
+</li>
+<li>
+<a href="/search/web-camera">
+Web Camera
+</a>
+</li>
+<li>
+<a href="/search/usb-xarici-s-rt-diskl-r">
+USB Xarici Sərt Disklər
+</a>
+</li>
+<li>
+<a href="/search/usb-dvd-rw-disk-oxudan">
+USB Fləşkart Yaddaşlar
+</a>
+</li>
+<li>
+<a href="/search/usb-dvd-rw-disk-oxudan">
+USB DVD-RW Disk Oxudan
+</a>
+</li>
+<li>
+<a href="/search/ups-avadanliqlari-bakida-delta-store">
+UPS-Lər
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/s-s-qur-ular-">
+Səs Qurğuları və Digər
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/nb-t-mizlik-d-sti">
+Səs Gücləndiricilər
+</a>
+</li>
+<li>
+<a href="/search/kovrikl-r">
+Qulaqlıqlar
+</a>
+</li>
+<li>
+<a href="/search/hdd-ssd-n-usb-box-lar">
+HDD-SSD üçün USB Box-lar
+</a>
+</li>
+<li>
+<a href="/search/s-s-g-cl-ndiricil-r">
+ Səs Gücləndiricilər
+</a>
+</li>
+<li>
+<a href="/search/qulaql-qlar">
+Qulaqlıqlar
+</a>
+</li>
+<li>
+<a href="/search/mikrofonlar">
+Mikrofonlar
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/yadda-qur-ular-hdd-ssd">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/1f615ffb-0f8d-4c00-9743-69572a5a5e66.svg" alt="Monitorlar">
+<span>
+Monitorlar
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/gaming-monitorlar">
+GAMING Monitorlar
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/32-in-gaming-monitorlar">
+4K - 8K Monitorlar
+</a>
+</li>
+<li>
+<a href="/search/27-in-gaming-monitorlar">
+32 inç Gaming Monitorlar
+</a>
+</li>
+<li>
+<a href="/search/24-in-gaming-monitorlar">
+27 inç Gaming Monitorlar
+</a>
+</li>
+<li>
+<a href="/search/24-in-gaming-monitorlar">
+24 inç Gaming Monitorlar
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/z-4k-8k-monitorlar">
+Digər Monitorlar
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/32-in-monitorlar">
+32 inç Monitorlar
+</a>
+</li>
+  <li>
+<a href="/search/27-in-monitorlar">
+27 inç Monitorlar
+</a>
+</li>
+<li>
+<a href="/search/24-in-monitorlar">
+24 inç Monitorlar
+</a>
+</li>
+<li>
+<a href="/search/22-in-monitorlar">
+22 inç Monitorlar
+</a>
+</li>
+<li>
+<a href="/search/18-21-in-monitorlar">
+18-21 inç Monitorlar
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/-b-k-avadanl-qlar-modeml-r">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/5f656f10-a803-4f47-9ec8-daa1a8024990.svg" alt="Şəbəkə Avadanlıqları">
+<span>
+Şəbəkə Avadanlıqları
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+</li>
+<li class="sub-menu">
+<a href="/search/printer-v-kartricl-r">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/6fcd415a-a9c3-4684-ac98-11c23724fdc4.svg" alt="Ofis Avadanlığı">
+<span>
+Ofis Avadanlığı
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/printerl-r">
+Yazı Cihazları
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/printerl-r">
+3-in-1 Printerlər
+</a>
+</li>
+<li>
+<a href="/search/skanerl-r">
+Tək Printerlər
+</a>
+</li>
+<li>
+<a href="/search/skanerl-r">
+Skanerlər
+</a>
+</li>
+<li>
+<a href="/search/barkod-printerleri-baki-delta-store">
+Barkod Printerləri
+</a>
+</li>
+<li>
+<a href="/search/barkod-oxuyucular">
+Barkod Oxuyucular
+</a>
+</li>
+</ul>
+</div>
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/zz-g-r-nt-cihazlar-">
+Görüntü Cihazları
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/presenter">
+Presenter
+</a>
+</li>
+<li>
+<a href="/search/proyektorlar">
+Proyektorlar
+</a>
+</li>
+<li>
+<a href="/search/proyrktor-perdesi-baki-deltastore">
+Proyektor Pərdələri
+</a>
+</li>
+<li>
+<a href="/search/proyektor-qolu-ceiling-mount-">
+Proyektor Qolu [Ceiling Mount]
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/kabel-ve-adapterler-deltastore-baki-aze">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/3d812740-20cf-428b-a488-9b791a815fab.svg" alt="Adapter və Kabellər">
+<span>
+Adapter və Kabellər
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/umimi-mehsullar-xirdavat">
+Digər Məhsullar
+</a>
+</h6>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="sub-menu">
+<a href="/search/servis-xidmeti-ve-aksesuarlari">
+<img width="25" style="object-fit:contain" class="img-fluid" src="/content/images/642878a8-d7e8-44c5-9671-7fda78086a6c.svg" alt="Servis Xidməti və Aksesuar ">
+<span>
+Servis Xidməti və Aksesuar
+</span>
+<i class="fas fa-angle-right"></i>
+</a>
+<div class="big-dropped">
+<div class="">
+<div class="d-flex">
+<div class="big-dropped-item">
+<h6>
+<a class="p-0" href="/search/noutbuk-ve-pc-aksesuarlari-delta-store-baki">
+Noutbuk və PC Üçün
+</a>
+</h6>
+<ul>
+<li>
+<a href="/search/noutbuk-cantalari-baki-delta-store">
+Noutbuk Çantaları
+</a>
+</li>
+<li>
+<a href="/search/noutbuk-alti-kulerler-baki-delta-store">
+Noutbuk Soyuducu Altlıq
+</a>
+</li>
+<li>
+<a href="/search/temizleyici-notbuk-ucun-baki-delta-store">
+Təmizləyici Naborlar
+</a>
+</li>
+<li>
+<a href="/search/kaburalar-hdd-ucun-delta-store-baki">
+HDD-SSD üçün Kaburalar
+</a>
+</li>
+<li>
+<a href="/search/termopastalar-bakida-delta-store-magazasinda">
+Termopastalar
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="header-dropped">
+<a href="">Kompaniyalar</a>
+<ul class="dropped-menu list-unstyled">
+<li>
+<a href="/search?dayproducts=true">Günün məhsulları</a>
+</li>
+<li><a href="/search?discountproducts=true">Endirimli məhsullar</a></li>
+</ul>
+</div>
+<div class="header-search my-2 my-md-0">
+<form action="/search" id="searchForm">
+<div class="input-group">
+<input type="search" name="q" class="form-control" autocomplete="off" placeholder="axtardığınız məhsulun seriya, model və ya adını yazın...">
+<span class="input-group-text bg-white" id="basic-addon2">
+ <a href="#" onclick="$('#searchForm').submit();" class="pull-right">
+<i class="fa fa-search"></i>
+</a>
+</span>
+</div>
+</form>
+<div class="search-result-drop bg-white py-3">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-menu-search d-block d-lg-none mt-2">
+<div class="container-fluid">
+<div class="row justify-content-between">
+<div class="col-auto ps-0">
+<div class=" barMenu">
+<img style="" width="28" height="32" src="/img/icons/6351903_burger_list_menu_navigation_icon.svg" alt="Alternate Text">
+</div>
+</div>
+<div class="col-9">
+<form action="/search" id="searchFormMobile">
+<div class="input-group">
+<input type="search" class="form-control" name="q" placeholder="Axtar..." aria-label="Axtar" aria-describedby="basic-addon2">
+<span class="input-group-text bg-white" id="basic-addon2">
+<a href="#" onclick="$('#searchFormMobile').submit();" class="pull-right">
+<i class="fa fa-search"></i>
+</a>
+</span>
+</div>
+</form>
+</div>
+<div class="col-auto p-0">
+<div class="basket basketDiv" role="button">
+<a href="/cart" class="ps-0 text-white" rel="nofollow">
+<img style="" width="28" height="30" src="/img/icons/7340515_e-commerce_online_shopping_ui_shopping bag_icon (1).svg" alt="Alternate Text">
+</a>
+</div>
+</div>
+</div>
+<div class="mobile-category">
+<ul class="d-flex list-unstyled flex-wrap">
+<li class="mobile-category-item" cat-subid="6028">
+<img src="/content/images/73b5e88b-2048-49a2-859b-4dd40301059d.svg" alt="Noutbuklar ">
+<a href="/search/noutbuklar-bakida-delta-store-magazasinda">
+<span>
+Noutbuklar
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6054">
+<img src="/content/images/9d3fb789-19c6-469f-8a23-07c8e16f1e4b.svg" alt="Masaüstü Kompüterlər ">
+<a href="/search/komputerler">
+<span>
+Masaüstü Kompüterlər
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6055">
+<img src="/content/images/f1de51ae-9ba9-4a1c-9423-233b2c3bcacd.svg" alt="Gaming Zone">
+<a href="/search/gaming-oyun">
+ <span>
+Gaming Zone
+</span>
+</a>
+</li>
+<div class="category-mobile-accordion" cat-childrenid="6028">
+<div class="accordion-container">
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/gaming-3d-design">
+GAMING Noutbuklar
+</a>
+<div class="content">
+<ul class="list-unstyled">
+<li>
+<a href="/search/asus-tuf-gaming">
+ACER [Predator, Nitro]
+</a>
+</li>
+<li>
+<a href="/search/asus-gaming-delta-store-baki">
+ASUS [ROG, TUF, VivoBook]
+</a>
+</li>
+<li>
+<a href="/search/dell-g3-g5">
+DELL [Alienware, G3, G5]
+</a>
+</li>
+<li>
+<a href="/search/hp-omen-pavilion-gaming">
+HP [Omen, Victus, Pavilion]
+</a>
+</li>
+<li>
+<a href="/search/gaming-honor-noutbuk-baki-azerbaijan">
+LENOVO [Legion, Ideapad]
+</a>
+</li>
+<li>
+<a href="/search/gaming-msi-deltabaku-store">
+MSI Gaming Noutbukları
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/ofis-ve-ev-ucun">
+Ev, Təhsil və İş üçün Noutbuklar
+</a>
+<div class="content">
+<ul class="list-unstyled">
+<li>
+<a href="/search/acer-aspire-extensa">
+ACER [Aspire, Extensa]
+</a>
+ </li>
+<li>
+<a href="/search/asus-vivobook-e-x-series">
+ASUS [VivoBook, D,E,F Series]
+</a>
+</li>
+<li>
+<a href="/search/dell-vostro-latitude">
+DELL [Vostro, Latitude]
+</a>
+</li>
+<li>
+<a href="/search/hp-pavilion-15-g7-g8-seriesgh">
+HP [Pavilion, G, 15 Series]
+</a>
+</li>
+<li>
+<a href="/search/lenovo-ideapad-v-series">
+LENOVO [Ideapad, V, S Series]
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/premium-modell-r">
+Premium Model Noutbuklar
+</a>
+<div class="content">
+<ul class="list-unstyled">
+<li>
+<a href="/search/acer-swift-spin">
+ACER [Swift, Spin]
+</a>
+</li>
+<li>
+<a href="/search/asus-zenbook-x-series">
+ASUS [ZenBook, X Series]
+</a>
+</li>
+<li>
+<a href="/search/dell-xps">
+DELL [XPS]
+</a>
+</li>
+<li>
+<a href="/search/hp-spectre-envy">
+HP [Spectre, ENVY]
+</a>
+</li>
+<li>
+<a href="/search/lenovo-thinkpad-thinkbook-pro">
+LENOVO [Think &amp; PRO Series]
+</a>
+</li> 
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="category-mobile-accordion" cat-childrenid="6054">
+<div class="accordion-container">
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/d-st-komp-terl-r">
+Hazır Dəst Kompüterlər
+</a>
+<div class="content">
+<ul class="list-unstyled">
+<li>
+<a href="/search/delta-gaming-pc">
+Delta GAMING PC
+</a>
+</li>
+<li>
+<a href="/search/delta-design-pc">
+Delta DESIGN PC
+</a>
+</li>
+<li>
+<a href="/search/delta-office-pc">
+Delta Office PC
+</a>
+</li>
+<li>
+<a href="/search/dell-alienware-pc">
+Dell ALIENWARE PC
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/monobloklar">
+Monobloklar
+</a>
+<div class="content">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/mini-pc">
+Mini PC
+</a>
+<div class="content">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="category-mobile-accordion" cat-childrenid="6055">
+<div class="accordion-container">
+<div class="set">
+ <i class="fa fa-plus"></i>
+<a href="/search/gaming-oturacaqlar">
+Gaming Oturacaqlar
+</a>
+<div class="content">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/konsol-cihazlar-">
+Konsol Cihazları
+</a>
+<div class="content">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/oyun-aksesuarlar-">
+Oyun Aksesuarları
+</a>
+<div class="content">
+<ul class="list-unstyled">
+</ul>
+</div>
+</div>
+</div>
+</div>
+<li class="mobile-category-item" cat-subid="6056">
+<img src="/content/images/ea2bd4e7-8325-4fe1-97d8-ffcfc4e99c52.svg" alt="Komponentlər">
+<a href="/search/etraf-qurgular">
+<span>
+Komponentlər
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6099">
+<img src="/content/images/1f615ffb-0f8d-4c00-9743-69572a5a5e66.svg" alt="Monitorlar">
+<a href="/search/yadda-qur-ular-hdd-ssd">
+<span>
+Monitorlar
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6105">
+<img src="/content/images/5f656f10-a803-4f47-9ec8-daa1a8024990.svg" alt="Şəbəkə Avadanlıqları">
+<a href="/search/-b-k-avadanl-qlar-modeml-r">
+<span>
+Şəbəkə Avadanlıqları
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6106">
+<img src="/content/images/6fcd415a-a9c3-4684-ac98-11c23724fdc4.svg" alt="Ofis Avadanlığı">
+<a href="/search/printer-v-kartricl-r">
+<span>
+Ofis Avadanlığı
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6108">
+<img src="/content/images/3d812740-20cf-428b-a488-9b791a815fab.svg" alt="Adapter və Kabellər">
+<a href="/search/kabel-ve-adapterler-deltastore-baki-aze">
+<span>
+Adapter və Kabellər
+</span>
+</a>
+</li>
+<li class="mobile-category-item" cat-subid="6200">
+<img src="/content/images/642878a8-d7e8-44c5-9671-7fda78086a6c.svg" alt="Servis Xidməti və Aksesuar ">
+<a href="/search/servis-xidmeti-ve-aksesuarlari">
+<span>
+Servis Xidməti və Aksesuar
+</span>
+</a>
+</li>
+<div class="category-mobile-accordion" cat-childrenid="6200">
+<div class="accordion-container">
+<div class="set">
+<i class="fa fa-plus"></i>
+<a href="/search/noutbuk-ve-pc-aksesuarlari-delta-store-baki">
+Noutbuk və PC Üçün
+</a>
+<div class="content">
+<ul class="list-unstyled">
+<li>
+<a href="/search/noutbuk-cantalari-baki-delta-store">
+Noutbuk Çantaları
+</a>
+</li>
+<li>
+<a href="/search/noutbuk-alti-kulerler-baki-delta-store">
+Noutbuk Soyuducu Altlıq
+</a>
+</li>
+<li>
+<a href="/search/temizleyici-notbuk-ucun-baki-delta-store">
+Təmizləyici Naborlar
+</a>
+</li>
+<li>
+<a href="/search/kaburalar-hdd-ucun-delta-store-baki">
+HDD-SSD üçün Kaburalar
+</a>
+</li>
+<li>
+<a href="/search/termopastalar-bakida-delta-store-magazasinda">
+Termopastalar
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<div class="breacrumb-section my-3">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-12">
+<section id="categoryTopLevel" style="background: #f4f5f7" class="py-4">
+<div class="main-container">
+<ul class="d-flex flex-wrap list-unstyled m-0">
+<li>
+<a href="/">
+<i class="fas fa-home mr-1"></i>
+Ana səhifə
+</a>
+ </li>
+<li>
+<span>Sifariş</span>
+</li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div class="spad">
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1">
+<div class="page-content-holder">
+<div class="page-content-header">
+<h2>Sifariş</h2>
+</div>
+<div id="checkout-holder">
+<section class="">
+<div class="row checkout-form">
+<div class="col-lg-8">
+<div class="contact-container my-3">
+<h4 class="mb-3">Ümumi məlumatlar</h4>
+<form id="contactDetailsForm" novalidate="novalidate">
+<div class="form-group mb-3">
+<label>Ad və Soyad</label>
+<input name="FullName" type="text" class="form-control" required="" placeholder="Ad və Soyad">
+</div>
+<div class="form-row mb-3">
+<div class="col-12">
+<div class="row">
+<div class="col-6">
+<label>Email</label>
+<input name="Email" type="email" class="form-control" required="" placeholder="contact@email.com">
+</div>
+<div class="col-6">
+<label>Telefon</label>
+<input name="PhoneNumber" type="tel" class="form-control ltr-dir " placeholder="+994 XXX XX XX">
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" value="d9606ed4-80ae-41b4-87d9-67806a424cba" name="UserID">
+<div class="form-group mb-3">
+<div class="create-item py-0">
+<label for="CreateAccount">
+Yeni Hesab
+<input id="CreateAccount" name="CreateAccount" type="checkbox" value="true">
+<input name="CreateAccount" type="hidden" value="false">
+<span class="checkmark"></span>
+</label>
+<a href="/identity/account/login?returnurl=/checkout" class="text-info" style="font-size:14px">
+Mövcud hesabınız var?
+</a>
+</div>
+</div>
+</form>
+<script>
+    $("#contactDetailsForm").validate({
+        ignore: [],
+        errorClass: "alert alert-danger mb-0 rounded-0",
+        errorElement: "div",
+        rules: {
+            FullName: {
+                required: true,
+                minlength: 3,
+                maxlength: 25
+            },
+            Email: {
+                email: true,
+                required: true,
+            },
+            PhoneNumber: {
+                required: true,
+            }
+        },
+        messages: {
+            FullName: {
+                required: "Ad v&#x259; Soyad daxil edin",
+                minlength: "Ad v&#x259; Soyad minimum 8 h&#x259;rif olmal&#x131;d&#x131;",
+                maxlength: "Ad v&#x259; Soyad maximum 25 h&#x259;rifli ola bil&#x259;r"
+            },
+            Email: {
+                email: "Email d&#xFC;zg&#xFC;n deyil",
+                required: "Email daxil edin",
+            },
+            PhoneNumber: {
+                required: "Telefon n&#xF6;mr&#x259;nizi daxil edin",
+            }
+        },
+        highlight: function (element, errorClass) {
+            $(element).removeClass(errorClass);
+        }
+    });
+</script> </div>
+<div class="shipping-container  my-3">
+<h4 class="mb-3">Çatdırılma ünvanı</h4>
+<form id="shippingDetailsForm" novalidate="novalidate">
+<div class="form-row mb-3">
+<div class="col">
+<label>Ünvan</label>
+<textarea name="Address" placeholder="Ünvan" class="form-control" style="border: 2px solid #ebebeb;"></textarea>
+</div>
+</div>
+</form>
+<script>
+    $("#shippingDetailsForm").validate({
+        ignore: [],
+        errorClass: "alert alert-danger mb-0 rounded-0",
+        errorElement: "div",
+        rules: {
+            Address: {
+                required: true,
+            },
+        },
+        messages: {
+            Address: {
+                required: "&#xDC;nvan daxil edin",
+            },
+        },
+        highlight: function (element, errorClass) {
+            $(element).removeClass(errorClass);
+        }
+    });
+</script> </div>
+<div class="biling-container  my-3">
+<h4>Ödəniş üsulu</h4>
+<div class="accordion" id="paymentOptions">
+<div class="card">
+<div class="card-header">
+<h2 class="mb-0">
+<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cashOnDeliveryContainer" aria-expanded="false">
+Qapıda nağd ödəniş
+</button>
+<i class="fas fa-wallet text-info"></i>
+</h2>
+</div>
+<div id="cashOnDeliveryContainer" data-parent="#paymentOptions" style="">
+<div class="card-body">
+<button type="button" id="submitCashOnDelivery" class="site-btn place-btn btn-lg btn-block">
+Sifarişi tamamla
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>   
+    $("#creditCardForm").validate({
+        errorClass: "alert alert-danger mb-0 rounded-0",
+        errorElement: "div",
+        rules: {
+            CCName: {
+                required: true,
+            },
+            CCCardNum1: {
+                required: true,
+                number: true,
+                minlength: 4,
+                maxlength: 4
+            },
+            CCCardNum2: {
+                required: true,
+                number: true,
+                minlength: 4,
+                maxlength: 4
+            },
+            CCCardNum3: {
+                required: true,
+                number: true,
+                minlength: 4,
+                maxlength: 4
+            },
+            CCCardNum4: {
+                required: true,
+                number: true,
+                minlength: 4,
+                maxlength: 4
+            },
+            CCExpiryMonth: {
+                required: true,
+            },
+            CCExpiryYear: {
+                required: true,
+            },
+            CCCVC: {
+                required: true,
+                number: true
+            },
+        },
+        messages: {
+            CCName: {
+                required: "CreditCard.Validations.CardHolderNameRequired"
+            },
+            CCCardNum1: {
+                required: "CreditCard.Validations.CardNumberRequired",
+                number: "CreditCard.Validations.CardNumberMustBeValid",
+                minlength: "CreditCard.Validations.CardNumberMustBeValid",
+                maxlength: "CreditCard.Validations.CardNumberMustBeValid"
+            },
+            CCCardNum2: {
+                required: "CreditCard.Validations.CardNumberRequired",
+                number: "CreditCard.Validations.CardNumberMustBeValid",
+                minlength: "CreditCard.Validations.CardNumberMustBeValid",
+                maxlength: "CreditCard.Validations.CardNumberMustBeValid"
+            },
+            CCCardNum3: {
+                required: "CreditCard.Validations.CardNumberRequired",
+                number: "CreditCard.Validations.CardNumberMustBeValid",
+                minlength: "CreditCard.Validations.CardNumberMustBeValid",
+                maxlength: "CreditCard.Validations.CardNumberMustBeValid"
+            },
+            CCCardNum4: {
+                required: "CreditCard.Validations.CardNumberRequired",
+                number: "CreditCard.Validations.CardNumberMustBeValid",
+                minlength: "CreditCard.Validations.CardNumberMustBeValid",
+                maxlength: "CreditCard.Validations.CardNumberMustBeValid"
+            },
+            CCExpiryMonth: {
+                required: "CreditCard.Validations.CardExpiryMonthRequired",
+            },
+            CCExpiryYear: {
+                required: "CreditCard.Validations.CardExpiryYearRequired",
+            },
+            CCCVC: {
+                required: "CreditCard.Validations.CVCRequired",
+                number: "CreditCard.Validations.CVCMustBeValid"
+            },
+        },
+        highlight: function (element, errorClass) {
+            $(element).removeClass(errorClass);
+        },
+        errorPlacement: function (error, element) {
+            if (element.hasClass('cardnum')) {
+                    $(".card-number-errors").html(error);
+            }else{
+          	    error.insertAfter( element );
+            }
+        }
+    });
+    $("#submitCreditCard").click(submitOrderFormViaCreditCard);
+    $("#submitCashOnDelivery").click(submitOrderFormViaCashOnDelivery);
+    $("#submitPayPalConfirm").click(submitOrderFormViaPayPal);
+    function submitOrderFormViaCreditCard() {
+        $("[name=CCCardNumber]").val($("#CCCardNumber1").val() + $("#CCCardNumber2").val() + $("#CCCardNumber3").val() + $("#CCCardNumber4").val());
+
+        if ($("#contactDetailsForm").valid() && $("#shippingDetailsForm").valid() && $("#creditCardForm").valid()) {
+            addLoader("checkout-holder");
+            $.ajax({
+                url: '/place-order',
+                type: "POST",
+                data: $("#contactDetailsForm").serialize() + "&" + $("#shippingDetailsForm").serialize() + "&" + $("#creditCardForm").serialize()
+            })
+            .done(function (response) {
+                removeLoader("checkout-holder");
+                if (response.success) {
+                    Swal.fire("Thanks", "OrderPlacedSuccessfully", "success")
+                        .then((value) => {
+                            window.location.href = "/tracking?orderplaced=true" + "&orderid=" + response.OrderID;
+                        });
+                }
+                else {
+                    Swal.fire("Error", response.message, "error");
+                }
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                 removeLoader("checkout-holder");
+
+                 Swal.fire("Error", "GenericErrorMessage", "error");
+
+                 console.log('jqXHR:' + jqXHR);
+                 console.log('textStatus:' + textStatus);
+                 console.log('errorThrown:' + errorThrown);
+             });
+        }
+        else {
+            $("#contactDetailsForm").valid();
+            $("#shippingDetailsForm").valid();
+            $("#creditCardForm").valid();
+
+            Swal.fire("Warning", "Validations.PleaseCompleteRequiredFields", "warning");
+        }
+    }
+
+    function submitOrderFormViaCashOnDelivery() {
+        if ($("#contactDetailsForm").valid() && $("#shippingDetailsForm").valid()) {
+            addLoader("checkout-holder");
+            $.ajax({
+                url: '/place-order-cod',
+                type: "POST",
+                data: $("#contactDetailsForm").serialize() + "&" + $("#shippingDetailsForm").serialize()
+            })
+                .done(function (response) {
+                   console.log(response)
+                removeLoader("checkout-holder");
+                if (response.success) {
+                    Swal.fire("Sifari&#x15F;iniz u&#x11F;urla qeyd&#x259; al&#x131;nd&#x131;.", "U&#x11F;urlu", "success")
+                        .then((value) => {
+                            window.location.href = "/tracking?orderplaced=true" + "&orderid=" + response.orderID;
+                        });
+                }
+                else {
+                    Swal.fire("Error", response.message, "error");
+                }
+            })
+             .fail(function(jqXHR, textStatus, errorThrown) {
+                 removeLoader("checkout-holder");
+
+                 Swal.fire("Error", "Bir x&#x259;ta ba&#x15F; verdi", "error");
+
+                 console.log('jqXHR:' + jqXHR);
+                 console.log('textStatus:' + textStatus);
+                 console.log('errorThrown:' + errorThrown);
+             });
+        }
+        else {
+            $("#contactDetailsForm").valid();
+            $("#shippingDetailsForm").valid();
+
+            Swal.fire("Warning", "Z&#x259;hm&#x259;t olmasa b&#xFC;t&#xFC;n z&#x259;ruri xanalar&#x131; doldurun", "warning");
+        }
+    }
+
+    var paypalOrderDetails;
+    function submitOrderFormViaPayPal() {        
+        $(".error-message", "#paypalErrorHolder").html("");
+
+        var transactionID, accountName, accountEmail;
+
+        if (paypalOrderDetails) {
+            transactionID = paypalOrderDetails.id;
+            accountName = paypalOrderDetails.payer.name.given_name + ' ' + paypalOrderDetails.payer.name.surname;
+            accountEmail = paypalOrderDetails.payer.email_address;
+        }
+
+        if (transactionID && accountName && accountEmail) {
+            addLoader("checkout-holder");
+            $.ajax({
+                url: '/place-order-paypal',
+                type: "POST",
+                data: $("#contactDetailsForm").serialize() + "&" + $("#shippingDetailsForm").serialize() + "&transactionID=" + transactionID + "&accountName=" + accountName + "&accountEmail=" + accountEmail
+            })
+            .done(function (response) {
+                removeLoader("checkout-holder");
+                if (response.success) {
+                    Swal.fire("Thanks", "OrderPlacedSuccessfully", "success")
+                        .then((value) => {
+                            window.location.href = "/tracking?orderplaced=true" + "&orderid=" + response.OrderID;
+                        });
+                }
+                else {
+                    //paypal payment has been completed, there is error on our side so we handle it from here onwards.
+                    $("#paypalHolder").hide();
+                    $(".paypal-payment-info", "#paypalContainer").hide();
+
+                    $(".error-message", "#paypalErrorHolder").html(response.message);
+                    $("#paypalErrorHolder").show();
+                }
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                 removeLoader("checkout-holder");
+
+                 Swal.fire("Error", "GenericErrorMessage", "error");
+
+                 console.log('jqXHR:' + jqXHR);
+                 console.log('textStatus:' + textStatus);
+                 console.log('errorThrown:' + errorThrown);
+             });
+        }
+        else {
+            Swal.fire("Warning", "Validations.PayPalOrderIssue", "warning");
+        }
+    }
+</script> </div>
+</div>
+<div class="col-lg-4">
+<div class="place-order">
+<h4>Sifarişlər</h4>
+<div class="order-total">
+<ul class="order-table">
+<li>
+Məhsul
+<span>Umumi</span>
+</li>
+<li class="fw-normal">
+<div>
+HP Victus Gaming 16-d0023dx Core i5 | 8GB | 256GB | RTX3050-4GB | 16.1 FHD IPS | Windows11
+</div>
+<i class="ltr-dir" title="ItemQuantity">x 1</i> <span class="ltr-dir">2099₼</span>
+</li>
+ <li class="fw-normal">
+Sub Total
+<span class="ltr-dir">2099₼</span>
+</li>
+<li class="fw-normal">
+Endirim
+<span class="ltr-dir ">0₼</span>
+</li>
+<li class="fw-normal">
+Çatdırılma
+<span class="ltr-dir">0₼</span>
+</li>
+<li class="total-price">
+Yekun məbləğ
+<span class="ltr-dir">2099₼</span>
+</li>
+</ul>
+<div class="my-2 small">
+<i class="pr-2 fas fa-cart-arrow-down "></i>
+<a href="/cart" class="text-info mt-3 text-capitalize ms-3">Səbətdə dəyişiklik et</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer id="footer" class="py-3">
+<div class="container">
+<div class="row justify-content-lg-between justify-content-center align-items-center">
+<div class="col-lg-2 col-4 text-center">
+<img class="img-fluid" src="/img/delta-light-logo.svg" alt="delta logo">
+</div>
+<div class="col-lg-4">
+<div class="d-flex justify-content-center align-items-center">
+<div class="social-media">
+<ul class="d-flex justify-content-center my-3 list-unstyled">
+<li>
+<a target="_blank" href="https://www.facebook.com/deltastore.az">
+<img src="/assets/icons/fb.svg" alt="">
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.instagram.com/deltastore.az/">
+<img src="/assets/icons/insta.svg" alt="">
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.youtube.com/channel/UCcT6foHcpZrDLpYDcanedpw">
+<img src="/assets/icons/youtube.svg" alt="">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+<div class="copywrite">
+<p class="text-white">© Delta Store 2021. Bütün huquqlar qorunur</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+<div id="productModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="btnModalProduct close btn btn-close" data-bs-dismiss="modal" aria-label="Close">
+</button>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div> 
+
+<div id="exmp" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+
+<div class="contact">
+<div class="container">
+<div class="contact-middle">
+<button type="button" class="btnModalContact close" data-dismiss="modal" aria-label="Close">
+<img class="img-fluid" src="/assets/icons/cancel 2.svg" alt="">
+</button>
+<div class="row align-items-center">
+<div class="col">
+<div class="contact-area">
+<div class="contact-top">
+<span>əlaqə</span>
+<p><span class="tel">+994 55 885 00 86 </span>&nbsp;<b>whatsapp</b></p>
+<p><span>+994 70 555 06 06 </span> &nbsp;<b>qaynar xətt</b></p>
+</div>
+<div class="social-media">
+<span>sosial media</span>
+<ul class="d-flex list-unstyled">
+<li>
+<a target="_blank" href="#">
+<img src="/assets/icons/fb.svg" alt="">
+</a>
+</li>
+<li>
+<a target="_blank" href="">
+<img src="/assets/icons/insta.svg" alt="">
+</a>
+</li>
+<li>
+<a target="_blank" href="">
+<img src="/assets/icons/youtube.svg" alt="">
+</a>
+</li>
+</ul>
+</div>
+<div class="col-md-5">
+<div class="contact-form">
+<span>mail göndər:</span>
+<form action="" class="mt-4">
+<div class="mb-3">
+<div class="row">
+<div class="col-sm-6">
+<input class="form-control" placeholder="ad:" type="text">
+</div>
+<div class="col-sm-6">
+<input class="form-control" placeholder="soyad:" type="text">
+</div>
+</div>
+</div>
+<div class="mb-3">
+<textarea rows="5" class="form-control" placeholder="mətni yazın:" type="text"></textarea>
+</div>
+<div class="text-center">
+<button class="mybtn1">göndər</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/assets/libs/owlcarousel/js/owl.carousel.min.js"></script>
+<script src="/lib/slick/slick.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+        (function () {
+            $(".myAccordion .mySet h6").on("click", function () {
+                if ($(this).hasClass("active")) {
+                    $(this).removeClass("active");
+
+                    $(".myAccordion .mySet i")
+                        .removeClass("fas fa-caret-up")
+                        .addClass("fas fa-caret-down");
+                } else {
+                    $(".myAccordion .mySet i")
+                        .removeClass("fas fa-caret-up")
+                        .addClass("fas fa-caret-down");
+                    $(this).find("i")
+                        .removeClass("fas fa-caret-down")
+                        .addClass("fas fa-caret-up");
+                    $(".myAccordion .mySet").removeClass("active");
+                    $(this).addClass("active");
+
+
+                }
+                $(this).next().slideToggle(200);
+            });
+        }())
+    </script>
+
+<script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 30, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 800, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        });
+    </script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/lib/jquery/dist/jquery.lazy.min.js"></script>
+<script>    
+    var cartItems = [{"ItemID":3421,"Quantity":1,"Price":2099.00,"ProductTotal":2099.00}];
+    var darkModeEnabled = false;
+
+    const DIR = 'ltr';
+    const ISRTL = DIR == 'rtl';
+    const CURRENCYSYMBOL = "&#x20BC;";
+    const PRICECURRENCYPOSITION = "{price}&#x20BC;";
+    const DIGITSAFTERDECIMAL = "0";
+
+    const CARTURL = "/cart";
+    const CARTFETCHURL = "/cart?ispopup=true";
+    const ADDITEMTOCARTURL = "/add-to-cart";
+    const GETCARTITEMSURL = "/get-cart-items";
+    const RESOURCE_ADDINGPRODUCTTOCART = 'S&#x259;b&#x259;t&#x259; &#x259;lav&#x259; edilir';
+    const RESOURCE_ERRORHEADING = 'Error';
+    const RESOURCE_GENERICERRORMESSAGE = 'Bir s&#x259;hf ba&#x15F; verdi';
+    const RESOURCE_MENULABEL = 'PP.Menu';
+    const RESOURCE_CATEGORIESLABEL = 'PP.Header.Menu.Categories';
+    const RESOURCE_MENUICON = '&#x25BA;';
+</script>
+<script>
+        //toast to be displayed
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'bottom',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            onOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer);
+                toast.addEventListener('mouseleave', Swal.resumeTimer);
+            }
+        });
+
+    </script>
+<script src="/assets/js/app2.js?v=b_DUDUsMEbHx7dIzG1oiJuqvgklf7v5UJ_5dcYE86Bk"></script>
+
+
+<div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe><div id="jivo-iframe-container" style="opacity: 0; visibility: hidden; width: 0px; height: 0px; overflow: hidden;"><iframe src="javascript:void(0)" allow="autoplay" title="Jivochat" name="jivo_container" id="jivo_container" frameborder="no"></iframe></div><jdiv><jdiv class="globalClass_de83"><jdiv style="animation: 300ms cubic-bezier(0.39, 0.24, 0.21, 0.99) 0s 1 normal both running Label_CLOSE_WIDGET_360b; display: block; z-index: 2147483646; position: fixed;"><jdiv class="label_7566 _bottom_fffc notranslate" id="jvlabelWrap" style="background: linear-gradient(95deg, rgb(217, 104, 38) 20%, rgb(217, 104, 38) 80%); right: 30px; bottom: 0px;"><jdiv class="hoverl_1063"><jdiv class="lbContainer_9c93"></jdiv></jdiv><jdiv class="text_86b3 contentTransitionWrap_9ac9" style="font-size: 15px; font-family: Arial, Arial; font-style: normal; color: rgb(240, 241, 241);">Kömək lazımdı?</jdiv><jdiv class="copy_9ec2"><jdiv class="logo_882f _bottom_3a7e"><jdiv class="hoverBox_77c3"></jdiv><jdiv class="logoIcon_8012" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22108%22%20height%3D%2236%22%20viewBox%3D%220%200%20108%2036%22%3E%0A%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23F0F1F1%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6.342%2011.967H.957c-.2%200-.4%200-.6.2%200%20.2-.198.2-.198.4v1.993c0%20.2%200%20.4.198.6.2.198.4.198.6.198h2.79v14.36c0%201.397-1.196%202.594-2.392%202.594h-.4c-.2%200-.398%200-.598.2-.2.2-.2.398-.2.598v1.994c0%20.2%200%20.4.2.6.2.198.4.198.6.198h.198c3.192%200%205.785-2.792%205.785-5.984V12.566c0-.2%200-.4-.2-.6h-.398m6.98%200H11.33c-.2%200-.2%200-.4.2s-.2.2-.2.4v14.76c0%20.2%200%20.398.2.598.2.2.4.2.598.2h1.795c.2%200%20.4%200%20.598-.2.2-.2.2-.4.2-.598v-14.76c0-.2%200-.4-.198-.6h-.6m17.154%200H28.88c-.598%200-.997.2-.997.4l-4.388%209.973-4.188-9.974c0-.4-.4-.4-.6-.4h-1.993c-.4%200-.598%200-.598.2-.2.2-.2.4%200%20.6l6.78%2015.357c.2.2.4.4.6.4h.2c.198%200%20.597-.2.597-.4l6.782-15.358c.2-.2.2-.4%200-.598-.2-.2-.4-.2-.6-.2m9.176-.4c-2.193.002-3.988.8-5.584%202.594-1.595%201.597-2.393%203.592-2.393%205.985%200%202.393.798%204.388%202.393%205.984%201.596%201.794%203.39%202.592%205.585%202.592s3.99-.798%205.586-2.593c1.596-1.796%202.394-3.79%202.394-5.985%200-2.393-.798-4.388-2.394-5.984-1.596-1.794-3.59-2.591-5.585-2.591m3.193%2012.165c-.798.998-1.995%201.596-3.192%201.596-1.395%200-2.392-.398-3.39-1.395-.797-.998-1.396-2.194-1.396-3.79%200-1.396.4-2.792%201.397-3.59.798-.997%201.995-1.396%203.39-1.396%201.398%200%202.395.398%203.193%201.395.797.997%201.396%202.194%201.396%203.59s-.6%202.593-1.397%203.59m19.147-.598c-.398-.4-.797-.2-.997%200l-.4.4-.597.597c-.2.2-.4.2-.6.4-.198.2-.597.398-.796.398-.4%200-.6.2-.998.2-1.396%200-2.393-.6-3.19-1.596-.8-.998-1.397-2.194-1.397-3.79%200-1.396.4-2.792%201.396-3.79.998-.997%201.996-1.396%203.392-1.396%201.197%200%202.194.6%203.19%201.596.4.4.8.4.998.2l1.197-1.197s0-.4-.4-.8c-1.395-1.794-3.39-2.79-5.584-2.79-2.194-.002-3.99.796-5.584%202.59-1.597%201.597-2.395%203.592-2.395%205.985%200%202.393.798%204.388%202.394%206.183%201.594%201.596%203.39%202.394%205.583%202.394%202.593%200%204.588-1.197%205.984-3.39.2-.4.2-.8-.2-1.198l-.997-.997m11.57-11.569c-1.597%200-2.993.6-4.59%201.796V4.986c0-.2%200-.4-.198-.598-.2-.2-.4-.2-.6-.2H66.38c-.2%200-.398%200-.598.2-.2.2-.2.4-.2.598v22.54c0%20.198%200%20.398.2.597.2.2.4.2.598.2h1.796c.598%200%20.797-.2.797-.798V17.353c.2-.6.8-.998%201.398-1.596.797-.598%201.795-.798%202.792-.798.997%200%201.795.398%202.393%201.196.6.798.798%201.795.798%203.19v8.378c0%20.2%200%20.4.2.6.2.198.4.198.6.198h1.794c.2%200%20.4%200%20.6-.2.198-.2.198-.398.198-.598v-8.177c-.2-5.386-2.194-7.979-6.183-7.979m20.144%201.995c-.4-.798-.997-1.197-1.596-1.596-.798-.4-1.795-.598-2.992-.598-1.994%200-3.79.398-5.385.996-.398.2-.597.4-.597.998l.4%201.396c.198.598.398.798.796.598a12.823%2012.823%200%200%201%204.388-.798c.997%200%201.595.2%201.994.798.4.598.598%201.596.4%202.793l-.4-.2c-.2%200-.598-.198-1.197-.198-.4.2-.797.2-1.396.2-1.995%200-3.392.398-4.588%201.395-1.197.997-1.596%202.194-1.596%203.79s.4%202.992%201.396%203.99c.998.996%202.194%201.395%203.59%201.395%201.796%200%203.39-.598%204.787-1.994l.398%201.196c.2.4.4.6.6.6h1.195c.2%200%20.4%200%20.6-.2.198-.2.198-.4.198-.6V18.75c0-1.198%200-2.195-.198-2.993-.2-.598-.4-1.396-.798-2.194M91.31%2023.735c-.2.4-.797.998-1.396%201.396-.798.4-1.396.6-2.194.6s-1.396-.2-1.795-.798c-.4-.4-.598-1.197-.598-1.795%200-.798.2-1.396.798-1.995.598-.4%201.396-.797%202.393-.797.598%200%201.197%200%201.795.2.6.198.997.198.997.398v2.792m16.555%202.793l-.598-1.596c-.2-.4-.4-.598-.997-.4a3.834%203.834%200%200%201-2.394.8c-.4%200-.798-.2-.997-.4-.2-.2-.4-.598-.4-1.396V14.96h4.19c.198%200%20.397%200%20.597-.2.2-.2.2-.4.2-.6v-1.594c0-.2%200-.4-.2-.6h-4.788V7.38c0-.2%200-.4-.2-.598-.2-.2-.398-.2-.598-.2h-1.994c-.2%200-.4%200-.6.2-.198.2-.198.398-.198.598v4.587h-1.795c-.4%200-.798.2-.798.798v1.396c0%20.2%200%20.4.2.6.2.2.398.2.598.2h1.795v8.975c0%201.595.2%202.792.798%203.59.598.798%201.595%201.197%202.99%201.197.8%200%201.597-.2%202.395-.4s1.396-.598%201.795-.797c.997-.2%201.197-.598.997-.997z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%2318C139%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6.94%2010.77C6.543.4.16%200%20.16%200c-.4%209.374%206.78%2010.77%206.78%2010.77z%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv><jdiv class="fallback_c38c"></jdiv></jdiv></jdiv><jdiv class="leafCont_db03"><jdiv class="leaf_2cee _bottom_ce7f"><jdiv class="cssLeaf_d53b" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2240%22%20viewBox%3D%220%200%2032%2040%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23d96826%22%20d%3D%22M0%200h9.02L32%2033.196V40H0z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%2318C139%22%20d%3D%22M9%200c3.581.05%2023%205.426%2023%2033.08v.03C18.922%2030.751%209%2019.311%209%205.554V0z%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="copyContainer_c803"><jdiv class="copyright_fa90 _bottom_22ff" style="background: linear-gradient(95deg, rgb(217, 104, 38) 20%, rgb(217, 104, 38) 80%);"><jdiv class="text_ed50" style="color: rgb(240, 241, 241);"><a href="https://www.jivochat.com.tr/i_sa/?utm_source=deltastore.az&amp;utm_medium=link&amp;utm_content=label_tooltip&amp;utm_campaign=from_widget" rel="nofollow noopener" target="_blank" class="link_8980">Canlı Destek Sağlayıcısı <jdiv class="logoIcon_48b6" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22108%22%20height%3D%2236%22%20viewBox%3D%220%200%20108%2036%22%3E%0A%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23F0F1F1%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6.342%2011.967H.957c-.2%200-.4%200-.6.2%200%20.2-.198.2-.198.4v1.993c0%20.2%200%20.4.198.6.2.198.4.198.6.198h2.79v14.36c0%201.397-1.196%202.594-2.392%202.594h-.4c-.2%200-.398%200-.598.2-.2.2-.2.398-.2.598v1.994c0%20.2%200%20.4.2.6.2.198.4.198.6.198h.198c3.192%200%205.785-2.792%205.785-5.984V12.566c0-.2%200-.4-.2-.6h-.398m6.98%200H11.33c-.2%200-.2%200-.4.2s-.2.2-.2.4v14.76c0%20.2%200%20.398.2.598.2.2.4.2.598.2h1.795c.2%200%20.4%200%20.598-.2.2-.2.2-.4.2-.598v-14.76c0-.2%200-.4-.198-.6h-.6m17.154%200H28.88c-.598%200-.997.2-.997.4l-4.388%209.973-4.188-9.974c0-.4-.4-.4-.6-.4h-1.993c-.4%200-.598%200-.598.2-.2.2-.2.4%200%20.6l6.78%2015.357c.2.2.4.4.6.4h.2c.198%200%20.597-.2.597-.4l6.782-15.358c.2-.2.2-.4%200-.598-.2-.2-.4-.2-.6-.2m9.176-.4c-2.193.002-3.988.8-5.584%202.594-1.595%201.597-2.393%203.592-2.393%205.985%200%202.393.798%204.388%202.393%205.984%201.596%201.794%203.39%202.592%205.585%202.592s3.99-.798%205.586-2.593c1.596-1.796%202.394-3.79%202.394-5.985%200-2.393-.798-4.388-2.394-5.984-1.596-1.794-3.59-2.591-5.585-2.591m3.193%2012.165c-.798.998-1.995%201.596-3.192%201.596-1.395%200-2.392-.398-3.39-1.395-.797-.998-1.396-2.194-1.396-3.79%200-1.396.4-2.792%201.397-3.59.798-.997%201.995-1.396%203.39-1.396%201.398%200%202.395.398%203.193%201.395.797.997%201.396%202.194%201.396%203.59s-.6%202.593-1.397%203.59m19.147-.598c-.398-.4-.797-.2-.997%200l-.4.4-.597.597c-.2.2-.4.2-.6.4-.198.2-.597.398-.796.398-.4%200-.6.2-.998.2-1.396%200-2.393-.6-3.19-1.596-.8-.998-1.397-2.194-1.397-3.79%200-1.396.4-2.792%201.396-3.79.998-.997%201.996-1.396%203.392-1.396%201.197%200%202.194.6%203.19%201.596.4.4.8.4.998.2l1.197-1.197s0-.4-.4-.8c-1.395-1.794-3.39-2.79-5.584-2.79-2.194-.002-3.99.796-5.584%202.59-1.597%201.597-2.395%203.592-2.395%205.985%200%202.393.798%204.388%202.394%206.183%201.594%201.596%203.39%202.394%205.583%202.394%202.593%200%204.588-1.197%205.984-3.39.2-.4.2-.8-.2-1.198l-.997-.997m11.57-11.569c-1.597%200-2.993.6-4.59%201.796V4.986c0-.2%200-.4-.198-.598-.2-.2-.4-.2-.6-.2H66.38c-.2%200-.398%200-.598.2-.2.2-.2.4-.2.598v22.54c0%20.198%200%20.398.2.597.2.2.4.2.598.2h1.796c.598%200%20.797-.2.797-.798V17.353c.2-.6.8-.998%201.398-1.596.797-.598%201.795-.798%202.792-.798.997%200%201.795.398%202.393%201.196.6.798.798%201.795.798%203.19v8.378c0%20.2%200%20.4.2.6.2.198.4.198.6.198h1.794c.2%200%20.4%200%20.6-.2.198-.2.198-.398.198-.598v-8.177c-.2-5.386-2.194-7.979-6.183-7.979m20.144%201.995c-.4-.798-.997-1.197-1.596-1.596-.798-.4-1.795-.598-2.992-.598-1.994%200-3.79.398-5.385.996-.398.2-.597.4-.597.998l.4%201.396c.198.598.398.798.796.598a12.823%2012.823%200%200%201%204.388-.798c.997%200%201.595.2%201.994.798.4.598.598%201.596.4%202.793l-.4-.2c-.2%200-.598-.198-1.197-.198-.4.2-.797.2-1.396.2-1.995%200-3.392.398-4.588%201.395-1.197.997-1.596%202.194-1.596%203.79s.4%202.992%201.396%203.99c.998.996%202.194%201.395%203.59%201.395%201.796%200%203.39-.598%204.787-1.994l.398%201.196c.2.4.4.6.6.6h1.195c.2%200%20.4%200%20.6-.2.198-.2.198-.4.198-.6V18.75c0-1.198%200-2.195-.198-2.993-.2-.598-.4-1.396-.798-2.194M91.31%2023.735c-.2.4-.797.998-1.396%201.396-.798.4-1.396.6-2.194.6s-1.396-.2-1.795-.798c-.4-.4-.598-1.197-.598-1.795%200-.798.2-1.396.798-1.995.598-.4%201.396-.797%202.393-.797.598%200%201.197%200%201.795.2.6.198.997.198.997.398v2.792m16.555%202.793l-.598-1.596c-.2-.4-.4-.598-.997-.4a3.834%203.834%200%200%201-2.394.8c-.4%200-.798-.2-.997-.4-.2-.2-.4-.598-.4-1.396V14.96h4.19c.198%200%20.397%200%20.597-.2.2-.2.2-.4.2-.6v-1.594c0-.2%200-.4-.2-.6h-4.788V7.38c0-.2%200-.4-.2-.598-.2-.2-.398-.2-.598-.2h-1.994c-.2%200-.4%200-.6.2-.198.2-.198.398-.198.598v4.587h-1.795c-.4%200-.798.2-.798.798v1.396c0%20.2%200%20.4.2.6.2.2.398.2.598.2h1.795v8.975c0%201.595.2%202.792.798%203.59.598.798%201.595%201.197%202.99%201.197.8%200%201.597-.2%202.395-.4s1.396-.598%201.795-.797c.997-.2%201.197-.598.997-.997z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%2318C139%22%20fill-rule%3D%22evenodd%22%20d%3D%22M6.94%2010.77C6.543.4.16%200%20.16%200c-.4%209.374%206.78%2010.77%206.78%2010.77z%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></a></jdiv><jdiv class="corner_cbea" style="border-top-color: rgb(217, 104, 38);"></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv id="jivo-player" class="player_21e9"><audio preload="auto" id="jivo-sound-agent_message"><source src="https://code-eu1.jivosite.com/sounds/agent_message.mp3" type="audio/mpeg"><source src="https://code-eu1.jivosite.com/sounds/agent_message.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code-eu1.jivosite.com/sounds/agent_message.wav" type="audio/wav"></audio><audio preload="auto" id="jivo-sound-notification"><source src="https://code-eu1.jivosite.com/sounds/notification.mp3" type="audio/mpeg"><source src="https://code-eu1.jivosite.com/sounds/notification.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code-eu1.jivosite.com/sounds/notification.wav" type="audio/wav"></audio><audio preload="auto" id="jivo-sound-outgoing_message"><source src="https://code-eu1.jivosite.com/sounds/outgoing_message.mp3" type="audio/mpeg"><source src="https://code-eu1.jivosite.com/sounds/outgoing_message.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code-eu1.jivosite.com/sounds/outgoing_message.wav" type="audio/wav"></audio></jdiv><jdiv id="jcont" style="animation: 300ms cubic-bezier(0.39, 0.24, 0.21, 0.99) 0s 1 normal both running WidgetContainer_CLOSE_WIDGET_a2ef; --right:30px; --height:402px; position: fixed; display: block; --labelwidth:300px; --labelright:30px;"><jdiv class="wrap_d700" dir="ltr" id="jivo_action"><jdiv class="closeButton_8277" id="jivo_close_button"><jdiv class="closeIcon_1e30" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(2%202)%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%20fill%3D%22%23FFF%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212.75%22%20stroke%3D%22%23222D38%22%20stroke-width%3D%221.5%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23222D38%22%20opacity%3D%221%22%20transform%3D%22translate(6%206)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22rotate(45%206.24%206.01)%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22scale(-1%201)%20rotate(45%200%20-9.058)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="contentWrapper_35e0"></jdiv></jdiv><jdiv class="pseudoHeight_2461"></jdiv><jdiv class="jivoMouseTrack_587b"></jdiv></jdiv></jdiv></body>

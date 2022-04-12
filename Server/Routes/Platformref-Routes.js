@@ -1,10 +1,10 @@
 const express=require('express')
-const { addplatform, deleteplatform, getplatforms } = require('../Controller/PlatformsrefController')
+const { add, remove, getplatforms } = require('../Controller/PlatformsrefController')
 
 const router=express.Router()
 
-router.post('/add',addplatform)
-router.patch('/delete/:id',deleteplatform)
+router.post('/add',add)
+router.patch('/delete/:id',remove)
 router.get('/:lang/getall',getplatforms)
 
 module.exports={

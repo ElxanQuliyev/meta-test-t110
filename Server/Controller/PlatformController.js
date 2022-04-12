@@ -6,7 +6,7 @@ const httpstatus=require('http-status');
 const add=async(req,res,next)=>{
     try {
         const data=req.body
-       const platformref=query(collection(db, "Platform"))
+       const platformref=query(collection(db, "Platform"),where ('name','==',data.name))
        const platform=await getDocs(platformref)
        if (platform.size!=0) {
            throw new Error('Bu adda platforma artiq var')

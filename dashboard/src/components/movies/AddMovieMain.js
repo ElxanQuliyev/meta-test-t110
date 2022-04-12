@@ -68,13 +68,16 @@ const AddMovieMain = () => {
   const [price, setPrice] = useState(0);
   const [videoUrl, setVideoUrl] = useState("");
   const [time, setTime] = useState("");
-
+  const [previewImage, setPreviewImage] = useState("");
+  const [previewBackground, setPreviewBackground] = useState("");
+  const [mainImg, setMainImg] = useState("");
+  const [mainBack, setMainBack] = useState("");
   const productCreate = useSelector((state) => state.productCreate);
   const categorInfo = useSelector((state) => state.categoryList);
   const catalogInfo = useSelector((state) => state.catalogList);
   const platformInfo = useSelector((state) => state.platformList);
-  const actorInfo=useSelector(state=>state.actorList);
-  const directorInfo=useSelector(state=>state.directorList);
+  const actorInfo = useSelector((state) => state.actorList);
+  const directorInfo = useSelector((state) => state.directorList);
   const languageInfo = useSelector((state) => state.languageList);
   const imageUpload = useSelector((state) => state.filmMainImage);
   const backgroundUpload = useSelector((state) => state.filmBackground);
@@ -86,24 +89,24 @@ const AddMovieMain = () => {
   const { directors } = directorInfo;
 
   const { catalogs } = catalogInfo;
-  const { platforms } = platformInfo ?? [];
+  const { platforms } = platformInfo;
   const { loading, error, product } = productCreate;
   useEffect(() => {
     if (product) {
       toast.success("Movie Added", ToastObjects);
       dispatch({ type: PRODUCT_CREATE_RESET });
       setCategoryIds([]);
-      setActorIds([])
-      setDirectorIds([])
-      setmovieInfo("");
-      setCategoryIds("");
-      setTrailerName("")
-      setTrailerUrl("")
-      setTrailers([])
-      setAge(0)
-      setImdb("")
-      setFeatured("")
-      setVideoUrl("")
+      setActorIds([]);
+      setDirectorIds([]);
+      setmovieInfo([]);
+      setCategoryIds([]);
+      setTrailerName("");
+      setTrailerUrl("");
+      setTrailers([]);
+      setAge(0);
+      setImdb("");
+      setFeatured("");
+      setVideoUrl("");
       setPrice(0);
     }
   }, [product, dispatch]);
@@ -119,42 +122,51 @@ const AddMovieMain = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(
-      createProduct(
+      createProduct({
         price,
-        categoryIds,
-        movieInfo,
-        mainPicture,
-        backgroundImage,
-        platformId,
-        catalogIds,
+        categories:categoryIds,
+        language:movieInfo,
+        platform:platformId,
+        catalogs: catalogIds,
         age,
-        mainClaim,
-        featured,
-        isSlider,
+        claims:mainClaim,
+        is_featured:featured,
+        is_slider:isSlider,
         imdb,
         trailers,
-        actorIds,
-        directorIds,
-        videoUrl,
-        time
+        actors:actorIds,
+        directors:directorIds,
+        url:videoUrl,
+        time,
+        main_picture:"",
+        slider_image:""
+        },
+        { mainImg, mainBack }
       )
     );
   };
   const handleImageUpload = (file) => {
-    dispatch(uploadImage(file));
+    setMainImg(file);
+    previewFile(file, setPreviewImage);
   };
-
-  const handleBackgroundUpload = (e) => {
-    dispatch(uploadBackImage(e));
+  const previewFile = (file, state) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onloadend = () => {
+      state(reader.result);
+    };
   };
+  const handleBackgroundUpload = (file) => {
+    setMainBack(file);
+    previewFile(file, setPreviewBackground);
+  };
+  
 
   const handleChangePrice = (price) => {
-    if (Number(price) === 0 || typeof price === "undefined") {
-      setMainClaim("Free");
-    } else {
-      setMainClaim("Subscriber");
+    if (Number(price) >= 0 || typeof price !== "undefined") {
+      setMainClaim("");
     }
-    setPrice(price);
+    setPrice(parseFloat(price));
   };
 
   const handleChangeCategory = (option) => {
@@ -187,16 +199,15 @@ const AddMovieMain = () => {
     setmovieInfo(newState);
   };
 
-  const handleRemoveTrailer=(e)=>{
-    const ind=Number(e.target.getAttribute("trailer-index"));
-    setTrailers(ts=>ts.filter((_,i)=>i!==ind))
-  }
-  const handleAddTrailer = (e,name, url) => {
+  const handleRemoveTrailer = (e) => {
+    const ind = Number(e.target.getAttribute("trailer-index"));
+    setTrailers((ts) => ts.filter((_, i) => i !== ind));
+  };
+  const handleAddTrailer = (e, name, url) => {
     e.preventDefault();
-    setTrailers(state=>[...state,{name,url}])
-    setTrailerName("")
-    setTrailerUrl("")
-
+    setTrailers((state) => [...state, { name, url }]);
+    setTrailerName("");
+    setTrailerUrl("");
   };
   return (
     <>
@@ -233,14 +244,14 @@ const AddMovieMain = () => {
                       </option>
                       {platforms &&
                         platforms.map((p) => (
-                          <option value={p.name} key={p.id}>
+                          <option value={p.id} key={p.id}>
                             {p.name}
                           </option>
                         ))}
                     </select>
                   </div>
                   <Tabs>
-                    {languages &&
+                    {languages && movieInfo.length>0 &&
                       languages.map((l, index) => (
                         <Tab
                           eventKey={l.name}
@@ -299,6 +310,7 @@ const AddMovieMain = () => {
                       />
                     )}
                   </div>
+
                   <div className="mb-4">
                     <label htmlFor="catalogs" className="form-label">
                       Catalogs
@@ -322,10 +334,26 @@ const AddMovieMain = () => {
                       placeholder="Type here"
                       className="form-control"
                       id="product_price"
+                      min={0}
                       value={price}
                       onChange={(e) => handleChangePrice(e.target.value)}
                     />
                   </div>
+                  {(price === 0 || typeof price==="undefined")? (
+                      <div className="mb-4">
+                        <label htmlFor="plan" className="form-label">
+                          Plan
+                        </label>
+                        <select className="form-control" defaultValue={""} onChange={e=>setMainClaim(e.target.value)}>
+                          <option  value={""}>-</option>
+                          <option value="Free">Free</option>
+                          <option value="Subscriber">Subscriber</option>
+                          <option value="UnSubscriber">UnSubscriber</option>
+                          <option value="Pro">Pro</option>
+                        </select>
+                      </div>
+                    ):null}
+
                   <div className="mb-4">
                     <label htmlFor="movie_age" className="form-label">
                       Age
@@ -340,7 +368,6 @@ const AddMovieMain = () => {
                       onChange={(e) => setAge(e.target.value)}
                     />
                   </div>
-                    
 
                   <div className="mb-4">
                     <label htmlFor="movie_imdb" className="form-label">
@@ -417,14 +444,7 @@ const AddMovieMain = () => {
 
                   <div className="mb-4">
                     <label className="form-label">Images</label>
-                    {/* <input
-                      className="form-control"
-                      type="text"
-                      placeholder="Enter Image URL"
-                      value={image}
-                      required
-                      // onChange={handleImageUpload}
-                    /> */}
+           
                     <input
                       className="form-control mt-3"
                       type="file"
@@ -433,19 +453,11 @@ const AddMovieMain = () => {
                     {imageLoading ? (
                       <Loading />
                     ) : (
-                      <img width={150} src={mainPicture} alt="" />
+                      <img width={150} src={previewImage} alt="" />
                     )}
                   </div>
                   <div className="mb-4">
                     <label className="form-label">Background Images</label>
-                    {/* <input
-                      className="form-control"
-                      type="text"
-                      placeholder="Enter Image URL"
-                      value={sliderImage}
-                      required
-                      onChange={(e) => handleBackgroundUpload(e.target.files[0])}
-                    /> */}
                     <input
                       className="form-control mt-3"
                       type="file"
@@ -456,10 +468,10 @@ const AddMovieMain = () => {
                     {backgroundLoading ? (
                       <Loading />
                     ) : (
-                      <img width={150} src={backgroundImage} alt="" />
+                      <img width={150} src={previewBackground} alt="" />
                     )}
                   </div>
-                  
+
                   <div className="mb-4">
                     <label
                       htmlFor="movie_featured"
@@ -526,15 +538,35 @@ const AddMovieMain = () => {
                       />
                     </div>
                     <div className="ms-5 mt-2">
-                      <button className="btn btn-outline-dark" onClick={(e)=>handleAddTrailer(e,trailerName,trailerUrl)}>Add Trailer</button>
+                      <button
+                        className="btn btn-outline-dark"
+                        onClick={(e) =>
+                          handleAddTrailer(e, trailerName, trailerUrl)
+                        }
+                      >
+                        Add Trailer
+                      </button>
                     </div>
                   </div>
                   <div className="mb-4">
                     <ul className=" w-100 p-0">
-                      {trailers.map((t,id)=>(
-                        <li style={{border:"1px solid black"}} key={id} className="list-group-item align-items-center justify-content-between d-flex">trailer: {t.name} &nbsp;&nbsp;|&nbsp;&nbsp; url:{t.url}
-                          <div trailer-index={id} className="p-2 text-danger" onClick={handleRemoveTrailer}>
-                            <i style={{pointerEvents:"none"}} className="fas fa-times"></i>
+                      {trailers.map((t, id) => (
+                        <li
+                          style={{ border: "1px solid black" }}
+                          key={id}
+                          className="list-group-item align-items-center justify-content-between d-flex"
+                        >
+                          trailer: {t.name} &nbsp;&nbsp;|&nbsp;&nbsp; url:
+                          {t.url}
+                          <div
+                            trailer-index={id}
+                            className="p-2 text-danger"
+                            onClick={handleRemoveTrailer}
+                          >
+                            <i
+                              style={{ pointerEvents: "none" }}
+                              className="fas fa-times"
+                            ></i>
                           </div>
                         </li>
                       ))}

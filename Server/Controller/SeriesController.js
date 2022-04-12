@@ -4,6 +4,8 @@ var jwt = require('jsonwebtoken');
 var config = require('../config');
 const helper=require('../Helper/Validation');
 const Validator=require('validatorjs');
+const httpStatus = require('http-status');
+const BaseError = require('../errorhandle/baseError');
 
 const getallseries=async(req,res)=>{
   try {
@@ -50,52 +52,53 @@ try {
    res.status(400).send(error.message)
 }
 }
-const addseries=async(req,res)=>{
+const addseries=async(req,res,next)=>{
    try {
     const data=req.body;
-    const seasonid=req.params.seaid;
-    let Seasons=[]
+    const id=req.params.id;
+    let tvshowid;
+    const Seasons=await getDoc(doc(db,'Season',id))
 
-    const Languageref=query(collection(db,'Language'),where('IsDeleted','==',false));
+    const tvshowref=query(collection(db,'Content'),where('seasons','array-contains',Seasons.id))
+
+    await getDocs(tvshowref).then(response=>{
+       response.forEach(x=>{
+         tvshowid=x.id
+       })
+    })
+    
+    const Languageref=query(collection(db,'Language'),where('is_deleted','==',false));
     const Languagelist= await getDocs(Languageref);
 
-    const question=new Validator({MainPicture:data.MainPicture,Language:data.Language},{MainPicture:'required|string',Language:'required|array'})
-    
-    question.fails(()=>{throw res.send(question.errors)})
-    let answer=helper.language(data.Language,Languagelist);
-    if (!answer) throw res.send('Diller yalnis qeyd olunub')
+    let answer=helper.language(data.language,Languagelist);
+    if (!answer) throw {status:406,message:'Diller yalnis qeyd olunub'}
 
-   const news= await addDoc(collection(db,'Series'),
+   const serie= await addDoc(collection(db,'Series'),
    {
-     MainPicture:data.MainPicture,
-     Language:data.Language,
-     Trailers:data.Trailers,
-     Audios:data.Audios ?? [],
-     AddDate:new Date(),
-     ModifiedOn:new Date(),
-     Subtitles:data.Subtitles ?? [],
-     Url:data.Url ?? '',
-     IsDeleted:false,
-     Comment: [],
+     main_picture:data.main_picture,
+     season_id:Seasons.id,
+     tvshow_id:tvshowid,
+     language:data.language,
+     trailers:data.trailers??[],
+     audios:data.audios ?? [],
+     add_date:new Date(),
+     modified_on:new Date(),
+     subtitles:data.subtitles ?? [],
+     url:data.url ?? null,
+     is_deleted:false,
+     comments: [],
   });
 
-   tvshow.forEach(x => {
-      x.data().Seasons.forEach(a=>{
-         tvshowid=x.id
-         if (a.id==seasonid){
-            a.Series.push(news._key.path.segments[1])
-            Seasons.push(a)
-         }else{
-            Seasons.push(a)
-         }
-      })
-   })
+  let series=[]
+  series=Seasons.data().series
 
-    await updateDoc(doc(db,'Content',tvshowid),{Seasons:Seasons})
+  series.push(serie._key.path.segments[1])
+
+    await updateDoc(doc(db,'Season',id),{series:series})
 
     res.send('Seriya elave olundu')
    } catch (error) {
-       res.status(400).send(error.message)
+       next(new BaseError(error.status,error.message,'Series/add'))
    }
 }
 

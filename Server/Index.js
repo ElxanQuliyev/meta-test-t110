@@ -1,51 +1,98 @@
-const express=require('express')
-const router=express.Router();
-const Auth=require('./middlewares/Auth')
 
 
-const FilmRoutes=require('./Routes/Film-Routes')
-const ContentRoutes=require('./Routes/Content-Routes')
-const TwShowRoutes=require('./Routes/TvShow-Routes')
-// const CinemaLabRotues=require('./Routes/CinemaLab-Routes')
-const CategoryRoutes=require('./Routes/Category-Routes')
-const StudentRoutes=require('./Routes/Student-Routes')
-const SeasonRoutes=require('./Routes/Season-Routes')
-const SeriesRoutes=require('./Routes/Series-Routes')
-const UserRoutes=require('./Routes/User-Routes')
-const FilterRoutes=require('./Routes/Filter-Routes')
-const PlatformrefRoutes=require('./Routes/Platformref-Routes')
-const PromoRoutes=require('./Routes/Promo-Routes')
-const LanguageRoutes=require('./Routes/Language-Routes')
-const ActorsRoutes=require('./Routes/Actors-Routes')
-const DirectorsRoutes=require('./Routes/Directors-Routes')
-const CatalogsRoutes=require('./Routes/Catalogs-Routes')
-const ContentTypeRoutes=require('./Routes/ContentType-Routes')
-const HistoryRoutes=require('./Routes/History-Routes')
-const PlatformRoutes=require('./Routes/Platform-Routes')
-const FavoryRoutes=require('./Routes/Favory-Routes')
+'use strict'
+// mikro framework
+const express =require('express')
+const cors=require('cors')
+const config=require('./config')
+// headers-den gelen tehlukelerden qorunmaq ucun
+const bodyParser =require('body-parser')
+const helmet=require('helmet')
+const ratelimit=require('express-rate-limit')
+const axios =require('axios')
+const server=require('./server')
+const functions = require('firebase-functions');
+
+const {internalerror,resError}=require('./errorhandle/api404Error')
+
+// var corsOptions = {
+//   origin: 'http://localhost:8080',
+// }
+
+
+const app=express()
+app.use(bodyParser.json())
+app.use(cors())
+app.use(bodyParser.urlencoded({extended: true}));
+
+const limitter=ratelimit({
+  windowMs:10000,
+  max:10
+})
 
 
 
-router.use('/api/film',FilmRoutes)
-router.use('/api/Contents',ContentRoutes.routes)
-router.use('/api/TvShow',TwShowRoutes.router)
-// rerout.use('/api/CinemaLab',CinemaLabRotues.routes)
-router.use('/api/category',CategoryRoutes)
-router.use('/api',StudentRoutes.routes)
-router.use('/api/season',SeasonRoutes.routes)
-router.use('/api/series',SeriesRoutes.routes)
-router.use('/api/user',UserRoutes.routes)
-router.use('/api/platformref',PlatformrefRoutes.routes)
-router.use('/api/filter',FilterRoutes.routes)
-router.use('/api',PromoRoutes.routes)
-router.use('/api',LanguageRoutes.routes)
-router.use('/api/actors',ActorsRoutes)
-router.use('/api/directors',DirectorsRoutes)
-router.use('/api/catalogs',CatalogsRoutes)
-router.use('/api/contenttype',ContentTypeRoutes)
-router.use('/api/history',HistoryRoutes.routes)
-router.use('/api/platform',PlatformRoutes)
-router.use('/api/favory',FavoryRoutes)
+//check for the referrer domain
+// app.use('/*', function(req, res, next) {
+//   if (req.headers.referer!='http://localhost:8081/') {
+//   console.log(req.headers.referer)
+//      next(new Error('Host error'))
+//   }
+//   next();
+// });
+// app.use(busboy)
+app.use(
+    helmet.contentSecurityPolicy({
+      useDefaults: true,
+      dangerouslyDisableDefaultSrc:false,
+      directives: {
+        "script-src": ["'self'", "securecoding.com"],
+        "style-src": null,
+      },
+    })
+);
+
+app.use(helmet.expectCt({
+    maxAge:40,
+    enforce:false,
+    reportUri:"https://securecoding.com/report"
+}))
+app.use(
+    helmet.dnsPrefetchControl({
+      allow: false,
+    })
+   );
+   app.use(
+    helmet.frameguard({
+      action: "deny",
+    })
+   );
+   app.use(
+    helmet.hsts({
+      maxAge: 123456,
+      includeSubDomains: true,
+    })
+   )
+   app.use(helmet.ieNoOpen());
+   app.use(helmet.noSniff());
+   app.use(
+    helmet.referrerPolicy()
+   );
+
+app.use(express.json())
+app.use(server)
+app.use(internalerror)
+app.use(resError)
+exports.app=functions.https.onRequest(app);
+app.listen(config.port,()=>console.log('App is listening on url http://localhost:'+config.port))
 
 
-module.exports=router;
+// let a=0
+// setInterval(() => {
+//     axios.get(`http://localhost:2022/api/filter/contents/AZ/NetFlix/3d8baO60v8MYvyqqq5P8/66DRjI6xteohPI6FUJQY`)
+// .then(response=>{
+//    a++
+// console.log(response.status,a)
+// })
+// }, 1000);
+

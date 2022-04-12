@@ -70,10 +70,10 @@ const GetById=async(req,res,next)=>{
                             if (user==null) {
                                 status=300
                                 series.url=null
-                            }else if(user.IsBlock){
+                            }else if(user.is_block){
                                 status=303
                                 series.url=null
-                            }else if(!user.ConfirmEmail){
+                            }else if(!user.confirm_email){
                                 status=304
                                 series.url=null
                             }
@@ -82,13 +82,13 @@ const GetById=async(req,res,next)=>{
                             if (user==null) {
                                 status=300
                                 series.url=null
-                            }else if(user.IsBlock){
+                            }else if(user.is_block){
                                 status=303
                                 series.url=null
-                            }else if(!user.ConfirmEmail){
+                            }else if(!user.confirm_email){
                                 status=304
                                 series.url=null
-                            }else if(!user.Claims.includes(data.Claims)){
+                            }else if(!user.Claims.includes(data.claims)){
                                 status=301
                                 series.url=null
                             }

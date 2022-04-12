@@ -19,6 +19,7 @@ export const login = (email, password) => async (dispatch,getState) => {
     pauseOnHover: false,
     autoClose: 2000,
   };
+
   try {
     dispatch({ type: USER_LOGIN_REQUEST });
     const config = {
@@ -34,7 +35,7 @@ export const login = (email, password) => async (dispatch,getState) => {
     );
     dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
 
-    if (!data.isAdmin === true) {
+    if (!data.is_admin === true) {
       toast.error("You are not Admin", ToastObjects);
       dispatch({
         type: USER_LOGIN_FAIL,
@@ -45,7 +46,7 @@ export const login = (email, password) => async (dispatch,getState) => {
 
     localStorage.setItem("userInfo", JSON.stringify(data));
   } catch (error) {
-    console.log(error.message)
+    console.log(error)
     const message =
       error.response && error.response.data.message
         ? error.response.data.message

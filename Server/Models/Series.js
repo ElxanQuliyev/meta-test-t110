@@ -1,14 +1,14 @@
 class Series{
     constructor(id,data,SeasonName,lang){
     this.id=id
-    this.audios=data.Audios
-    this.subtitles=data.Subtitles
+    this.audios=data.audios
+    this.subtitles=data.subtitles
     this.trailers=data.trailers
-    this.name=data.Language.find(m=>m.LangCode==lang).Name
-    this.description=data.Language.find(m=>m.LangCode==lang).Description
-    this.main_picture=data.MainPicture
-    this.url=data.Url
-    this.add_date=data.AddDate.toDate()
+    this.name=data.language.find(m=>m.lang_code==lang).name
+    this.description=data.language.find(m=>m.lang_code==lang).description
+    this.main_picture=data.main_picture
+    this.url=data.url
+    this.add_date=data.add_date.toDate()
     this.season_name=SeasonName
     }
 }

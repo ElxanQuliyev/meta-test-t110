@@ -24,7 +24,7 @@ const CategoriesTable = ({ categories }) => {
   //   e.preventDefault();
   //   setCategoryId(id);
   // };
-  const history=useHistory();
+  // const history=useHistory();
   return (
     <div className="col-md-12 col-lg-8">
       {/* {error && <Message variant="alert-danger">{error}</Message>}

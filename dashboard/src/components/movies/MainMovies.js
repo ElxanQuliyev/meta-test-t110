@@ -1,22 +1,36 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Movies from "./Movies";
 import { useDispatch, useSelector } from "react-redux";
 import { listProducts } from "../../Redux/Actions/ProductActions";
+import { listPlatforms } from "../../Redux/Actions/PlatformActions";
+
 import Loading from "../LoadingError/Loading";
 import Message from "../LoadingError/Error";
+import { listCatalogs } from "../../Redux/Actions/CatalogActions";
 
 const MainMovies = () => {
-  const dispatch = useDispatch();
+  const [platformId, setPlatformId] = useState("");
+  const [catalogId, setCatalogId] = useState("");
 
+  const platformInfo = useSelector((state) => state.platformList);
+  const catalogInfo = useSelector((state) => state.catalogList);
+
+
+  const dispatch = useDispatch();
   const productList = useSelector((state) => state.productList);
   const { loading, error, products } = productList;
   const productDelete = useSelector((state) => state.productDelete);
   const { error: errorDelete, success: successDelete } = productDelete;
+  const { platforms } = platformInfo;
+  const { catalogs } = catalogInfo;
 
   useEffect(() => {
-    dispatch(listProducts("AZ"));
-  }, [dispatch, successDelete]);
+    dispatch(listProducts({ lang: "AZ", platformId, catalogId }));
+    dispatch(listPlatforms());
+    dispatch(listCatalogs("AZ"));
+
+  }, [dispatch, successDelete, platformId,catalogId]);
   return (
     <section className="content-main">
       <div className="content-header">
@@ -39,18 +53,33 @@ const MainMovies = () => {
               />
             </div>
             <div className="col-lg-2 col-6 col-md-3">
-              <select className="form-select">
-                <option>All category</option>
-                <option>Electronics</option>
-                <option>Clothings</option>
-                <option>Something else</option>
+              <select
+                defaultValue={""}
+                className="form-select"
+                onChange={(e) => setPlatformId(e.target.value)}
+              >
+                <option value="">Platform ...</option>
+                {platforms &&
+                  platforms.map((p) => (
+                    <option value={p.id} key={p.id}>
+                      {p.name}
+                    </option>
+                  ))}
               </select>
             </div>
             <div className="col-lg-2 col-6 col-md-3">
-              <select className="form-select">
-                <option>Latest added</option>
-                <option>Cheap first</option>
-                <option>Most viewed</option>
+            <select
+                defaultValue={""}
+                className="form-select"
+                onChange={(e) => setCatalogId(e.target.value)}
+              >
+                <option value="">Catalog ...</option>
+                {catalogs &&
+                  catalogs.map((p) => (
+                    <option value={p.id} key={p.id}>
+                      {p.name}
+                    </option>
+                  ))}
               </select>
             </div>
           </div>

@@ -10,6 +10,8 @@ import {
 } from "../Constants/UserContants";
 import axios from "axios";
 import { toast } from "react-toastify";
+import { BASE_URL } from "../../api/baseConfig";
+import { Cookies, useCookies } from "react-cookie";
 
 // LOGIN
 export const login = (email, password) => async (dispatch,getState) => {
@@ -21,32 +23,30 @@ export const login = (email, password) => async (dispatch,getState) => {
   };
 
   try {
-    dispatch({ type: USER_LOGIN_REQUEST });
-    const config = {
-      headers: {
-        "Content-Type": "application/json",
-      },
-    };
-
-    const { data } = await axios.post(
-      `/api/user/login`,
-      { email:email, password:password },
-      config
-    );
-    dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
-
-    if (!data.is_admin === true) {
-      toast.error("You are not Admin", ToastObjects);
-      dispatch({
-        type: USER_LOGIN_FAIL,
-      });
-    } else {
+      dispatch({ type: USER_LOGIN_REQUEST });
+      const config = {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      };
+      const { data } = await axios.post(
+        `${BASE_URL}/api/user/login`,
+        { email:email, password:password },
+        config
+      );
       dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
-    }
+      console.log(data.claims)
+      if (!data.claims.includes("Admin")) {
+        toast.error("You are not Admin", ToastObjects);
+        dispatch({
+          type: USER_LOGIN_FAIL,
+        });
+      } else {
+        dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
+      }
+      localStorage.setItem("userInfo", JSON.stringify(data));
 
-    localStorage.setItem("userInfo", JSON.stringify(data));
   } catch (error) {
-    console.log(error)
     const message =
       error.response && error.response.data.message
         ? error.response.data.message
@@ -79,11 +79,11 @@ export const listUser = () => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        Authorization: `Bearer ${userInfo.token}`,
+        "x-access-token": `${userInfo.token}`,
       },
     };
 
-    const { data } = await axios.get(`/api/user/getalluser`, config);
+    const { data } = await axios.get(`${BASE_URL}/api/user/getalluser`, config);
   
     dispatch({ type: USER_LIST_SUCCESS, payload: data });
   } catch (error) {

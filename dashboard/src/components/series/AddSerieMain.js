@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
-import { PRODUCT_CREATE_RESET } from "../../Redux/Constants/ProductConstants";
+import { SERIE_CREATE_RESET } from "../../Redux/Constants/SeriesConstants";
 import {
-  createProduct,
-} from "../../Redux/Actions/ProductActions";
+  createSerie,
+} from "../../Redux/Actions/SerieAction";
 import Toast from "../LoadingError/Toast";
 import Message from "../LoadingError/Error";
 import Loading from "../LoadingError/Loading";
@@ -64,7 +64,7 @@ const AddSerieMain = () => {
   const [mainClaim, setMainClaim] = useState("");
   const [age, setAge] = useState(18);
   const [price, setPrice] = useState(0);
-  const [videoUrl, setVideoUrl] = useState("");
+  // const [videoUrl, setVideoUrl] = useState("");
   const [time, setTime] = useState("");
   const [previewImage, setPreviewImage] = useState("");
   const [previewBackground, setPreviewBackground] = useState("");
@@ -77,10 +77,10 @@ const AddSerieMain = () => {
   const actorInfo = useSelector((state) => state.actorList);
   const directorInfo = useSelector((state) => state.directorList);
   const languageInfo = useSelector((state) => state.languageList);
-  const imageUpload = useSelector((state) => state.filmMainImage);
-  const backgroundUpload = useSelector((state) => state.filmBackground);
-  const { imageLoading, mainPicture } = imageUpload;
-  const { backgroundLoading, backgroundImage } = backgroundUpload;
+  // const imageUpload = useSelector((state) => state.filmMainImage);
+  // const backgroundUpload = useSelector((state) => state.filmBackground);
+  // const { imageLoading, mainPicture } = imageUpload;
+  // const { backgroundLoading, backgroundImage } = backgroundUpload;
   const { languages } = languageInfo ?? [];
   const { categories } = categorInfo;
   const { actors } = actorInfo;
@@ -92,7 +92,7 @@ const AddSerieMain = () => {
   useEffect(() => {
     if (product) {
       toast.success("Series Added", ToastObjects);
-      dispatch({ type: PRODUCT_CREATE_RESET });
+      dispatch({ type: SERIE_CREATE_RESET });
       setCategoryIds([]);
       setActorIds([]);
       setDirectorIds([]);
@@ -104,7 +104,7 @@ const AddSerieMain = () => {
       setAge(0);
       setImdb("");
       setFeatured("");
-      setVideoUrl("");
+      // setVideoUrl("");
       setPrice(0);
     }
   }, [product, dispatch]);
@@ -120,7 +120,7 @@ const AddSerieMain = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(
-      createProduct({
+      createSerie({
         price,
         categories:categoryIds,
         language:seriesInfo,
@@ -134,7 +134,7 @@ const AddSerieMain = () => {
         trailers,
         actors:actorIds,
         directors:directorIds,
-        url:videoUrl,
+        // url:videoUrl,
         time,
         main_picture:"",
         slider_image:""
@@ -214,9 +214,9 @@ const AddSerieMain = () => {
         <form onSubmit={submitHandler}>
           <div className="content-header">
             <Link to="/products" className="btn btn-danger text-white">
-              Go to movies
+              Go to Series
             </Link>
-            <h2 className="content-title">Add Movie</h2>
+            <h2 className="content-title">Add Serie</h2>
             <div>
               <button type="submit" className="btn btn-primary">
                 Publish now
@@ -254,20 +254,20 @@ const AddSerieMain = () => {
                         <Tab
                           eventKey={l.name}
                           title={l.name}
-                          key={`movie-tab-${l.id}`}
+                          key={`serie-tab-${l.id}`}
                         >
                           <div className="mb-4">
                             <label
-                              htmlFor={`product_title-${l.id}`}
+                              htmlFor={`SERIE_title-${l.id}`}
                               className="form-label"
                             >
-                              Movie title {l.name}
+                              serie title {l.name}
                             </label>
                             <input
                               type="text"
                               placeholder="Type here"
                               className="form-control"
-                              id={`product_title-${l.id}`}
+                              id={`SERIE_title-${l.id}`}
                               name="name"
                               required
                               value={seriesInfo[index].name}
@@ -280,7 +280,7 @@ const AddSerieMain = () => {
                           <div className="mb-4">
                             <label className="form-label">Description</label>
                             <textarea
-                              id={`movie_desc-${l.id}`}
+                              id={`serie_desc-${l.id}`}
                               placeholder="Type here"
                               className="form-control"
                               name={`description`}
@@ -324,14 +324,14 @@ const AddSerieMain = () => {
                     )}
                   </div>
                   <div className="mb-4">
-                    <label htmlFor="product_price" className="form-label">
+                    <label htmlFor="SERIE_price" className="form-label">
                       Price
                     </label>
                     <input
                       type="number"
                       placeholder="Type here"
                       className="form-control"
-                      id="product_price"
+                      id="SERIE_price"
                       min={0}
                       value={price}
                       onChange={(e) => handleChangePrice(e.target.value)}
@@ -353,14 +353,14 @@ const AddSerieMain = () => {
                     ):null}
 
                   <div className="mb-4">
-                    <label htmlFor="movie_age" className="form-label">
+                    <label htmlFor="serie_age" className="form-label">
                       Age
                     </label>
                     <input
                       type="number"
                       placeholder="Type here"
                       className="form-control"
-                      id="movie_age"
+                      id="serie_age"
                       required
                       value={age}
                       onChange={(e) => setAge(e.target.value)}
@@ -368,42 +368,42 @@ const AddSerieMain = () => {
                   </div>
 
                   <div className="mb-4">
-                    <label htmlFor="movie_imdb" className="form-label">
+                    <label htmlFor="serie_imdb" className="form-label">
                       IMDB
                     </label>
                     <input
                       type="text"
                       placeholder="Type here"
                       className="form-control"
-                      id="movie_imdb"
+                      id="serie_imdb"
                       value={imdb}
                       onChange={(e) => setImdb(e.target.value)}
                     />
                   </div>
-
+{/* 
                   <div className="mb-4">
-                    <label htmlFor="movie_url" className="form-label">
+                    <label htmlFor="serie_url" className="form-label">
                       Video Url
                     </label>
                     <input
                       type="text"
                       placeholder="Type here"
                       className="form-control"
-                      id="movie_url"
+                      id="serie_url"
                       value={videoUrl}
                       onChange={(e) => setVideoUrl(e.target.value)}
                     />
-                  </div>
+                  </div> */}
 
                   <div className="mb-4">
-                    <label htmlFor="movie_url" className="form-label">
+                    <label htmlFor="serie_url" className="form-label">
                       Time
                     </label>
                     <input
                       type="string"
                       placeholder="2:00"
                       className="form-control"
-                      id="movie_time"
+                      id="serie_time"
                       value={time}
                       onChange={(e) => setTime(e.target.value)}
                     />
@@ -448,11 +448,10 @@ const AddSerieMain = () => {
                       type="file"
                       onChange={(e) => handleImageUpload(e.target.files[0])}
                     />
-                    {imageLoading ? (
-                      <Loading />
-                    ) : (
+                    {previewImage ? (
+                      
                       <img width={150} src={previewImage} alt="" />
-                    )}
+                    ):null}
                   </div>
                   <div className="mb-4">
                     <label className="form-label">Background Images</label>
@@ -463,16 +462,15 @@ const AddSerieMain = () => {
                         handleBackgroundUpload(e.target.files[0])
                       }
                     />
-                    {backgroundLoading ? (
-                      <Loading />
-                    ) : (
+                    {previewBackground ? (
+                      
                       <img width={150} src={previewBackground} alt="" />
-                    )}
+                    ):null}
                   </div>
 
                   <div className="mb-4">
                     <label
-                      htmlFor="movie_featured"
+                      htmlFor="serie_featured"
                       className="form-check-label me-2"
                     >
                       Önə çıxarılsın?
@@ -481,14 +479,14 @@ const AddSerieMain = () => {
                       type="checkbox"
                       placeholder="Type here"
                       className="form-check-input"
-                      id="movie_featured"
+                      id="serie_featured"
                       value={featured}
                       onChange={(e) => setFeatured(e.target.checked)}
                     />
                   </div>
                   <div className="mb-4">
                     <label
-                      htmlFor="movie_slider"
+                      htmlFor="serie_slider"
                       className="form-check-label me-2"
                     >
                       Slider hissəsində göstərilsin?
@@ -497,22 +495,22 @@ const AddSerieMain = () => {
                       type="checkbox"
                       placeholder="Type here"
                       className="form-check-input"
-                      id="movie_slider"
+                      id="serie_slider"
                       value={isSlider}
                       onChange={(e) => setIsSlider(e.target.checked)}
                     />
                   </div>
                   <div className="d-flex flex-wrap align-items-center justify-content-between">
                     <div className="mb-4 ">
-                      <label htmlFor={`movie_trailer`} className="form-label">
+                      <label htmlFor={`serie_trailer`} className="form-label">
                         Trailer Name
                       </label>
                       <input
                         type="text"
                         placeholder="Type here"
                         className="form-control"
-                        id={`movie_trailer`}
-                        name="movie_trailer"
+                        id={`serie_trailer`}
+                        name="serie_trailer"
                         value={trailerName}
                         onChange={(e) => setTrailerName(e.target.value)}
                       />
@@ -520,7 +518,7 @@ const AddSerieMain = () => {
 
                     <div className="mb-4 ms-2 flex-grow-1">
                       <label
-                        htmlFor={`movie_trailer_url`}
+                        htmlFor={`serie_trailer_url`}
                         className="form-label"
                       >
                         Trailer Url
@@ -529,8 +527,8 @@ const AddSerieMain = () => {
                         type="text"
                         placeholder="Type here"
                         className="form-control"
-                        id={`movie_trailer_url`}
-                        name="movie_trailer_url"
+                        id={`serie_trailer_url`}
+                        name="serie_trailer_url"
                         value={trailerUrl}
                         onChange={(e) => setTrailerUrl(e.target.value)}
                       />

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Movies from "./Movies";
+import Series from "./Series";
 import { useDispatch, useSelector } from "react-redux";
-import { listProducts } from "../../Redux/Actions/ProductActions";
+import { listSerie } from "../../Redux/Actions/SerieAction";
 import Loading from "../LoadingError/Loading";
 import Message from "../LoadingError/Error";
 
@@ -11,18 +11,18 @@ const MainSeries = () => {
 
   const productList = useSelector((state) => state.productList);
   const { loading, error, products } = productList;
-  const productDelete = useSelector((state) => state.productDelete);
-  const { error: errorDelete, success: successDelete } = productDelete;
+  const serieDelete = useSelector((state) => state.serieDelete);
+  const { error: errorDelete, success: successDelete } = serieDelete;
 
   useEffect(() => {
-    dispatch(listProducts("AZ"));
+    dispatch(listSerie("AZ"));
   }, [dispatch, successDelete]);
   return (
     <section className="content-main">
       <div className="content-header">
-        <h2 className="content-title">Movies</h2>
+        <h2 className="content-title">Series</h2>
         <div>
-          <Link to="/addMovie" className="btn btn-primary">
+          <Link to="/addSeries" className="btn btn-primary">
             Create new
           </Link>
         </div>
@@ -68,7 +68,7 @@ const MainSeries = () => {
             <div className="row">
               {/* Products */}
               {products.map((product) => (
-                <Movies product={product} key={product.id} />
+                <Series serie={product} key={product.id} />
               ))}
             </div>
           )}

@@ -1617,3 +1617,48 @@
 {"date":"12-4-2022/1:23","level":"error","message":"Not Found","service":"api404"}
 {"date":"12-4-2022/1:23","level":"error","message":"Not Found","service":"api404"}
 {"date":"12-4-2022/2:3","level":"error","message":"Not Found","service":"api404"}
+{"date":"13-4-2022/4:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"13-4-2022/4:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"13-4-2022/4:13","level":"error","message":"Not Found","service":"api404"}
+{"date":"17-4-2022/6:51","level":"error","message":"Not Found","service":"api404"}
+{"date":"17-4-2022/6:51","level":"error","message":"Not Found","service":"api404"}
+{"date":"17-4-2022/6:51","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:52","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:52","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:53","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:53","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:54","level":"error","message":"Cannot read properties of undefined (reading 'Category')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:57","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/6:57","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:1","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:1","level":"error","message":"Cannot read properties of undefined (reading 'Seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:2","level":"error","message":"Cannot read properties of undefined (reading 'Seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:2","level":"error","message":"Cannot read properties of undefined (reading 'Seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:2","level":"error","message":"Cannot read properties of undefined (reading 'Seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:2","level":"error","message":"Cannot read properties of undefined (reading 'Seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:2","level":"error","message":"Cannot read properties of undefined (reading 'seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:3","level":"error","message":"Cannot read properties of undefined (reading 'seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:3","level":"error","message":"Cannot read properties of undefined (reading 'seasons')","service":"TvShowController/GetByIdLang"}
+{"date":"17-4-2022/7:12","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:13","level":"error","message":"Cannot read properties of undefined (reading 'categories')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:13","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:14","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:16","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:17","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:17","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:17","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:19","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:19","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:20","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:20","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:20","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:21","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:21","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:21","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:21","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:22","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:22","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:22","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:22","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:23","level":"error","message":"Invalid Query. A non-empty array is required for 'in' filters.","service":"TvShowController/GetById"}
+{"date":"17-4-2022/7:24","level":"error","message":"Cannot read properties of undefined (reading 'find')","service":"TvShowController/GetById"}

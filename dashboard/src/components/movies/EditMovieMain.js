@@ -36,7 +36,7 @@ const EditMovieMain = (props) => {
   const [trailerName, setTrailerName] = useState("");
   const [trailerUrl, setTrailerUrl] = useState("");
   const [imdb, setImdb] = useState("");
-  const [platformId, setPlatformId] = useState(null);
+  const [platformId, setPlatformId] = useState("");
   const [mainClaim, setMainClaim] = useState("");
   const [age, setAge] = useState(18);
   const [price, setPrice] = useState(0);
@@ -75,6 +75,7 @@ const EditMovieMain = (props) => {
     success: successUpdate,
   } = productUpdate;
 
+  console.log(categories)
   useEffect(() => {
     if (successUpdate) {
       dispatch({ type: PRODUCT_UPDATE_RESET });
@@ -124,7 +125,6 @@ const EditMovieMain = (props) => {
   //   option.map((c) => setActorIds((prev) => [...prev, c.id]));
   // };
 
-  console.log(platformId);
   const handleChangeDirectors = (option) => {
     setDirectorIds([]);
     option.map((c) => setDirectorIds((prev) => [...prev, c]));
@@ -236,19 +236,26 @@ const EditMovieMain = (props) => {
                     <Message variant="alert-danger">{error}</Message>
                   ) : (
                     <>
-                      {platforms && (
+                      {platformId && (
                         <div className="mb-4">
                           <label className="form-label">Platforms</label>
-                          <Select
-                            onChange={(e) => setPlatformId(e.id)}
-                            id="platform"
-                            options={platforms}
-                            defaultValue={platformId}
-                            getOptionLabel={(opt) => opt.name}
-                            getOptionValue={(opt) => opt.id}
-                          />
+                          <select
+                            className="form-control"
+                            onChange={(e) => setPlatformId(e.target.value)}
+                            multiple={false}
+                          >
+                            <option value={platformId} disabled>
+                              Platform ...
+                            </option>
+                            {platforms &&
+                              platforms.map((p) => (
+                                <option selected={p.id===platformId} value={p.id} key={p.id}>
+                                  {p.name}
+                                </option>
+                              ))}
+                          </select>
                         </div>
-                        )}
+                      )}
                       <Tabs>
                         {languages &&
                           movieInfo.length > 0 &&
@@ -302,7 +309,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="categories" className="form-label">
                           Categories
                         </label>
-                        {categoryIds.length > 0 && (
+                        {categories.length>0 && (
                           <Select
                             onChange={handleChangeCategory}
                             isMulti={true}
@@ -318,7 +325,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="catalogs" className="form-label">
                           Catalogs
                         </label>
-                        {catalogIds.length > 0 && (
+                        {catalogs.length>0 && (
                           <Select
                             onChange={handleChangeCatalog}
                             isMulti={true}
@@ -352,6 +359,7 @@ const EditMovieMain = (props) => {
                             className="form-control"
                             defaultValue={data ? data.claims : ""}
                             onChange={(e) => setMainClaim(e.target.value)}
+                            multiple={false}
                           >
                             <option value={""}>-</option>
                             <option value="Free">Free</option>
@@ -421,7 +429,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="actors" className="form-label">
                           Actors
                         </label>
-                        {actorIds.length > 0 && (
+                        {actors.length>0 && (
                           <Select
                             onChange={handleChangeActors}
                             isMulti={true}
@@ -438,7 +446,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="directors" className="form-label">
                           Directors
                         </label>
-                        {directorIds.length > 0 && (
+                        {directors.length>0 && (
                           <Select
                             onChange={handleChangeDirectors}
                             isMulti={true}
@@ -477,12 +485,8 @@ const EditMovieMain = (props) => {
                             handleBackgroundUpload(e.target.files[0])
                           }
                         />
-                        {!previewBackground ? (
-                          // <img width={150} src={data.slider_image} alt="" />
-                          <img />
-                        ) : (
-                          <img width={150} src={previewBackground} alt="" />
-                        )}
+            {previewBackground && <img width={150} src={previewBackground} alt="" />}
+
                       </div>
 
                       <div className="mb-4">

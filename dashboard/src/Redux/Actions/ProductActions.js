@@ -25,38 +25,42 @@ import {
   FILM_BACKIMAGE_REQUEST,
   FILM_BACKIMAGE_SUCCESS,
 } from "../Constants/ProductImageConstants";
+import { BASE_URL } from "../../api/baseConfig";
 
-export const listProducts = (lang) => async (dispatch, getState) => {
-  try {
-    dispatch({ type: PRODUCT_LIST_REQUEST });
+export const listProducts =
+  ({ lang, platformId,catalogId }) =>
+  async (dispatch, getState) => {
+    try {
+      dispatch({ type: PRODUCT_LIST_REQUEST });
+      const {
+        userLogin: { userInfo },
+      } = getState();
 
-    const {
-      userLogin: { userInfo },
-    } = getState();
+      const config = {
+        headers: {
+          "x-access-token": `${userInfo.token}`,
+        },
+      };
 
-    const config = {
-      headers: {
-        "x-access-token": `${userInfo.token}`,
-      },
-    };
-
-    const { data } = await axios.get(`/api/filter/contents/${lang}/XWlWiNgg1SGneIH5bmRi`, config);
-
-    dispatch({ type: PRODUCT_LIST_SUCCESS, payload: data });
-  } catch (error) {
-    const message =
-      error.response && error.response.data.message
-        ? error.response.data.message
-        : error.message;
-    if (message === "Not authorized, token failed") {
-      dispatch(logout());
+      const { data } = await axios.get(
+        `${BASE_URL}/api/filter/contentsoptional/${lang}?platform=${platformId}&type=09rPlug3xf1IULsWvdXm&catalog=${catalogId}`,
+        config
+      );
+      dispatch({ type: PRODUCT_LIST_SUCCESS, payload: data });
+    } catch (error) {
+      const message =
+        error.response && error.response.data.message
+          ? error.response.data.message
+          : error.message;
+      if (message === "Not authorized, token failed") {
+        dispatch(logout());
+      }
+      dispatch({
+        type: PRODUCT_LIST_FAIL,
+        payload: message,
+      });
     }
-    dispatch({
-      type: PRODUCT_LIST_FAIL,
-      payload: message,
-    });
-  }
-};
+  };
 
 // DELETE PRODUCT
 export const deleteProduct = (id) => async (dispatch, getState) => {
@@ -73,7 +77,7 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
       },
     };
 
-    await axios.delete(`/api/film/delete/${id}`, config);
+    await axios.delete(`${BASE_URL}/api/film/delete/${id}`, config);
 
     dispatch({ type: PRODUCT_DELETE_SUCCESS });
   } catch (error) {
@@ -93,7 +97,7 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
 
 // UPDATE PRODUCT
 export const uploadImage = (file) => async (dispatch, getState) => {
-  console.log(file)
+  console.log(file);
   try {
     dispatch({ type: FILM_IMAGE_REQUEST });
     const {
@@ -102,14 +106,14 @@ export const uploadImage = (file) => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        headers: { 'Content-Type': 'multipart/form-data' },
+        headers: { "Content-Type": "multipart/form-data" },
         Authorization: `Bearer ${userInfo.token}`,
       },
     };
     let formData = new FormData();
     formData.append("image", file);
     const { data } = await axios.post(
-      `/api/film/uploadImage`,
+      `${BASE_URL}/api/film/uploadImage`,
       formData,
       config
     );
@@ -146,7 +150,7 @@ export const uploadBackImage = (file) => async (dispatch, getState) => {
     let formData = new FormData();
     formData.append("image", file);
     const { data } = await axios.post(
-      `/api/film/uploadImage`,
+      `${BASE_URL}/api/film/uploadImage`,
       formData,
       config
     );
@@ -166,64 +170,62 @@ export const uploadBackImage = (file) => async (dispatch, getState) => {
   }
 };
 // CREATE PRODUCT
-export const createProduct =
-  (
-    product,files
-  ) =>
-  async (dispatch, getState) => {
-    try {
-
-      var today = new Date();
-      var date =
+export const createProduct = (product, files) => async (dispatch, getState) => {
+  try {
+    var today = new Date();
+    var date =
       today.getFullYear() +
       "-" +
       (today.getMonth() + 1) +
       "-" +
       today.getDate();
-      dispatch({ type: PRODUCT_CREATE_REQUEST });
-      product.content_date=date;
-        const {
-          userLogin: { userInfo },
-             } = getState();
-        const config = {
-          headers: {
-            "Content-Type": "multipart/form-data",
-            "x-access-token": `${userInfo.token}`,
-          },
-        };
-        let formData = new FormData();
-        formData.append("image", files.mainImg);
-        formData.append("backgroundImg", files.mainBack);
-        formData.append("products",JSON.stringify(product))
+    dispatch({ type: PRODUCT_CREATE_REQUEST });
+    product.content_date = date;
+    const {
+      userLogin: { userInfo },
+    } = getState();
+    //  console.log(userInfo.token)
+    const config = {
+      headers: {
+        "Content-Type": "application/form-data",
+        "x-access-token": `${userInfo.token}`,
+      },
+    };
+    let formData = new FormData();
+    formData.append("image", files.mainImg);
+    formData.append("backgroundImg", files.mainBack);
+    formData.append("products", JSON.stringify(product));
 
-      const { data } = await axios.post(
-        `/api/film/Add`,
-        
-          formData,
-        config
-      );
+    const { data } = await axios.post(
+      `${BASE_URL}/api/film/Add`,
 
-      dispatch({ type: PRODUCT_CREATE_SUCCESS, payload: data });
-    } catch (error) {
-      const message =
-        error.response && error.response.data.message
-          ? error.response.data.message
-          : error.message;
-      if (message === "Not authorized, token failed") {
-        dispatch(logout());
-      }
-      dispatch({
-        type: PRODUCT_CREATE_FAIL,
-        payload: message,
-      });
+      formData,
+      config
+    );
+
+    dispatch({ type: PRODUCT_CREATE_SUCCESS, payload: data });
+  } catch (error) {
+    const message =
+      error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message;
+    if (message === "Not authorized, token failed") {
+      dispatch(logout());
     }
-  };
+    dispatch({
+      type: PRODUCT_CREATE_FAIL,
+      payload: message,
+    });
+  }
+};
 
 // EDIT PRODUCT
 export const editProduct = (id) => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_EDIT_REQUEST });
-    const { data } = await axios.get(`/api/film/AZ/getbyidlang/${id}`);
+    const { data } = await axios.get(
+      `${BASE_URL}/api/film/AZ/getbyidlang/${id}`
+    );
     dispatch({ type: PRODUCT_EDIT_SUCCESS, payload: data });
   } catch (error) {
     const message =
@@ -241,34 +243,30 @@ export const editProduct = (id) => async (dispatch) => {
 };
 
 // UPDATE PRODUCT
-export const updateProduct = (product,files) => async (dispatch, getState) => {
-
+export const updateProduct = (product, files) => async (dispatch, getState) => {
   var today = new Date();
   var date =
-  today.getFullYear() +
-  "-" +
-  (today.getMonth() + 1) +
-  "-" +
-  today.getDate();
-  product.content_date=date;
-
+    today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+  product.content_date = date;
   try {
     const {
       userLogin: { userInfo },
-         } = getState();
+    } = getState();
+    console.log(userInfo)
     dispatch({ type: PRODUCT_UPDATE_REQUEST });
     const config = {
       headers: {
-        "Content-Type": "multipart/form-data",
+        // "Content-Type": "multipart/form-data",
         "x-access-token": `${userInfo.token}`,
       },
     };
     let formData = new FormData();
     formData.append("image", files.mainImg);
     formData.append("backgroundImg", files.mainBack);
-    formData.append("products",JSON.stringify(product))
+    formData.append("products", JSON.stringify(product));
+    
     const { data } = await axios.put(
-      `/api/film/update/${product.id}`,
+      `${BASE_URL}/api/film/update/${product.id}`,
       formData,
       config
     );

@@ -79,7 +79,7 @@ const filter=async(req,res,next)=>{
       } catch (error) {
         next(new BaseError(httpstatus.BAD_REQUEST,error.message,'FilterController/filter'))
       }
-}
+} 
 
 const filterslider=async(req,res,next)=>{
     try {

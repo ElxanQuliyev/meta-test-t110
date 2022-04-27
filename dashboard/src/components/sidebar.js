@@ -50,7 +50,7 @@ const Sidebar = () => {
                   <li className="menu-item">
                     <NavLink
                       className="menu-link"
-                      to="/addActors"
+                      to="/actor"
                     >
                       <span className="text">Actors</span>
                     </NavLink>
@@ -58,7 +58,7 @@ const Sidebar = () => {
                   <li className="menu-item">
                     <NavLink
                       className="menu-link"
-                      to="/addActors"
+                      to="/director"
                     >
                       <span className="text">Directors</span>
                     </NavLink>
@@ -66,7 +66,7 @@ const Sidebar = () => {
                   <li className="menu-item">
                     <NavLink
                       className="menu-link"
-                      to="/addActors"
+                      to="/platform"
                     >
                       <span className="text">Platform</span>
                     </NavLink>
@@ -74,7 +74,7 @@ const Sidebar = () => {
                   <li className="menu-item">
                     <NavLink
                       className="menu-link"
-                      to="/addActors"
+                      to="/platform-ref"
                     >
                       <span className="text">Platform üçün kataloq</span>
                     </NavLink>
@@ -82,7 +82,7 @@ const Sidebar = () => {
                   <li className="menu-item">
                     <NavLink
                       className="menu-link"
-                      to="/addActors"
+                      to="/catalog"
                     >
                       <span className="text">Catalog</span>
                     </NavLink>
@@ -186,7 +186,7 @@ const Sidebar = () => {
                 <span className="text">Users</span>
               </NavLink>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <NavLink
                 className="menu-link disabled"
                 to="/sellers"
@@ -194,7 +194,7 @@ const Sidebar = () => {
                 <i className="icon fas fa-store-alt"></i>
                 <span className="text">Sellers</span>
               </NavLink>
-            </li>
+            </li> */}
 
             <li className="menu-item">
               <NavLink

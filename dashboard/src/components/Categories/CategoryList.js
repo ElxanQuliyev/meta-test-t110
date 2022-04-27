@@ -8,7 +8,7 @@
 //         dispatch(listCategories("AZ"));
 //     },[dispatch])
 //   return (
-//     <div>CategoryList</div>
+//     <div>CategoryList</div>z
 //   )
 // }
 

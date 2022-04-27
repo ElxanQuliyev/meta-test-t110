@@ -17,6 +17,14 @@ import PrivateRouter from "./PrivateRouter";
 import { useDispatch, useSelector } from "react-redux";
 import { listProducts } from "./Redux/Actions/ProductActions";
 import { listOrders } from "./Redux/Actions/OrderActions";
+import ActorsScreen from "./screens/ActorsScreen";
+import DirectorsScreen from "./screens/DirectorsScreen";
+import PlatformsScreen from "./screens/PlatformsScreen";
+import PlatformsRefScreen from "./screens/PlatformsRefScreen";
+import CatalogsScreens from "./screens/CatalogsScreens";
+import SerieEditScreen from "./screens/SerieEditScreen";
+import AddSeries from "./screens/AddSeries";
+import SeriesScreen from "./screens/SeriesScreen";
 
 function App() {
   const dispatch = useDispatch();
@@ -37,19 +45,71 @@ function App() {
         <Switch>
           <PrivateRouter path="/" component={HomeScreen} exact />
           <PrivateRouter path="/products" component={ProductScreen} />
-          {/* <PrivateRouter path="/category" component={CategoriesScreen} /> */}
-           {["/category", "/category/:id/edit"].map((path, index) => 
-              <PrivateRouter exact path={path} component={CategoriesScreen} key={index} />
-          )}
+          <PrivateRouter path="/series" component={SeriesScreen} />
+          {["/category", "/category/:id/edit"].map((path, index) => (
+            <PrivateRouter
+              exact
+              path={path}
+              component={CategoriesScreen}
+              key={index}
+            />
+          ))}
+
+          {["/catalog", "/catalog/:id/edit"].map((path, index) => (
+            <PrivateRouter
+              exact
+              path={path}
+              component={CatalogsScreens}
+              key={index}
+            />
+          ))}
+
+          {["/actor", "/actor/:id/edit"].map((path, index) => (
+            <PrivateRouter
+              exact
+              path={path}
+              component={ActorsScreen}
+              key={index}
+            />
+          ))}
+          {["/director", "/director/:id/edit"].map((path, index) => (
+            <PrivateRouter
+              exact
+              path={path}
+              component={DirectorsScreen}
+              key={index}
+            />
+          ))}
+
+          {["/platform", "/platform/:id/edit"].map((path, index) => (
+            <PrivateRouter
+              exact
+              path={path}
+              component={PlatformsScreen}
+              key={index}
+            />
+          ))}
+          {["/platform-ref", "/platform-ref/:id/edit"].map((path, index) => (
+            <PrivateRouter
+              exact
+              path={path}
+              component={PlatformsRefScreen}
+              key={index}
+            />
+          ))}
           <PrivateRouter path="/orders" component={OrderScreen} />
           <PrivateRouter path="/order/:id" component={OrderDetailScreen} />
           <PrivateRouter path="/addMovie" component={AddProduct} />
           <PrivateRouter path="/users" component={UsersScreen} />
           <PrivateRouter
+            exact
             path="/product/:id/edit"
             component={ProductEditScreen}
           />
-      
+          <PrivateRouter path="/addSeries" component={AddSeries} />
+
+          <PrivateRouter path="/serie/:id/edit" component={SerieEditScreen} />
+
           <Route path="/login" component={Login} />
           <PrivateRouter path="*" component={NotFound} />
         </Switch>

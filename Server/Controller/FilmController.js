@@ -226,6 +226,7 @@ const GetById = async (req, res, next) => {
       data = docRef.data();
     }
 
+
     const categorys = query(
       collection(db, "Category"),
       where(documentId(), "in", data.categories),

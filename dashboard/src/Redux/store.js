@@ -19,10 +19,12 @@ import {
 import { contentTypeReducer } from "./Reducers/ContentTypeReducers";
 import { categoryCreateReducer, categoryEditReducer, categoryListReducer, categoryUpdateReducer } from "./Reducers/CategoryReducers";
 import { languageListReducer } from "./Reducers/LanguageReducers";
-import { catalogListReducer } from "./Reducers/CatalogReducers";
-import { platformListReducer } from "./Reducers/PlatformReducers";
-import { actorListReducer } from "./Reducers/ActorReducers";
-import { directorListReducer } from "./Reducers/DirectorReducers";
+import { catalogCreateReducer, catalogEditReducer, catalogListReducer, catalogUpdateReducer } from "./Reducers/CatalogReducers";
+import { platformCreateReducer, platformEditReducer, platformListReducer, platformUpdateReducer } from "./Reducers/PlatformReducers";
+import { actorCreateReducer, actorEditReducer, actorListReducer, actorUpdateReducer } from "./Reducers/ActorReducers";
+import { directorCreateReducer, directorEditReducer, directorListReducer, directorUpdateReducer } from "./Reducers/DirectorReducers";
+import { platformRefCreateReducer, platformRefEditReducer, platformRefListReducer, platformRefUpdateReducer } from "./Reducers/PlatformRefReducers";
+import { serieCreateReducer, serieDeleteReducer, serieEditReducer, serieListReducer, serieUpdateReducer } from "./Reducers/SerieReducers";
 
 const reducer = combineReducers({
   userLogin: userLoginReducer,
@@ -32,6 +34,11 @@ const reducer = combineReducers({
   productCreate: productCreateReducer,
   productEdit: productEditReducer,
   productUpdate: productUpdateReducer,
+  serieList: serieListReducer,
+  serieDelete: serieDeleteReducer,
+  serieCreate: serieCreateReducer,
+  serieEdit: serieEditReducer,
+  serieUpdate: serieUpdateReducer,
   orderList: orderListReducer,
   orderDetails: orderDetailsReducer,
   orderDeliver: orderDeliveredReducer,
@@ -39,14 +46,30 @@ const reducer = combineReducers({
   languageList:languageListReducer,
   filmBackground:filmBackImageReducer,
   filmMainImage:filmImageReducer,
-  catalogList:catalogListReducer,
   platformList:platformListReducer,
+  platformCreate:platformCreateReducer,
+  platformUpdate:platformUpdateReducer,
+  platformEdit:platformEditReducer,
+  platformRefList:platformRefListReducer,
+  platformRefCreate:platformRefCreateReducer,
+  platformRefUpdate:platformRefUpdateReducer,
+  platformRefEdit:platformRefEditReducer,
   actorList:actorListReducer,
+  actorCreate:actorCreateReducer,
+  actorUpdate:actorUpdateReducer,
+  actorEdit:actorEditReducer,
   directorList:directorListReducer,
+  directorCreate:directorCreateReducer,
+  directorUpdate:directorUpdateReducer,
+  directorEdit:directorEditReducer,
   categoryList:categoryListReducer,
   categoryCreate:categoryCreateReducer,
   categoryUpdate:categoryUpdateReducer,
-  categoryEdit:categoryEditReducer
+  categoryEdit:categoryEditReducer,
+  catalogList:catalogListReducer,
+  catalogCreate:catalogCreateReducer,
+  catalogUpdate:catalogUpdateReducer,
+  catalogEdit:catalogEditReducer
 });
 
 // login

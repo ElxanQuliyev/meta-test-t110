@@ -72,7 +72,7 @@ export const categoryUpdateReducer = (state = { category: {} }, action) => {
     case CATEGORY_UPDATE_FAIL:
       return { loading: false, error: action.payload };
     case CATEGORY_UPDATE_RESET:
-      return { product: {} };
+      return { category: {} };
     default:
       return state;
   }

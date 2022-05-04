@@ -27,10 +27,12 @@ import { logout } from "./userActions";
 // } from "../Constants/ProductImageConstants";
 import { BASE_URL } from "../../api/baseConfig";
 
-export const listSerie = (lang) => async (dispatch, getState) => {
+export const listSerie = (
+  { lang, platformId,catalogId,contentTypeId }
+) => async (dispatch, getState) => {
   try {
     dispatch({ type: SERIE_LIST_REQUEST });
-
+console.log(contentTypeId)
     const {
       userLogin: { userInfo },
     } = getState();
@@ -40,9 +42,10 @@ export const listSerie = (lang) => async (dispatch, getState) => {
         "x-access-token": `${userInfo.token}`,
       },
     };
-
-    const { data } = await axios.get(`${BASE_URL}/api/filter/contents/${lang}/Iv6aACBWDps7s7NoOeP3`, config);
-
+    const { data } = await axios.get(
+      `${BASE_URL}/api/filter/contentsoptional/${lang}?platform=${platformId}&type=${contentTypeId || ""}&catalog=${catalogId}`,
+      config
+    );
     dispatch({ type: SERIE_LIST_SUCCESS, payload: data });
   } catch (error) {
     const message =
@@ -59,7 +62,7 @@ export const listSerie = (lang) => async (dispatch, getState) => {
   }
 };
 
-// DELETE PRODUCT
+// DELETE SERIE
 export const deleteSerie = (id) => async (dispatch, getState) => {
   try {
     dispatch({ type: SERIE_DELETE_REQUEST });
@@ -74,7 +77,7 @@ export const deleteSerie = (id) => async (dispatch, getState) => {
       },
     };
 
-    await axios.delete(`${BASE_URL}/api/film/delete/${id}`, config);
+    await axios.delete(`${BASE_URL}/api/tvshow/delete/${id}`, config);
 
     dispatch({ type: SERIE_DELETE_SUCCESS });
   } catch (error) {
@@ -93,14 +96,13 @@ export const deleteSerie = (id) => async (dispatch, getState) => {
 };
 
 
-// CREATE PRODUCT
+// CREATE SERIE
 export const createSerie =
   (
     product,files
   ) =>
   async (dispatch, getState) => {
     try {
-      console.log(product)
       var today = new Date();
       var date =
       today.getFullYear() +
@@ -148,11 +150,11 @@ export const createSerie =
     }
   };
 
-// EDIT PRODUCT
+// EDIT SERIE
 export const editSerie = (id) => async (dispatch) => {
   try {
     dispatch({ type: SERIE_EDIT_REQUEST });
-    const { data } = await axios.get(`${BASE_URL}/api/film/AZ/getbyidlang/${id}`);
+    const { data } = await axios.get(`${BASE_URL}/api/tvshow/getbyidlang/AZ/${id}`);
     dispatch({ type: SERIE_EDIT_SUCCESS, payload: data });
   } catch (error) {
     const message =
@@ -197,7 +199,7 @@ export const updateSerie = (product,files) => async (dispatch, getState) => {
     formData.append("backgroundImg", files.mainBack);
     formData.append("products",JSON.stringify(product))
     const { data } = await axios.put(
-      `${BASE_URL}/api/film/update/${product.id}`,
+      `${BASE_URL}/api/tvshow/update/${product.id}`,
       formData,
       config
     );

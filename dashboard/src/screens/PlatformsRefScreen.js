@@ -1,7 +1,6 @@
 import Sidebar from "../components/sidebar";
 import Header from "../components/Header";
 import {  useParams } from "react-router-dom";
-import MainPlatforms from "../components/Platforms/MainPlatforms";
 import MainPlatformRefs from "../components/PlatformRefs/MainPlatformRefs";
 
 const PlatformsRefScreen = () => {

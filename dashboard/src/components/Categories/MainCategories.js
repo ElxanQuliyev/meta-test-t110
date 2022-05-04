@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import CreateCategory from "./CreateCategory";
 import CategoriesTable from "./CategoriesTable";
-import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { editCategory, listCategories } from "../../Redux/Actions/CategoryActions";
 
@@ -9,7 +8,7 @@ const MainCategories = (props) => {
   const dispatch = useDispatch();
   const categoryId=props.categoryId??null;
   const categoryList = useSelector((state) => state.categoryList);
-  const { loading, error, categories } = categoryList;
+  const {  categories } = categoryList;
  const categoryEdit = useSelector((state) => state.categoryEdit);
   const {  category } = categoryEdit;
   useEffect(() => {

@@ -52,7 +52,6 @@ const EditMovieMain = (props) => {
   const productEdit = useSelector((state) => state.productEdit);
 
   const { loading, error, product } = productEdit;
-
   const [movieInfo, setmovieInfo] = useState([]);
   const productUpdate = useSelector((state) => state.productUpdate);
   const categorInfo = useSelector((state) => state.categoryList);
@@ -75,7 +74,6 @@ const EditMovieMain = (props) => {
     success: successUpdate,
   } = productUpdate;
 
-  console.log(categories)
   useEffect(() => {
     if (successUpdate) {
       dispatch({ type: PRODUCT_UPDATE_RESET });
@@ -309,7 +307,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="categories" className="form-label">
                           Categories
                         </label>
-                        {categories.length>0 && (
+                        {categoryIds.length>0 && (
                           <Select
                             onChange={handleChangeCategory}
                             isMulti={true}
@@ -325,7 +323,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="catalogs" className="form-label">
                           Catalogs
                         </label>
-                        {catalogs.length>0 && (
+                        {catalogIds.length>0 && (
                           <Select
                             onChange={handleChangeCatalog}
                             isMulti={true}
@@ -429,7 +427,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="actors" className="form-label">
                           Actors
                         </label>
-                        {actors.length>0 && (
+                        {actorIds.length>0 && (
                           <Select
                             onChange={handleChangeActors}
                             isMulti={true}
@@ -446,7 +444,7 @@ const EditMovieMain = (props) => {
                         <label htmlFor="directors" className="form-label">
                           Directors
                         </label>
-                        {directors.length>0 && (
+                        {directorIds.length>0 && (
                           <Select
                             onChange={handleChangeDirectors}
                             isMulti={true}

@@ -5,8 +5,6 @@ import React, { useState, useEffect } from "react";
 import Toast from "../LoadingError/Toast";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { editProduct, updateProduct } from "../../Redux/Actions/ProductActions";
-import { PRODUCT_UPDATE_RESET } from "../../Redux/Constants/ProductConstants";
 import { toast } from "react-toastify";
 import Message from "../LoadingError/Error";
 import Loading from "../LoadingError/Loading";
@@ -16,6 +14,9 @@ import { listActors } from "../../Redux/Actions/ActorActions";
 import { listDirectors } from "../../Redux/Actions/DirectorActions";
 import { listCatalogs } from "../../Redux/Actions/CatalogActions";
 import { listPlatforms } from "../../Redux/Actions/PlatformActions";
+import { editSerie, updateSerie } from "../../Redux/Actions/SerieAction";
+import { SERIE_UPDATE_RESET } from "../../Redux/Constants/SeriesConstants";
+import { contentTypeList } from "../../Redux/Actions/ContentTypeActions";
 
 const ToastObjects = {
   pauseOnFocusLoss: false,
@@ -25,7 +26,7 @@ const ToastObjects = {
 };
 
 const EditSerieMain = (props) => {
-  const { productId } = props;
+  const { serieId } = props;
   const [categoryIds, setCategoryIds] = useState([]);
   const [catalogIds, setCatalogIds] = useState([]);
   const [directorIds, setDirectorIds] = useState([]);
@@ -38,29 +39,31 @@ const EditSerieMain = (props) => {
   const [imdb, setImdb] = useState("");
   const [platformId, setPlatformId] = useState(null);
   const [mainClaim, setMainClaim] = useState("");
+  const [mainImg, setMainImg] = useState("");
+  const [mainBack, setMainBack] = useState("");
+
   const [age, setAge] = useState(18);
   const [price, setPrice] = useState(0);
   const [videoUrl, setVideoUrl] = useState("");
   const [time, setTime] = useState("");
   const [previewImage, setPreviewImage] = useState("");
   const [previewBackground, setPreviewBackground] = useState("");
-  const [mainImg, setMainImg] = useState("");
-  const [mainBack, setMainBack] = useState("");
-
+  const [contentTypeId, setContentTypeId] = useState("");
   const dispatch = useDispatch();
 
-  const productEdit = useSelector((state) => state.productEdit);
+  const serieEdit = useSelector((state) => state.serieEdit);
 
-  const { loading, error, product } = productEdit;
+  const { loading, error, serie } = serieEdit;
 
   const [movieInfo, setmovieInfo] = useState([]);
-  const productUpdate = useSelector((state) => state.productUpdate);
+  const serieUpdate = useSelector((state) => state.serieUpdate);
   const categorInfo = useSelector((state) => state.categoryList);
   const catalogInfo = useSelector((state) => state.catalogList);
   const platformInfo = useSelector((state) => state.platformList);
   const actorInfo = useSelector((state) => state.actorList);
   const directorInfo = useSelector((state) => state.directorList);
   const languageInfo = useSelector((state) => state.languageList);
+  const contentTypeInfo = useSelector((state) => state.contentType);
 
   const { languages } = languageInfo ?? [];
   const { categories } = categorInfo;
@@ -68,20 +71,21 @@ const EditSerieMain = (props) => {
   const { directors } = directorInfo;
   const { catalogs } = catalogInfo;
   const { platforms } = platformInfo;
-  const { data } = product;
+  const { contentType } = contentTypeInfo;
+  const { data } = serie;
   const {
     loading: loadingUpdate,
     error: errorUpdate,
     success: successUpdate,
-  } = productUpdate;
+  } = serieUpdate;
 
   useEffect(() => {
     if (successUpdate) {
-      dispatch({ type: PRODUCT_UPDATE_RESET });
-      toast.success("Movie Updated", ToastObjects);
+      dispatch({ type: SERIE_UPDATE_RESET });
+      toast.success("Serie Updated", ToastObjects);
     } else {
-      if (!data || data.id !== productId) {
-        dispatch(editProduct(productId));
+      if (!data || data.id !== serieId) {
+        dispatch(editSerie(serieId));
       } else {
         setPrice(data.price);
         setmovieInfo([...data.language]);
@@ -91,6 +95,7 @@ const EditSerieMain = (props) => {
         setActorIds([...data.actors]);
         setTrailers([...data.trailers]);
         setPlatformId(data.platform);
+        setContentTypeId(data.content_type)
         setTime(data.time);
         setVideoUrl(data.url);
         setAge(data.age);
@@ -107,9 +112,11 @@ const EditSerieMain = (props) => {
         dispatch(listCatalogs("AZ"));
         dispatch(listLanguage());
         dispatch(listPlatforms());
+        dispatch(contentTypeList("AZ"));
       }
     }
-  }, [data, dispatch, productId, successUpdate]);
+  }, [dispatch,serieId,successUpdate,data]);
+  console.log(contentTypeId)
   const handleChangeCategory = (option) => {
     setCategoryIds([]);
     option.map((c) => setCategoryIds((prev) => [...prev, c]));
@@ -124,7 +131,6 @@ const EditSerieMain = (props) => {
   //   option.map((c) => setActorIds((prev) => [...prev, c.id]));
   // };
 
-  console.log(platformId);
   const handleChangeDirectors = (option) => {
     setDirectorIds([]);
     option.map((c) => setDirectorIds((prev) => [...prev, c]));
@@ -179,15 +185,15 @@ const EditSerieMain = (props) => {
     e.preventDefault();
 
     dispatch(
-      updateProduct(
+      updateSerie(
         {
-          id: productId,
+          id: serieId,
           price,
           categories: categoryIds.map((c) => c.id),
           language: movieInfo,
           main_picture: data.main_picture,
           slider_image: data.slider_image,
-          platform: platformId,
+          platform: platformId.id,
           catalogs: catalogIds.map((c) => c.id),
           age,
           claims: mainClaim,
@@ -199,6 +205,7 @@ const EditSerieMain = (props) => {
           directors: directorIds.map((c) => c.id),
           url: videoUrl,
           time,
+          content_type:contentTypeId.id
         },
         { mainImg, mainBack }
       )
@@ -211,10 +218,10 @@ const EditSerieMain = (props) => {
       <section className="content-main" style={{ maxWidth: "1200px" }}>
         <form onSubmit={submitHandler}>
           <div className="content-header">
-            <Link to="/products" className="btn btn-danger text-white">
-              Go to movies
+            <Link to="/series" className="btn btn-danger text-white">
+              Go to Series
             </Link>
-            <h2 className="content-title">Update Movie</h2>
+            <h2 className="content-title">Update Series</h2>
             <div>
               <button type="submit" className="btn btn-primary">
                 Publish now
@@ -236,11 +243,24 @@ const EditSerieMain = (props) => {
                     <Message variant="alert-danger">{error}</Message>
                   ) : (
                     <>
-                      {platforms && (
+                    {contentTypeId && (
+                        <div className="mb-4">
+                          <label className="form-label">Types</label>
+                          <Select
+                            onChange={(e) => setContentTypeId({id:e.id,name:e.name})}
+                            id="contentType"
+                            options={contentType}
+                            defaultValue={contentTypeId}
+                            getOptionLabel={(opt) => opt.name}
+                            getOptionValue={(opt) => opt.id}
+                          />
+                        </div>
+                        )}
+                      {platformId && (
                         <div className="mb-4">
                           <label className="form-label">Platforms</label>
                           <Select
-                            onChange={(e) => setPlatformId(e.id)}
+                            onChange={(e) => setPlatformId({id:e.id,name:e.name})}
                             id="platform"
                             options={platforms}
                             defaultValue={platformId}
@@ -263,7 +283,7 @@ const EditSerieMain = (props) => {
                                   htmlFor={`product_title-${l.id}`}
                                   className="form-label"
                                 >
-                                  Movie title {l.name}
+                                  Serie title {l.name}
                                 </label>
                                 <input
                                   type="text"
@@ -458,13 +478,8 @@ const EditSerieMain = (props) => {
                           type="file"
                           onChange={(e) => handleImageUpload(e.target.files[0])}
                         />
-                        {!previewImage ? (
-                          <img
-                            width={150}
-                            //  src={data.main_picture}
-                            alt=""
-                          />
-                        ) : (
+                        {previewImage && (
+                          
                           <img width={150} src={previewImage} alt="" />
                         )}
                       </div>
@@ -477,10 +492,7 @@ const EditSerieMain = (props) => {
                             handleBackgroundUpload(e.target.files[0])
                           }
                         />
-                        {!previewBackground ? (
-                          // <img width={150} src={data.slider_image} alt="" />
-                          <img />
-                        ) : (
+                        {previewBackground && (
                           <img width={150} src={previewBackground} alt="" />
                         )}
                       </div>

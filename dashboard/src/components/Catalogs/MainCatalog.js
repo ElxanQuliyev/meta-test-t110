@@ -8,7 +8,7 @@ const MainCatalog = (props) => {
   const dispatch = useDispatch();
   const catalogId=props.catalogId??null;
   const catalogList = useSelector((state) => state.catalogList);
-  const { loading, error, catalogs } = catalogList;
+  const {  catalogs } = catalogList;
  const catalogEdit = useSelector((state) => state.catalogEdit);
   const {  catalog } = catalogEdit;
   useEffect(() => {

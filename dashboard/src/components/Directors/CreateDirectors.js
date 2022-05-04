@@ -4,7 +4,6 @@ import { useHistory } from "react-router-dom";
 import { toast } from "react-toastify";
 import {
   directorCreate,
-  listDirectors,
   updateDirectors,
 } from "../../Redux/Actions/DirectorActions";
 import {
@@ -34,12 +33,10 @@ const CreateDirectors = (actInfo) => {
 
   const {
     loading: loadingUpdate,
-    error: errorUpdate,
     success: successUpdate,
   } = directorUpdate;
   const {
     loading: loadingCreate,
-    error: errorCreate,
     success: successCreate,
   } = directorUpdate;
   useEffect(() => {

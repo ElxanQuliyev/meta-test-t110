@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Tabs from "react-bootstrap/esm/Tabs";
-import Tab from "react-bootstrap/Tab";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { toast } from "react-toastify";
 import { actorCreate, updateActors } from "../../Redux/Actions/ActorActions";
-import { ACTOR_CREATE_RESET, ACTOR_UPDATE_RESET } from "../../Redux/Constants/ActorConstants";
+import {ACTOR_UPDATE_RESET } from "../../Redux/Constants/ActorConstants";
 import Message from "../LoadingError/Error";
 import Loading from "../LoadingError/Loading";
 import Toast from "../LoadingError/Toast";
@@ -28,7 +26,6 @@ const CreateActors = (actInfo) => {
 
   const {
     loading: loadingUpdate,
-    error: errorUpdate,
     success: successUpdate,
   } = actorUpdate;
   useEffect(()=>{

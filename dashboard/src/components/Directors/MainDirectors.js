@@ -8,7 +8,7 @@ const MainDirectors = (props) => {
   const dispatch = useDispatch();
   const directorId=props.directorId??null;
   const directorList = useSelector((state) => state.directorList);
-  const { loading, error, directors } = directorList;
+  const { directors } = directorList;
  const directorEdit = useSelector((state) => state.directorEdit);
   const {  director } = directorEdit;
   useEffect(() => {

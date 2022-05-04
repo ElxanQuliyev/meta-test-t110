@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getCSRFToken } from "../api/csrfToken";
 import Loading from "../components/LoadingError/Loading";
 import Toast from "../components/LoadingError/Toast";
 import { login } from "../Redux/Actions/userActions";

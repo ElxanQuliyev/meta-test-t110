@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Link, useHistory, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
-  editCategory,
-  listCategories,
 } from "../../Redux/Actions/CategoryActions";
-import Message from "../LoadingError/Error";
-import Loading from "../LoadingError/Loading";
+// import Message from "../LoadingError/Error";
+// import Loading from "../LoadingError/Loading";
 
 const CategoriesTable = ({ categories }) => {
   // const dispatch = useDispatch();

@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector, connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { PRODUCT_CREATE_RESET } from "../../Redux/Constants/ProductConstants";
 import {
   createProduct,
-  uploadBackImage,
-  uploadImage,
 } from "../../Redux/Actions/ProductActions";
 import Toast from "../LoadingError/Toast";
 import Message from "../LoadingError/Error";
@@ -79,10 +77,6 @@ const AddMovieMain = () => {
   const actorInfo = useSelector((state) => state.actorList);
   const directorInfo = useSelector((state) => state.directorList);
   const languageInfo = useSelector((state) => state.languageList);
-  const imageUpload = useSelector((state) => state.filmMainImage);
-  const backgroundUpload = useSelector((state) => state.filmBackground);
-  const { imageLoading, mainPicture } = imageUpload;
-  const { backgroundLoading, backgroundImage } = backgroundUpload;
   const { languages } = languageInfo ?? [];
   const { categories } = categorInfo;
   const { actors } = actorInfo;
@@ -450,9 +444,7 @@ const AddMovieMain = () => {
                       type="file"
                       onChange={(e) => handleImageUpload(e.target.files[0])}
                     />
-                    {imageLoading ? (
-                      <Loading />
-                    ) : (
+                    {previewImage && (
                       <img width={150} src={previewImage} alt="" />
                     )}
                   </div>
@@ -465,9 +457,7 @@ const AddMovieMain = () => {
                         handleBackgroundUpload(e.target.files[0])
                       }
                     />
-                    {backgroundLoading ? (
-                      <Loading />
-                    ) : (
+                    {previewBackground && (
                       <img width={150} src={previewBackground} alt="" />
                     )}
                   </div>

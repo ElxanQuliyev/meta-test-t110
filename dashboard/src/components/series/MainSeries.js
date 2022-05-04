@@ -1,22 +1,44 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Series from "./Series";
 import { useDispatch, useSelector } from "react-redux";
 import { listSerie } from "../../Redux/Actions/SerieAction";
 import Loading from "../LoadingError/Loading";
 import Message from "../LoadingError/Error";
+import { listPlatforms } from "../../Redux/Actions/PlatformActions";
+import { listCatalogs } from "../../Redux/Actions/CatalogActions";
+import { contentTypeList } from "../../Redux/Actions/ContentTypeActions";
 
 const MainSeries = () => {
+
   const dispatch = useDispatch();
 
-  const productList = useSelector((state) => state.productList);
-  const { loading, error, products } = productList;
+  const [platformId, setPlatformId] = useState("");
+  const [catalogId, setCatalogId] = useState("");
+  const [contentTypeId, setContentTypeId] = useState(null);
+
+  const platformInfo = useSelector((state) => state.platformList);
+  const contentTypeInfo = useSelector((state) => state.contentType);
+  console.log(contentTypeInfo)
+  const catalogInfo = useSelector((state) => state.catalogList);
+
+  const { platforms } = platformInfo;
+  const { catalogs } = catalogInfo;
+  const { contentType } = contentTypeInfo;
+
+
+
+  const serieList = useSelector((state) => state.serieList);
+  const { loading, error, series } = serieList;
   const serieDelete = useSelector((state) => state.serieDelete);
   const { error: errorDelete, success: successDelete } = serieDelete;
 
   useEffect(() => {
-    dispatch(listSerie("AZ"));
-  }, [dispatch, successDelete]);
+    dispatch(listSerie({ lang: "AZ", platformId, catalogId ,contentTypeId}));
+    dispatch(listPlatforms());
+    dispatch(listCatalogs("AZ"));
+    dispatch(contentTypeList("AZ"))
+  }, [dispatch, successDelete,platformId,catalogId,contentTypeId]);
   return (
     <section className="content-main">
       <div className="content-header">
@@ -29,7 +51,7 @@ const MainSeries = () => {
       </div>
 
       <div className="card mb-4 shadow-sm">
-        <header className="card-header bg-white ">
+      <header className="card-header bg-white ">
           <div className="row gx-3 py-3">
             <div className="col-lg-4 col-md-6 me-auto ">
               <input
@@ -39,18 +61,48 @@ const MainSeries = () => {
               />
             </div>
             <div className="col-lg-2 col-6 col-md-3">
-              <select className="form-select">
-                <option>All category</option>
-                <option>Electronics</option>
-                <option>Clothings</option>
-                <option>Something else</option>
+              <select
+                // defaultValue={}
+                className="form-select"
+                onChange={(e) => setContentTypeId(e.target.value)}
+              >
+                {/* <option value="">Content Type ...</option> */}
+                {contentType &&
+                  contentType.filter(c=>c.name!=="Film").map((p) => (
+                    <option value={p.id} key={p.id}>
+                      {p.name}
+                    </option>
+                  ))}
               </select>
             </div>
             <div className="col-lg-2 col-6 col-md-3">
-              <select className="form-select">
-                <option>Latest added</option>
-                <option>Cheap first</option>
-                <option>Most viewed</option>
+              <select
+                defaultValue={""}
+                className="form-select"
+                onChange={(e) => setPlatformId(e.target.value)}
+              >
+                <option value="">Platform ...</option>
+                {platforms &&
+                  platforms.map((p) => (
+                    <option value={p.id} key={p.id}>
+                      {p.name}
+                    </option>
+                  ))}
+              </select>
+            </div>
+            <div className="col-lg-2 col-6 col-md-3">
+            <select
+                defaultValue={""}
+                className="form-select"
+                onChange={(e) => setCatalogId(e.target.value)}
+              >
+                <option value="">Catalog ...</option>
+                {catalogs &&
+                  catalogs.map((p) => (
+                    <option value={p.id} key={p.id}>
+                      {p.name}
+                    </option>
+                  ))}
               </select>
             </div>
           </div>
@@ -67,7 +119,7 @@ const MainSeries = () => {
           ) : (
             <div className="row">
               {/* Products */}
-              {products.map((product) => (
+              {series.map((product) => (
                 <Series serie={product} key={product.id} />
               ))}
             </div>

@@ -11,7 +11,6 @@ import {
 import axios from "axios";
 import { toast } from "react-toastify";
 import { BASE_URL } from "../../api/baseConfig";
-import { Cookies, useCookies } from "react-cookie";
 
 // LOGIN
 export const login = (email, password) => async (dispatch,getState) => {

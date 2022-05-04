@@ -16,7 +16,6 @@ import NotFound from "./screens/NotFound";
 import PrivateRouter from "./PrivateRouter";
 import { useDispatch, useSelector } from "react-redux";
 import { listProducts } from "./Redux/Actions/ProductActions";
-import { listOrders } from "./Redux/Actions/OrderActions";
 import ActorsScreen from "./screens/ActorsScreen";
 import DirectorsScreen from "./screens/DirectorsScreen";
 import PlatformsScreen from "./screens/PlatformsScreen";

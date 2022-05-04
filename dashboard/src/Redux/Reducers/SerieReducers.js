@@ -67,7 +67,7 @@ import {
   
   // EDIT PRODUCT
   export const serieEditReducer = (
-    state = { product: { reviews: [] } },
+    state = { serie: { reviews: [] } },
     action
   ) => {
     switch (action.type) {

@@ -43,7 +43,7 @@ export const listProducts =
       };
 
       const { data } = await axios.get(
-        `${BASE_URL}/api/filter/contentsoptional/${lang}?platform=${platformId}&type=09rPlug3xf1IULsWvdXm&catalog=${catalogId}`,
+        `${BASE_URL}/api/filter/contentsoptional/${lang}?platform=${platformId}&type=4f5n1cMxJ2zDC8b0vepv&catalog=${catalogId}`,
         config
       );
       dispatch({ type: PRODUCT_LIST_SUCCESS, payload: data });

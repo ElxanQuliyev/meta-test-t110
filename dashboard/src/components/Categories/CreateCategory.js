@@ -43,8 +43,6 @@ const CreateCategory = (catInfo) => {
   const categoryUpdate = useSelector((state) => state.categoryUpdate);
 
   const {
-    loading: loadingUpdate,
-    error: errorUpdate,
     success: successUpdate,
   } = categoryUpdate;
   useEffect(() => {

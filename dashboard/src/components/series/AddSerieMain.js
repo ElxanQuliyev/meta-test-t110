@@ -20,6 +20,7 @@ import { listCatalogs } from "../../Redux/Actions/CatalogActions";
 import { listPlatforms } from "../../Redux/Actions/PlatformActions";
 import { listActors } from "../../Redux/Actions/ActorActions";
 import { listDirectors } from "../../Redux/Actions/DirectorActions";
+import { contentTypeList } from "../../Redux/Actions/ContentTypeActions";
 const ToastObjects = {
   pauseOnFocusLoss: false,
   draggable: false,
@@ -62,10 +63,11 @@ const AddSerieMain = () => {
   const [catalogIds, setCatalogIds] = useState([]);
   const [platformId, setPlatformId] = useState(null);
   const [mainClaim, setMainClaim] = useState("");
+  const [contentTypeId, setContentTypeId] = useState("");
+
   const [age, setAge] = useState(18);
   const [price, setPrice] = useState(0);
   // const [videoUrl, setVideoUrl] = useState("");
-  const [time, setTime] = useState("");
   const [previewImage, setPreviewImage] = useState("");
   const [previewBackground, setPreviewBackground] = useState("");
   const [mainImg, setMainImg] = useState("");
@@ -77,6 +79,9 @@ const AddSerieMain = () => {
   const actorInfo = useSelector((state) => state.actorList);
   const directorInfo = useSelector((state) => state.directorList);
   const languageInfo = useSelector((state) => state.languageList);
+  const contentTypeInfo = useSelector((state) => state.contentType);
+
+
   // const imageUpload = useSelector((state) => state.filmMainImage);
   // const backgroundUpload = useSelector((state) => state.filmBackground);
   // const { imageLoading, mainPicture } = imageUpload;
@@ -85,10 +90,11 @@ const AddSerieMain = () => {
   const { categories } = categorInfo;
   const { actors } = actorInfo;
   const { directors } = directorInfo;
-
   const { catalogs } = catalogInfo;
   const { platforms } = platformInfo;
+  const { contentType } = contentTypeInfo;
   const { loading, error, product } = productCreate;
+
   useEffect(() => {
     if (product) {
       toast.success("Series Added", ToastObjects);
@@ -104,7 +110,6 @@ const AddSerieMain = () => {
       setAge(0);
       setImdb("");
       setFeatured("");
-      // setVideoUrl("");
       setPrice(0);
     }
   }, [product, dispatch]);
@@ -116,6 +121,7 @@ const AddSerieMain = () => {
     dispatch(listCatalogs("AZ"));
     dispatch(listLanguage());
     dispatch(listPlatforms());
+    dispatch(contentTypeList("AZ"));
   }, [dispatch]);
   const submitHandler = (e) => {
     e.preventDefault();
@@ -134,8 +140,8 @@ const AddSerieMain = () => {
         trailers,
         actors:actorIds,
         directors:directorIds,
+        content_type:contentTypeId,
         // url:videoUrl,
-        time,
         main_picture:"",
         slider_image:""
         },
@@ -230,6 +236,24 @@ const AddSerieMain = () => {
                 <div className="card-body">
                   {error && <Message variant="alert-danger">{error}</Message>}
                   {loading && <Loading />}
+                  <div className="mb-4">
+                    <label className="form-label">Types</label>
+                    <select
+                      defaultValue={"DEFAULT"}
+                      className="form-control"
+                      onChange={(e) => setContentTypeId({id:e.target.value.split("-")[0],name:e.target.value.split("-")[1]})}
+                    >
+                      <option value="DEFAULT" disabled>
+                        Type ...
+                      </option>
+                      {contentType &&
+                        contentType.map((p) => (
+                          <option value={`${p.id}-${p.name}`} key={p.id}>
+                            {p.name}
+                          </option>
+                        ))}
+                    </select>
+                  </div>
                   <div className="mb-4">
                     <label className="form-label">Platforms</label>
                     <select
@@ -394,20 +418,6 @@ const AddSerieMain = () => {
                       onChange={(e) => setVideoUrl(e.target.value)}
                     />
                   </div> */}
-
-                  <div className="mb-4">
-                    <label htmlFor="serie_url" className="form-label">
-                      Time
-                    </label>
-                    <input
-                      type="string"
-                      placeholder="2:00"
-                      className="form-control"
-                      id="serie_time"
-                      value={time}
-                      onChange={(e) => setTime(e.target.value)}
-                    />
-                  </div>
                   <div className="mb-4">
                     <label htmlFor="actors" className="form-label">
                       Actors

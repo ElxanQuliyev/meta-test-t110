@@ -44,7 +44,6 @@ const CreateCatalog = (catInfo) => {
 
   const {
     loading: loadingUpdate,
-    error: errorUpdate,
     success: successUpdate,
   } = catalogUpdate;
   useEffect(() => {

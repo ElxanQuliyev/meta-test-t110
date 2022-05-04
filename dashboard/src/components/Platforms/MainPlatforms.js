@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { editPlatform, listPlatforms } from "../../Redux/Actions/PlatformActions";
-import Loading from "../LoadingError/Loading";
-import Message from "../LoadingError/Error";
 import CreatePlatoforms from "./CreatePlatforms";
 import PlatformsTable from "./PlatformsTable";
 
@@ -10,7 +8,7 @@ const MainPlatforms = (props) => {
   const dispatch = useDispatch();
   const platformId=props.platformId??null;
   const platformList = useSelector((state) => state.platformList);
-  const { loading, error, platforms } = platformList;
+  const {  platforms } = platformList;
  const platformEdit = useSelector((state) => state.platformEdit);
   const {  platform } = platformEdit;
   useEffect(() => {

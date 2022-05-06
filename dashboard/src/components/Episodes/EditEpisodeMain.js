@@ -176,6 +176,20 @@ const EditEpisodeMain = ({ episodeId }) => {
                       ))}
                   </Tabs>
                   <div className="mb-4">
+                    <label htmlFor="video_url" className="form-label">
+                      Video Url
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Type here"
+                      className="form-control"
+                      id="video_url"
+                      min={0}
+                      value={url}
+                      onChange={(e) => setUrl(e.target.value)}
+                    />
+                  </div>
+                  <div className="mb-4">
                     <label className="form-label">Images</label>
 
                     <input

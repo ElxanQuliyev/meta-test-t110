@@ -19,7 +19,6 @@ const MainSeries = () => {
 
   const platformInfo = useSelector((state) => state.platformList);
   const contentTypeInfo = useSelector((state) => state.contentType);
-  console.log(contentTypeInfo)
   const catalogInfo = useSelector((state) => state.catalogList);
 
   const { platforms } = platformInfo;

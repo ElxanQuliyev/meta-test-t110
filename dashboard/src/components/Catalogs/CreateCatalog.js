@@ -126,6 +126,7 @@ useEffect(()=>{
                 </Tab>
               ))}
           </Tabs>
+          
           <div className="d-grid">
             {catInfo.catalog.language? (
               <>

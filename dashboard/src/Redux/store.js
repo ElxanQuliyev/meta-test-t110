@@ -21,10 +21,12 @@ import { categoryCreateReducer, categoryEditReducer, categoryListReducer, catego
 import { languageListReducer } from "./Reducers/LanguageReducers";
 import { catalogCreateReducer, catalogEditReducer, catalogListReducer, catalogUpdateReducer } from "./Reducers/CatalogReducers";
 import { platformCreateReducer, platformEditReducer, platformListReducer, platformUpdateReducer } from "./Reducers/PlatformReducers";
+import { seasonCreateReducer, seasonDeleteReducer, seasonEditReducer, seasonListReducer, seasonUpdateReducer } from "./Reducers/SeasonReducers";
 import { actorCreateReducer, actorEditReducer, actorListReducer, actorUpdateReducer } from "./Reducers/ActorReducers";
 import { directorCreateReducer, directorEditReducer, directorListReducer, directorUpdateReducer } from "./Reducers/DirectorReducers";
 import { platformRefCreateReducer, platformRefEditReducer, platformRefListReducer, platformRefUpdateReducer } from "./Reducers/PlatformRefReducers";
 import { serieCreateReducer, serieDeleteReducer, serieEditReducer, serieListReducer, serieUpdateReducer } from "./Reducers/SerieReducers";
+import { episodeCreateReducer, episodeDeleteReducer, episodeEditReducer, episodeListReducer, episodeUpdateReducer } from "./Reducers/EpisodeReducers";
 
 const reducer = combineReducers({
   userLogin: userLoginReducer,
@@ -62,6 +64,16 @@ const reducer = combineReducers({
   directorCreate:directorCreateReducer,
   directorUpdate:directorUpdateReducer,
   directorEdit:directorEditReducer,
+  seasonList:seasonListReducer,
+  seasonCreate:seasonCreateReducer,
+  seasonUpdate:seasonUpdateReducer,
+  seasonEdit:seasonEditReducer,
+  seasonDelete:seasonDeleteReducer,
+  episodeList:episodeListReducer,
+  episodeCreate:episodeCreateReducer,
+  episodeUpdate:episodeUpdateReducer,
+  episodeEdit:episodeEditReducer,
+  episodeDelete:episodeDeleteReducer,
   categoryList:categoryListReducer,
   categoryCreate:categoryCreateReducer,
   categoryUpdate:categoryUpdateReducer,

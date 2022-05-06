@@ -199,6 +199,9 @@ body.offcanvas-active {
   width: auto;
   max-width: 200px;
 }
+.disabled-link {
+  pointer-events: none !important;
+}
 
 .main-header {
   padding-left: 3%;

@@ -24,6 +24,13 @@ import CatalogsScreens from "./screens/CatalogsScreens";
 import SerieEditScreen from "./screens/SerieEditScreen";
 import AddSeries from "./screens/AddSeries";
 import SeriesScreen from "./screens/SeriesScreen";
+import SeosonEpisodeScreen from "./screens/SeosonEpisodeScreen";
+import AddSeasonScreen from "./screens/AddSeasonScreen";
+import SeasonEditScreen from "./screens/SeasonEditScreen";
+import AddEpisodeScreen from "./screens/AddEpisodeScreen";
+import EpisodeListScreen from "./screens/EpisodeListScreen";
+import EpisodeEditScreen from "./screens/EpisodeEditScreen";
+
 
 function App() {
   const dispatch = useDispatch();
@@ -105,10 +112,16 @@ function App() {
             path="/product/:id/edit"
             component={ProductEditScreen}
           />
+          <PrivateRouter path="/season-episode/:id/getall" component={SeosonEpisodeScreen} />
           <PrivateRouter path="/addSeries" component={AddSeries} />
+          <PrivateRouter path="/addEpisode/:id/" component={AddEpisodeScreen} />
+          <PrivateRouter path="/episodes/:id/" component={EpisodeListScreen} />
+          <PrivateRouter path="/episode/:id/edit" component={EpisodeEditScreen} />
+
+          <PrivateRouter path="/add-season/:id" component={AddSeasonScreen} />
+          <PrivateRouter path="/season/:id/:tvshowId/edit" component={SeasonEditScreen} />
 
           <PrivateRouter path="/serie/:id/edit" component={SerieEditScreen} />
-
           <Route path="/login" component={Login} />
           <PrivateRouter path="*" component={NotFound} />
         </Switch>

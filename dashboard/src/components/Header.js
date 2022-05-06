@@ -81,6 +81,7 @@ const Header = () => {
                 className="img-xs rounded-circle"
                 src="/images/favicon.png"
                 alt="User"
+                style={{objectFit:"contain"}}
               />
             </Link>
             <div className="dropdown-menu dropdown-menu-end">
